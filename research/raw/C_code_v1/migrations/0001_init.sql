@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS auth_state (
+  id INTEGER PRIMARY KEY CHECK (id = 1),
+  session_version INTEGER NOT NULL DEFAULT 1,
+  fails INTEGER NOT NULL DEFAULT 0,
+  locked_until INTEGER NOT NULL DEFAULT 0
+);
+INSERT OR IGNORE INTO auth_state (id) VALUES (1);
+CREATE TABLE IF NOT EXISTS push_subscriptions (
+  endpoint TEXT PRIMARY KEY,
+  p256dh TEXT NOT NULL,
+  auth TEXT NOT NULL,
+  created_at INTEGER NOT NULL
+);

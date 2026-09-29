@@ -1,0 +1,31 @@
+# מאמן שינה: Worker אחד עם קבצים סטטיים, מסד D1 ודומיין קבוע.
+# חשבון: Lior@thefrenkel.com's Account. יש שני חשבונות ב-wrangler, לכן הסקריפטים מגדירים CLOUDFLARE_ACCOUNT_ID.
+name = "sleep-coach"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = false
+preview_urls = false
+
+# דומיין קבוע: ההתחברות, ההתראות, מפתח Face ID עתידי והחיבור לגוגל קשורים לכתובת הזו.
+routes = [{ pattern = "sleep.adaptation.work", custom_domain = true }]
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]          # הקבצים הסטטיים מוגשים בלי להפעיל קוד. הנתונים רק דרך ה-API
+not_found_handling = "single-page-application"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sleep-coach"
+database_id = "1c476510-7174-4151-8872-cc85a83762ee"     # deploy.sh יוצר את המסד וממלא כאן
+migrations_dir = "migrations"
+
+[vars]                                  # לא סודי
+APP_URL = "https://sleep.adaptation.work"
+
+[observability]
+enabled = true
+
+# סודות (מוגדרים בטרמינל, לא בקובץ): SESSION_SECRET, DATA_KEY (נוצרים אקראית ב-deploy.sh),
+# LOGIN_PEPPER, PASS_VERIFIER, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GEMINI_API_KEY (דרך set-secrets.sh)

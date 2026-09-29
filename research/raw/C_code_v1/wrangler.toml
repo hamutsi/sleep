@@ -1,0 +1,31 @@
+# Recommended layout: ONE Worker with static assets, D1, cron. Validated with `wrangler deploy --dry-run` (4.77.0), not deployed.
+name = "sleep-coach"
+main = "src/index.js"
+compatibility_date = "2026-09-29"        # use wrangler@latest; 4.77.0 only knows dates up to 2026-03-17
+account_id = "<CLOUDFLARE_ACCOUNT_ID>"    # this OAuth login sees TWO accounts; non-interactive runs fail without it
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]            # static shell is served free and without invoking the Worker
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sleep-coach"
+database_id = "<uuid printed by: wrangler d1 create sleep-coach>"
+migrations_dir = "migrations"
+
+[triggers]
+crons = ["*/15 * * * *"]                  # UTC; decide in Asia/Jerusalem inside scheduled()
+
+[vars]                                    # non-secret
+APP_URL = "https://<final-hostname>"
+PUSH_SLOTS = "21:30,07:30"
+VAPID_SUBJECT = "mailto:<owner-email>"
+VAPID_PUBLIC = "<base64url public key from gen-vapid.mjs>"
+
+[observability]
+enabled = true
+
+[secrets]                                 # deploy fails if one is missing (marked experimental in 4.77.0)
+required = ["GEMINI_API_KEY", "SESSION_SECRET", "LOGIN_PEPPER", "PASS_VERIFIER", "VAPID_PRIVATE_JWK", "DATA_KEY"]

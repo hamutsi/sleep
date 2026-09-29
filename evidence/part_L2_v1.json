@@ -1,0 +1,2472 @@
+{
+ "topics": [
+  {
+   "id": "statin_and_sleep",
+   "title_he": "למה לא ממהרים להאשים את הסטטין בשינה לא טובה?",
+   "summary_he": "הניתוח הגדול ביותר של ניסויים מבוקרים, 19 ניסויים כפולי סמיות עם 123,940 משתתפים (Lancet 2026), לא מצא תמיכה בקשר סיבתי בין סטטינים להפרעות שינה, וגם ניסויים במעבדת שינה לא מצאו ירידה בזמן השינה. זה לא מזכה את התרופה לגמרי: במחקרים תצפיתיים ובדיווחים אחרי שיווק יש אות חלש, ורגישות של אדם מסוים לא נשללה. לכן כשהשינה משתנה, כדאי לבדוק קודם גורמים כמו עומס אימונים, קפאין, אלכוהול, ארוחה מאוחרת ושינויים בשעות השינה. אם החשד נשאר, רושמים מתי השינוי התחיל ומעלים את השאלה מול הרופא.ה או הרוקח.ת, בלי להפסיק, לדלג או להזיז את שעת הנטילה לבד.",
+   "strength": "strong",
+   "strength_note_he": "נשען על ניתוח נתונים אישיים מ-19 ניסויים כפולי סמיות ועל מטא-אנליזה של ניסויים במעבדת שינה; המגבלה: הפרעות השינה נאספו מדיווחי תופעות לוואי ולא נמדדו ישירות, ורגישות אישית לא נבדקה.",
+   "applies_to_he": "המשתתפים בניסויים הגדולים היו בגיל ממוצע 63, כ-72% גברים וכמחצית עם מחלת כלי דם בעבר, כלומר מבוגרים וחולים יותר מגבר בן 45 עד 50 שמתאמן.",
+   "not_mean_he": "זה לא אומר שהסטטין בוודאות לא משפיע על השינה של אדם מסוים, וגם לא שאפשר לשנות משהו בנטילה בלי הרופא.ה.",
+   "hooks_he": [
+    "מתוך 66 תופעות לוואי שמופיעות בעלוני הסטטינים, רק 4 הופיעו יותר מאשר בפלצבו בניסויים כפולי סמיות, והפרעות שינה לא ביניהן.",
+    "בעלון של אטורבסטטין, נדודי שינה דווחו אצל 3.0% מהמטופלים, לעומת 2.9% אצל מי שקיבלו פלצבו.",
+    "בניסויים במעבדת שינה, סטטינים לא קיצרו את השינה ואפילו הפחיתו מעט את מספר היקיצות בלילה."
+   ],
+   "rule_ids": [
+    "R-MED-1",
+    "R-MED-2"
+   ],
+   "sources": [
+    {
+     "id": "ctt_2026",
+     "title": "Assessment of adverse effects attributed to statin therapy in product labels: a meta-analysis of double-blind randomised controlled trials.",
+     "authors_short": "Cholesterol Treatment Trialists' (CTT) Collaboration",
+     "venue": "Lancet",
+     "year": 2026,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41655587/",
+     "pmid": "41655587",
+     "doi": "10.1016/S0140-6736(25)01578-8",
+     "key_finding_en": "In 19 double-blind statin-versus-placebo trials (123,940 participants), only 4 of 66 label-listed outcomes showed excess risk; no significant excess was seen for sleep disturbance.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "broncel_2015",
+     "title": "Sleep changes following statin therapy: a systematic review and meta-analysis of randomized placebo-controlled polysomnographic trials.",
+     "authors_short": "Broncel M et al.",
+     "venue": "Arch Med Sci",
+     "year": 2015,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26528331/",
+     "pmid": "26528331",
+     "doi": "10.5114/aoms.2015.54841",
+     "key_finding_en": "Across placebo-controlled polysomnography trials, statins did not change total sleep time or sleep efficiency and slightly reduced wake time and the number of awakenings.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "alsehli_2021",
+     "title": "Differential associations of statin treatment and polymorphism in genes coding for HMGCR and PCSK9 to risk for insomnia.",
+     "authors_short": "Alsehli AM et al.",
+     "venue": "Front Biosci (Landmark Ed)",
+     "year": 2021,
+     "design": "cross-sectional",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34994160/",
+     "pmid": "34994160",
+     "doi": "10.52586/5039",
+     "key_finding_en": "In 206,801 UK Biobank participants, statin use was associated with slightly higher odds of insomnia (OR 1.07), while genetic variants mimicking HMGCR inhibition were not associated with more insomnia.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "salari_2026",
+     "title": "Sleep effects of hydrophilic and lipophilic statins: a comparative narrative review of clinical and experimental evidence.",
+     "authors_short": "Salari S et al.",
+     "venue": "Behav Pharmacol",
+     "year": 2026,
+     "design": "review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41742773/",
+     "pmid": "41742773",
+     "doi": "10.1097/FBP.0000000000000872",
+     "key_finding_en": "Narrative review: polysomnography studies show minimal sleep effects, while real-world reports suggest more insomnia with lipophilic statins such as simvastatin; a nocebo contribution is also proposed.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "lipitor_label",
+     "title": "LIPITOR® (atorvastatin calcium) tablets, for oral use",
+     "authors_short": "Viatris Specialty LLC",
+     "venue": "U.S. FDA prescribing information",
+     "year": 2022,
+     "design": "label",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/020702Orig1s079correctedlbl.pdf",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "In placebo-controlled trials, insomnia was reported in 3.0% of patients on atorvastatin (any dose) versus 2.9% on placebo.",
+     "peer_reviewed": false
+    }
+   ],
+   "videos": [
+    {
+     "title": "Statins, side effects and what they're used for",
+     "channel": "British Heart Foundation",
+     "url": "https://www.youtube.com/watch?v=o6Oi_N5jotg",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "סרטון הסבר של British Heart Foundation על תופעות לוואי של סטטינים, עם המסר לא להפסיק את התרופה בלי לדבר קודם עם הרופא.ה."
+    },
+    {
+     "title": "Statins, cholesterol and side effects: do statins cause muscle problems?",
+     "channel": "Oxford Population Health",
+     "url": "https://www.youtube.com/watch?v=aVkmxckKW_4",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "חוקרי Oxford Population Health מציגים נתונים מניסויים אקראיים גדולים: רוב תסמיני השרירים מופיעים גם אצל מי שמקבלים פלצבו.",
+     "caveat_he": "לא עוסק בשינה, והמסר על הממוצע באוכלוסייה לא מבטל תסמינים של אדם מסוים."
+    }
+   ],
+   "tags": [
+    "statin",
+    "medication",
+    "sleep",
+    "side_effects",
+    "safety"
+   ]
+  },
+  {
+   "id": "statin_muscle_symptoms",
+   "title_he": "למה רוב כאבי השרירים אצל נוטלי סטטין לא נובעים מהתרופה, ומתי בכל זאת פונים לרופא.ה?",
+   "summary_he": "בניתוח של 19 ניסויים כפולי סמיות, תסמינים בשרירים דווחו אצל 27.1% מהנוטלים סטטין ואצל 26.6% מהנוטלים פלצבו, כך שיותר מ-90% מהדיווחים לא נגרמו מהתרופה, והעודף הקטן הופיע בעיקר בשנה הראשונה. בניסויים אישיים עם פלצבו, אנשים שהפסיקו סטטין בגלל כאבים דיווחו על תסמינים כמעט זהים גם על כדור דמה, תופעה שנקראת נוצבו. נדיר זה לא אפס: כאב, רגישות או חולשה בשרירים בלי הסבר, במיוחד עם חום או תחושה כללית רעה, או שתן כהה (אדום או חום), מחייבים פנייה לרופא.ה עוד באותו יום. גם אימונים מאומצים מעלים לפעמים את ה-CK, ולכן כדאי לרשום מתי הכאב התחיל, איפה הוא ומה היה האימון, ולהביא את הרישום לרופא.ה.",
+   "strength": "strong",
+   "strength_note_he": "נשען על ניתוח נתונים אישיים של ניסויים כפולי סמיות גדולים ועל ניסויי n-of-1 עם פלצבו; המגבלה: המשתתפים לא היו מתאמני כוח, והממצאים לא שוללים תגובה אמיתית אצל מיעוט.",
+   "applies_to_he": "הניסויים הגדולים כללו אנשים בגיל ממוצע 63 שלא היו מתאמני כוח, כך שההתאמה לגבר בן 47 שמתאמן 4 פעמים בשבוע היא חלקית.",
+   "not_mean_he": "זה לא אומר שכאב שרירים הוא דמיוני, וגם לא שכדאי להפסיק את התרופה או להוריד מינון כדי לבדוק; החלטות כאלה מקבלים רק עם הרופא.ה.",
+   "hooks_he": [
+    "בניסויים כפולי סמיות, תסמינים בשרירים דווחו כמעט באותה שכיחות על סטטין (27.1%) ועל פלצבו (26.6%).",
+    "אצל אנשים שהפסיקו סטטין בגלל תופעות לוואי, עוצמת התסמינים הייתה 16.3 על סטטין, 15.4 על כדור דמה ו-8.0 בלי כדור בכלל.",
+    "בניסוי STOMP, אטורבסטטין במינון גבוה במשך חצי שנה לא הוריד בממוצע את כוח השריר או את הביצועים הגופניים."
+   ],
+   "rule_ids": [
+    "R-URG-1",
+    "R-MED-1",
+    "R-MED-2",
+    "R-DX-1"
+   ],
+   "sources": [
+    {
+     "id": "ctt_2022",
+     "title": "Effect of statin therapy on muscle symptoms: an individual participant data meta-analysis of large-scale, randomised, double-blind trials.",
+     "authors_short": "Cholesterol Treatment Trialists' Collaboration",
+     "venue": "Lancet",
+     "year": 2022,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36049498/",
+     "pmid": "36049498",
+     "doi": "10.1016/S0140-6736(22)01545-8",
+     "key_finding_en": "Muscle symptoms were reported by 27.1% on statin versus 26.6% on placebo; the small excess was confined to the first year and more than 90% of reports on statin were not due to the statin.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "wood_2020",
+     "title": "N-of-1 Trial of a Statin, Placebo, or No Treatment to Assess Side Effects.",
+     "authors_short": "Wood FA et al.",
+     "venue": "N Engl J Med",
+     "year": 2020,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33196154/",
+     "pmid": "33196154",
+     "doi": "10.1056/NEJMc2031173",
+     "key_finding_en": "In n-of-1 trials among people who had stopped statins because of side effects, symptom scores were 16.3 on atorvastatin, 15.4 on placebo and 8.0 with no tablet (nocebo ratio 0.90).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "herrett_2021",
+     "title": "Statin treatment and muscle symptoms: series of randomised, placebo controlled n-of-1 trials.",
+     "authors_short": "Herrett E et al.",
+     "venue": "BMJ",
+     "year": 2021,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33627334/",
+     "pmid": "33627334",
+     "doi": "10.1136/bmj.n135",
+     "key_finding_en": "In 200 UK primary-care patients with previous muscle symptoms, n-of-1 trials found no difference in muscle symptom scores between statin and placebo periods.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "parker_2013",
+     "title": "Effect of statins on skeletal muscle function.",
+     "authors_short": "Parker BA et al.",
+     "venue": "Circulation",
+     "year": 2013,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23183941/",
+     "pmid": "23183941",
+     "doi": "10.1161/CIRCULATIONAHA.112.136101",
+     "key_finding_en": "In 420 healthy statin-naive adults (STOMP), atorvastatin 80 mg for 6 months did not reduce average muscle strength or exercise performance, although myalgia was more frequent (19 vs 10 participants).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "stroes_2015",
+     "title": "Statin-associated muscle symptoms: impact on statin therapy-European Atherosclerosis Society Consensus Panel Statement on Assessment, Aetiology and Management.",
+     "authors_short": "Stroes ES et al.",
+     "venue": "Eur Heart J",
+     "year": 2015,
+     "design": "position-statement",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25694464/",
+     "pmid": "25694464",
+     "doi": "10.1093/eurheartj/ehv043",
+     "key_finding_en": "EAS consensus: minor CK elevations with muscle symptoms are commonly due to increased exercise; a high level of physical activity is listed among risk factors for statin-associated muscle symptoms.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "lipitor_label",
+     "title": "LIPITOR® (atorvastatin calcium) tablets, for oral use",
+     "authors_short": "Viatris Specialty LLC",
+     "venue": "U.S. FDA prescribing information",
+     "year": 2022,
+     "design": "label",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/020702Orig1s079correctedlbl.pdf",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "Patients should promptly report unexplained muscle pain, tenderness, or weakness, particularly if accompanied by malaise or fever.",
+     "peer_reviewed": false
+    },
+    {
+     "id": "nhs_atorvastatin",
+     "title": "Atorvastatin - NHS",
+     "authors_short": "NHS",
+     "venue": "NHS website",
+     "year": 2026,
+     "design": "other",
+     "url": "https://www.nhs.uk/medicines/atorvastatin/",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "Lists muscle inflammation and damage (cramps, severe pain, weakness, possibly high temperature and red or brown urine) as a serious side effect that warrants urgent advice.",
+     "peer_reviewed": false
+    }
+   ],
+   "videos": [
+    {
+     "title": "Statins, cholesterol and side effects: do statins cause muscle problems?",
+     "channel": "Oxford Population Health",
+     "url": "https://www.youtube.com/watch?v=aVkmxckKW_4",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "חוקרי Oxford Population Health מציגים נתונים מניסויים אקראיים גדולים: רוב תסמיני השרירים מופיעים גם אצל מי שמקבלים פלצבו.",
+     "caveat_he": "המסר על הממוצע באוכלוסייה לא מבטל תסמינים של אדם מסוים, וכאב עם חום או שתן כהה מחייב פנייה לרופא.ה."
+    },
+    {
+     "title": "Statins, side effects and what they're used for",
+     "channel": "British Heart Foundation",
+     "url": "https://www.youtube.com/watch?v=o6Oi_N5jotg",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "British Heart Foundation מסבירים שכאב שרירים הוא תופעת לוואי אפשרית, שאפשר לפנות לרופא.ה כדי להתאים את הטיפול, ושלא מפסיקים סטטין בלי לדבר איתם קודם."
+    },
+    {
+     "title": "Statins update: the nocebo effect and statin use in older adults",
+     "channel": "GPnotebook",
+     "url": "https://www.youtube.com/watch?v=5t6XXdhDCTY",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "רופא המשפחה קווין פרננדו מסביר את ניסויי ה-n-of-1 (SAMSON ו-StatinWISE) ואת אפקט הנוצבו בתסמיני שרירים; מיועד לאנשי מקצוע."
+    }
+   ],
+   "tags": [
+    "statin",
+    "muscle",
+    "training",
+    "side_effects",
+    "red_flags",
+    "nocebo"
+   ]
+  },
+  {
+   "id": "statin_and_blood_sugar",
+   "title_he": "למה סטטין יכול להעלות מעט את הסוכר, ומה עושים עם זה?",
+   "summary_he": "ניתוח של ניסויים כפולי סמיות גדולים מצא שסטטינים מעלים מעט את ה-HbA1c, בכ-0.06 עד 0.08 נקודות אחוז, ומעלים את הסיכון לאבחון חדש של סוכרת בכ-10% בעוצמה נמוכה עד בינונית ובכ-36% בעוצמה גבוהה. כ-62% מהמקרים החדשים היו אצל אנשים שכבר היו ברבע העליון של רמות הסוכר, קרוב לסף האבחנה של סוכרת כמו בטרום סוכרת, והחוקרים מציינים שהתועלת ללב ולכלי הדם כבר מביאה את זה בחשבון. ההשפעה הזו קטנה, והמנוף הגדול יותר נמצא באורח החיים: גם עלון התרופה ממליץ על פעילות גופנית סדירה, תזונה בריאה ושמירה על משקל, והפסקות של הליכה קלה בזמן ישיבה ממושכת מקטינות את עליית הסוכר אחרי ארוחה. לא מפסיקים ולא משנים דבר בתרופה על דעת עצמנו, ושאלות בנושא מעלים מול הרופא.ה.",
+   "strength": "strong",
+   "strength_note_he": "נשען על ניתוח נתונים אישיים מניסויים אקראיים כפולי סמיות גדולים; המגבלה: אלה ממוצעים של קבוצות, והם לא מראים מי בדיוק יושפע.",
+   "applies_to_he": "רלוונטי ישירות: רוב המקרים החדשים היו אצל אנשים שכבר היו ברבע העליון של רמות הסוכר, כלומר בקבוצה שכוללת טרום סוכרת.",
+   "not_mean_he": "זה לא אומר שהסטטין גרם לטרום הסוכרת, וגם לא שכדאי להפסיק אותו; ההחלטה על התרופה נשארת אצל הרופא.ה.",
+   "hooks_he": [
+    "בניסויים כפולי סמיות, סטטין בעוצמה נמוכה עד בינונית העלה את שיעור הסוכרת החדשה מ-1.2% ל-1.3% בשנה.",
+    "העלייה הממוצעת ב-HbA1c מסטטינים הייתה 0.06 עד 0.08 נקודות אחוז בלבד.",
+    "הפסקות של הליכה קלה בזמן ישיבה ממושכת הקטינו את עליית הסוכר אחרי ארוחה יותר מהפסקות של עמידה."
+   ],
+   "rule_ids": [
+    "R-MED-1",
+    "R-MED-2",
+    "R-DX-1",
+    "R-EX-GLU"
+   ],
+   "sources": [
+    {
+     "id": "ctt_2024",
+     "title": "Effects of statin therapy on diagnoses of new-onset diabetes and worsening glycaemia in large-scale randomised blinded statin trials: an individual participant data meta-analysis.",
+     "authors_short": "Cholesterol Treatment Trialists' (CTT) Collaboration",
+     "venue": "Lancet Diabetes Endocrinol",
+     "year": 2024,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38554713/",
+     "pmid": "38554713",
+     "doi": "10.1016/S2213-8587(24)00040-8",
+     "key_finding_en": "Low/moderate-intensity statins raised new-onset diabetes by about 10% (1.3% vs 1.2% per year) and high-intensity by about 36%, with HbA1c rises of 0.06-0.08%; about 62% of new cases were already in the top quarter of baseline glycaemia, and the cardiovascular benefit already accounts for this.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "lipitor_label",
+     "title": "LIPITOR® (atorvastatin calcium) tablets, for oral use",
+     "authors_short": "Viatris Specialty LLC",
+     "venue": "U.S. FDA prescribing information",
+     "year": 2022,
+     "design": "label",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/020702Orig1s079correctedlbl.pdf",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "Increases in HbA1c and fasting glucose have been reported with statins; optimize lifestyle measures, including regular exercise, maintaining a healthy body weight, and making healthy food choices.",
+     "peer_reviewed": false
+    },
+    {
+     "id": "buffey_2022",
+     "title": "The Acute Effects of Interrupting Prolonged Sitting Time in Adults with Standing and Light-Intensity Walking on Biomarkers of Cardiometabolic Health in Adults: A Systematic Review and Meta-analysis.",
+     "authors_short": "Buffey AJ et al.",
+     "venue": "Sports Med",
+     "year": 2022,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35147898/",
+     "pmid": "35147898",
+     "doi": "10.1007/s40279-022-01649-4",
+     "key_finding_en": "Interrupting prolonged sitting with light-intensity walking attenuated postprandial glucose (d=-0.72) and insulin (d=-0.83) versus continuous sitting, and was more effective than standing breaks.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [],
+   "tags": [
+    "statin",
+    "prediabetes",
+    "glucose",
+    "hba1c",
+    "lifestyle",
+    "safety"
+   ]
+  },
+  {
+   "id": "statin_food_interactions",
+   "title_he": "למה כדאי לבדוק מול הרוקח.ת לפני אשכולית או תוספים כשנוטלים סטטין?",
+   "summary_he": "מיץ אשכוליות חוסם במעי את האנזים CYP3A4 שמפרק חלק מהסטטינים, ולכן יותר תרופה נכנסת לדם ועולה הסיכון לפגיעה בשרירים ובכבד; לפי ה-FDA, גם תפוז סביליה, פומלה וטנג'לו עשויים להשפיע כך. גודל ההשפעה תלוי בסטטין: בעלון של סימבסטטין ההנחיה היא להימנע ממיץ אשכוליות, בעלון של אטורבסטטין להימנע מיותר מ-1.2 ליטר ביום, ובעלון של פרבסטטין השינוי ברמת התרופה זניח. גם תוספים כמו אורז שמרים אדום, היפריקום (St John's wort), ברברין וניאצין עלולים להתנגש עם סטטין או להשפיע על הסוכר, ולכן הם לא מומלצים, וכל שאלה לגביהם שייכת לרוקח.ת או לרופא.ה. בנוסף, עלוני הסטטינים מציינים ששתייה של כמויות גדולות של אלכוהול מעלה את הסיכון לפגיעה בכבד.",
+   "strength": "strong",
+   "strength_note_he": "נשען על עלוני התרופות ועל הנחיית ה-FDA, שמבוססים על מחקרי פרמקוקינטיקה; המגבלה: גודל ההשפעה שונה מאוד בין סטטינים, ולגבי חלק מהתוספים, כמו ברברין, הראיות מנגנוניות בעיקר.",
+   "applies_to_he": "העלונים חלים ישירות על כל מי שנוטלים את התרופה, אבל המשמעות המעשית תלויה בשם הסטטין ובמינון המדויקים.",
+   "not_mean_he": "זה לא אומר שכל פרי הדר אסור או שכל סטטין מושפע מאשכולית באותה מידה; אפשר לבדוק מול הרוקח.ת לפי שם התרופה והמינון.",
+   "hooks_he": [
+    "בעלון של סימבסטטין, כמויות גדולות של מיץ אשכוליות מרוכז העלו את כמות התרופה בדם עד פי 16, וכוס אחת של מיץ רגיל ביום העלתה אותה פי 1.3 עד 1.9.",
+    "לפי ה-FDA, כמות האנזים CYP3A4 במעי שונה מאדם לאדם, ולכן אשכולית יכולה להשפיע אחרת גם על אנשים שנוטלים אותה תרופה.",
+    "אורז שמרים אדום מכיל מונקולין K, שזהה במבנה הכימי שלו לתרופת הסטטין לובסטטין."
+   ],
+   "rule_ids": [
+    "R-MED-3",
+    "R-MED-1"
+   ],
+   "sources": [
+    {
+     "id": "fda_grapefruit",
+     "title": "Grapefruit Juice and Some Drugs Don't Mix | FDA",
+     "authors_short": "U.S. FDA",
+     "venue": "FDA Consumer Updates",
+     "year": 2021,
+     "design": "other",
+     "url": "https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "Grapefruit juice blocks intestinal CYP3A4, raising blood levels of some statins such as simvastatin and atorvastatin; Seville oranges, pomelos and tangelos might have the same effect, and the enzyme amount varies between people.",
+     "peer_reviewed": false
+    },
+    {
+     "id": "zocor_label",
+     "title": "ZOCOR® (simvastatin) tablets, for oral use",
+     "authors_short": "Organon LLC",
+     "venue": "U.S. prescribing information",
+     "year": 2023,
+     "design": "label",
+     "url": "https://www.organon.com/product/usa/pi_circulars/z/zocor/zocor_pi.pdf",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "Avoid grapefruit juice with simvastatin; high-dose grapefruit juice raised simvastatin exposure about 16-fold (simvastatin acid about 7-fold) and 237 mL of single-strength juice about 1.3- to 1.9-fold.",
+     "peer_reviewed": false
+    },
+    {
+     "id": "lipitor_label",
+     "title": "LIPITOR® (atorvastatin calcium) tablets, for oral use",
+     "authors_short": "Viatris Specialty LLC",
+     "venue": "U.S. FDA prescribing information",
+     "year": 2022,
+     "design": "label",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/020702Orig1s079correctedlbl.pdf",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "Avoid intake of large quantities of grapefruit juice (more than 1.2 liters daily); patients who consume substantial quantities of alcohol may be at increased risk for hepatic injury.",
+     "peer_reviewed": false
+    },
+    {
+     "id": "pravastatin_label",
+     "title": "DailyMed - PRAVASTATIN SODIUM tablet",
+     "authors_short": "Cipla USA Inc.",
+     "venue": "DailyMed (U.S. National Library of Medicine)",
+     "year": 2026,
+     "design": "label",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=678dfe58-3200-4c3d-9718-365aa47d070f",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "Grapefruit juice changed pravastatin AUC by -1.8% and Cmax by +3.7%, a negligible pharmacokinetic effect.",
+     "peer_reviewed": false
+    },
+    {
+     "id": "nccih_red_yeast_rice",
+     "title": "Red Yeast Rice | NCCIH",
+     "authors_short": "NCCIH",
+     "venue": "National Center for Complementary and Integrative Health (NIH)",
+     "year": 2022,
+     "design": "other",
+     "url": "https://www.nccih.nih.gov/health/red-yeast-rice",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "Monacolin K in red yeast rice is structurally identical to lovastatin; product content varies widely and is not usually labeled, and some products contain the kidney toxin citrinin.",
+     "peer_reviewed": false
+    },
+    {
+     "id": "nicolussi_2020",
+     "title": "Clinical relevance of St. John's wort drug interactions revisited.",
+     "authors_short": "Nicolussi S et al.",
+     "venue": "Br J Pharmacol",
+     "year": 2020,
+     "design": "review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31742659/",
+     "pmid": "31742659",
+     "doi": "10.1111/bph.14936",
+     "key_finding_en": "St John's wort induces CYP3A4 and P-glycoprotein and has been shown to alter the pharmacokinetics of drugs including simvastatin; the degree of induction correlates with hyperforin content.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "dumitru_2026",
+     "title": "Berberine-Drug Interactions: Mechanisms, Clinical Relevance and Risk Stratification-A Narrative Review.",
+     "authors_short": "Dumitru CN et al.",
+     "venue": "Pharmaceuticals (Basel)",
+     "year": 2026,
+     "design": "review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42653808/",
+     "pmid": "42653808",
+     "doi": "10.3390/ph19081313",
+     "key_finding_en": "Berberine can inhibit and induce CYP3A4, inhibits CYP2D6/2C9 and modulates drug transporters, with additive glucose-lowering effects; human interaction data are limited and product quality varies.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "hps2_thrive_2014",
+     "title": "Effects of extended-release niacin with laropiprant in high-risk patients.",
+     "authors_short": "HPS2-THRIVE Collaborative Group",
+     "venue": "N Engl J Med",
+     "year": 2014,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25014686/",
+     "pmid": "25014686",
+     "doi": "10.1056/NEJMoa1300955",
+     "key_finding_en": "Adding extended-release niacin to statin-based therapy did not reduce major vascular events but increased serious disturbances of diabetes control, new diabetes diagnoses and serious musculoskeletal and other adverse events.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [],
+   "tags": [
+    "statin",
+    "grapefruit",
+    "supplements",
+    "interactions",
+    "alcohol",
+    "safety"
+   ]
+  },
+  {
+   "id": "melatonin_facts",
+   "title_he": "למה מלטונין הוא לא פתרון פשוט לשינה, במיוחד כשיש טרום סוכרת?",
+   "summary_he": "מלטונין מקצר מעט את זמן ההירדמות, אבל ההנחיה האמריקאית לרפואת שינה (AASM) מציעה לא להשתמש בו לנדודי שינה כרוניים, וההנחיה האירופית לא ממליצה על מלטונין בשחרור מהיר. במעבדה, מלטונין שניתן רבע שעה לפני שתיית סוכר פגע בסבילות לסוכר, ושלושה חודשים של מלטונין לילי הורידו ב-12% את הרגישות לאינסולין אצל גברים עם סוכרת סוג 2, אף שבמטא-אנליזה של שימוש ממושך לא נמצא שינוי בסוכר בצום או ב-HbA1c. בנוסף, כמות המלטונין בפועל במוצרים רבים שונה מאוד ממה שכתוב על התווית. לכן כשיש טרום סוכרת, מלטונין הוא נושא לשיחה עם רופא.ה או רוקח.ת בלבד, ולא מתחילים או משנים אותו על דעת עצמנו.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על הנחיות קליניות, מטא-אנליזות וניסויים מבוקרים; המגבלה: מחקרי הסוכר נעשו על צעירים בריאים או על גברים עם סוכרת, ולא על אנשים עם טרום סוכרת.",
+   "applies_to_he": "ניסוי הרגישות לאינסולין כלל רק גברים, אבל עם סוכרת סוג 2 ולא טרום סוכרת, וניסויי המעבדה נעשו על צעירים, כך שההתאמה לגבר בן 47 עם טרום סוכרת חלקית.",
+   "not_mean_he": "זה לא אומר שמלטונין מסוכן לכל אחד או שהוא בהכרח מעלה סוכר, אלא שכשיש טרום סוכרת ההחלטה עליו שייכת לשיחה עם רופא.ה או רוקח.ת.",
+   "hooks_he": [
+    "בבדיקה של 31 מוצרי מלטונין, הכמות בפועל נעה בין 83% פחות ל-478% יותר ממה שנכתב על התווית.",
+    "מלטונין שניתן רבע שעה לפני שתיית סוכר פגע בסבילות לסוכר, גם בבוקר וגם בערב.",
+    "שלושה חודשים של מלטונין לילי הורידו ב-12% את הרגישות לאינסולין אצל גברים עם סוכרת סוג 2."
+   ],
+   "rule_ids": [
+    "R-MED-3",
+    "R-MED-1"
+   ],
+   "sources": [
+    {
+     "id": "sateia_2017",
+     "title": "Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults: An American Academy of Sleep Medicine Clinical Practice Guideline.",
+     "authors_short": "Sateia MJ et al.",
+     "venue": "J Clin Sleep Med",
+     "year": 2017,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27998379/",
+     "pmid": "27998379",
+     "doi": "10.5664/jcsm.6470",
+     "key_finding_en": "AASM suggests that clinicians not use melatonin (or diphenhydramine or valerian) to treat sleep onset or sleep maintenance insomnia in adults (weak recommendation).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "riemann_2023",
+     "title": "The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023.",
+     "authors_short": "Riemann D et al.",
+     "venue": "J Sleep Res",
+     "year": 2023,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38016484/",
+     "pmid": "38016484",
+     "doi": "10.1111/jsr.14035",
+     "key_finding_en": "CBT-I is the first-line treatment for chronic insomnia; fast-release melatonin is not recommended for insomnia, while prolonged-release melatonin may be used for up to 3 months in patients aged 55 or older.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "cruz_sanabria_2024",
+     "title": "Optimizing the Time and Dose of Melatonin as a Sleep-Promoting Drug: A Systematic Review of Randomized Controlled Trials and Dose-Response Meta-Analysis.",
+     "authors_short": "Cruz-Sanabria F et al.",
+     "venue": "J Pineal Res",
+     "year": 2024,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38888087/",
+     "pmid": "38888087",
+     "doi": "10.1111/jpi.12985",
+     "key_finding_en": "Across 26 RCTs, melatonin modestly reduced sleep onset latency and increased total sleep time, with larger effects in insomnia and when taken about 3 hours before desired bedtime.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "rubio_sastre_2014",
+     "title": "Acute melatonin administration in humans impairs glucose tolerance in both the morning and evening.",
+     "authors_short": "Rubio-Sastre P et al.",
+     "venue": "Sleep",
+     "year": 2014,
+     "design": "other",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25197811/",
+     "pmid": "25197811",
+     "doi": "10.5665/sleep.4088",
+     "key_finding_en": "In 21 healthy young women, melatonin given 15 minutes before an oral glucose tolerance test increased the glucose area under the curve by 186% in the morning and 54% in the evening versus placebo.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "lauritzen_2022",
+     "title": "Three months of melatonin treatment reduces insulin sensitivity in patients with type 2 diabetes-A randomized placebo-controlled crossover trial.",
+     "authors_short": "Lauritzen ES et al.",
+     "venue": "J Pineal Res",
+     "year": 2022,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35619221/",
+     "pmid": "35619221",
+     "doi": "10.1111/jpi.12809",
+     "key_finding_en": "In 17 men with type 2 diabetes, nightly melatonin for 3 months reduced clamp-measured insulin sensitivity by 12% compared with placebo.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "lauritzen_2021",
+     "title": "Effects of daily administration of melatonin before bedtime on fasting insulin, glucose and insulin sensitivity in healthy adults and patients with metabolic diseases. A systematic review and meta-analysis.",
+     "authors_short": "Lauritzen ES et al.",
+     "venue": "Clin Endocrinol (Oxf)",
+     "year": 2021,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34370338/",
+     "pmid": "34370338",
+     "doi": "10.1111/cen.14576",
+     "key_finding_en": "With at least 2 weeks of bedtime melatonin, fasting glucose and HbA1c did not change, while fasting insulin was slightly lower.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "erland_2017",
+     "title": "Melatonin Natural Health Products and Supplements: Presence of Serotonin and Significant Variability of Melatonin Content.",
+     "authors_short": "Erland LA et al.",
+     "venue": "J Clin Sleep Med",
+     "year": 2017,
+     "design": "other",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27855744/",
+     "pmid": "27855744",
+     "doi": "10.5664/jcsm.6462",
+     "key_finding_en": "In 31 melatonin supplements, actual melatonin content ranged from -83% to +478% of the labeled amount.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Mayo Clinic Minute: What to consider before using melatonin supplements for sleep",
+     "channel": "Mayo Clinic",
+     "url": "https://www.youtube.com/watch?v=LLMc1qZGcd8",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "ד״ר נאימה קובאסין מ-Mayo Clinic מסבירה שמלטונין מווסת את השעון הביולוגי ולא גורם לשינה, מזכירה ירידה בסבילות לסוכר כתופעת לוואי וממליצה להתייעץ עם איש מקצוע."
+    },
+    {
+     "title": "Oxford professor reveals myths about sleep",
+     "channel": "University of Oxford",
+     "url": "https://www.youtube.com/watch?v=0qhPE4H11R0",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "פרופ' ראסל פוסטר מאוניברסיטת אוקספורד מסביר בדקה וחצי שמלטונין הוא סמן ביולוגי לחושך ומשפיע על השינה רק במעט."
+    }
+   ],
+   "tags": [
+    "melatonin",
+    "supplements",
+    "glucose",
+    "prediabetes",
+    "insomnia",
+    "safety"
+   ]
+  },
+  {
+   "id": "magnesium_supplements_sleep",
+   "title_he": "למה מגנזיום לא נחשב פתרון מוכח לשינה?",
+   "summary_he": "סקירה שיטתית מצאה רק 3 ניסויים קטנים עם 151 אנשים מבוגרים שסבלו מנדודי שינה: ההירדמות התקצרה בכ-17 דקות, אבל זמן השינה הכולל לא השתנה באופן מובהק, והוודאות בממצאים נמוכה עד נמוכה מאוד. לגבי התכווצויות לילה ברגליים, סקירת Cochrane מצאה שמגנזיום כנראה לא מפחית אותן אצל מבוגרים, ותופעות לוואי במערכת העיכול דווחו בשיעורים של 11% עד 37%. לכן אין בסיס להמליץ על מגנזיום לשינה, ומי ששוקלים ליטול אותו כדאי שיבדקו מינון והתאמה לתרופות האחרות מול רופא.ה או רוקח.ת.",
+   "strength": "limited",
+   "strength_note_he": "נשען על מטא-אנליזה של 3 ניסויים קטנים בלבד עם סיכון בינוני עד גבוה להטיה; המגבלה: מעט משתתפים, כולם מבוגרים, וודאות נמוכה עד נמוכה מאוד.",
+   "applies_to_he": "המחקרים נעשו באנשים מבוגרים (בסקירת ההתכווצויות גיל ממוצע של כ-61 עד 69), ולא בגברים בני 45 עד 50 שמתאמנים.",
+   "not_mean_he": "זה לא אומר שמגנזיום מזיק, אלא שאין כרגע הוכחה טובה שתוסף מגנזיום משפר שינה.",
+   "hooks_he": [
+    "בשלושת הניסויים שנמצאו, מגנזיום קיצר את ההירדמות בכ-17 דקות אצל מבוגרים עם נדודי שינה, אבל החוקרים הגדירו את איכות הספרות כלא מספיקה להמלצה.",
+    "לפי סקירת Cochrane, מגנזיום כנראה לא מפחית התכווצויות שרירים בלילה אצל מבוגרים.",
+    "התקרה הרשמית למגנזיום מתוספים נקבעה בעיקר בגלל שלשולים, וחוקרים קוראים לבחון אותה מחדש."
+   ],
+   "rule_ids": [
+    "R-MED-3"
+   ],
+   "sources": [
+    {
+     "id": "mah_2021",
+     "title": "Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis.",
+     "authors_short": "Mah J, Pitre T",
+     "venue": "BMC Complement Med Ther",
+     "year": 2021,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33865376/",
+     "pmid": "33865376",
+     "doi": "10.1186/s12906-021-03297-z",
+     "key_finding_en": "Three RCTs in 151 older adults: sleep onset latency 17.36 min shorter with magnesium, total sleep time +16 min (not significant); moderate-to-high risk of bias and low to very low quality evidence.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "garrison_2020",
+     "title": "Magnesium for skeletal muscle cramps.",
+     "authors_short": "Garrison SR et al.",
+     "venue": "Cochrane Database Syst Rev",
+     "year": 2020,
+     "design": "systematic-review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32956536/",
+     "pmid": "32956536",
+     "doi": "10.1002/14651858.CD009402.pub3",
+     "key_finding_en": "Magnesium is unlikely to reduce the frequency of idiopathic cramps in older adults (moderate certainty); gastrointestinal side effects were reported in 11% to 37%.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "costello_2023",
+     "title": "Perspective: Call for Re-evaluation of the Tolerable Upper Intake Level for Magnesium Supplementation in Adults.",
+     "authors_short": "Costello R et al.",
+     "venue": "Adv Nutr",
+     "year": 2023,
+     "design": "review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37487817/",
+     "pmid": "37487817",
+     "doi": "10.1016/j.advnut.2023.06.008",
+     "key_finding_en": "The upper intake level for supplemental magnesium was set with diarrhea as the limiting effect; the authors argue it should be re-evaluated.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Sleep Scientist Reveals the BEST Supplements for Sleep (and Which 2 to Avoid)",
+     "channel": "FoundMyFitness Clips",
+     "url": "https://www.youtube.com/watch?v=0NnAYGM6gF8",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "חוקר השינה מייקל גרנדנר מסביר שמגנזיום, גליצין ותוספים דומים הם לא כלום, אבל אף אחד מהם לא עקף פלצבו בטיפול בנדודי שינה.",
+     "caveat_he": "ערוץ עם מנוי בתשלום, והאמירה על נתונים טובים לגליצין מגזימה בחוזק של ניסויים קטנים."
+    },
+    {
+     "title": "Magnesium For Sleep: Does It Actually Work? (An Honest Doctor's Take)",
+     "channel": "Doctor Alex",
+     "url": "https://www.youtube.com/watch?v=W7EIYzNxxko",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "ד״ר אלכס, רופא ברפואה דחופה בבריטניה, מסביר בזהירות שמחקרי המגנזיום לשינה קטנים ובאיכות נמוכה, ושקפאין, אלכוהול והשעון הביולוגי חשובים יותר."
+    }
+   ],
+   "tags": [
+    "magnesium",
+    "supplements",
+    "insomnia",
+    "cramps"
+   ]
+  },
+  {
+   "id": "prediabetes_sleep_glucose",
+   "title_he": "למה שינה חשובה כשיש טרום סוכרת, ולמה לא מבטיחים שיותר שינה תוריד את הסוכר?",
+   "summary_he": "בניסויים מבוקרים, קיצור שינה ושיבוש של השעון הביולוגי הורידו את הרגישות לאינסולין, ובמחקרי עוקבה שינה קצרה נקשרה להתקדמות מטרום סוכרת לסוכרת סוג 2, ומשך שינה שמשתנה מאוד בין לילות נקשר לסיכון גבוה יותר לסוכרת. אלה קשרים תצפיתיים, ולכן הם לא מוכיחים שהשינה היא הגורם. חשוב לא פחות: בניסוי מ-2026, הארכת השינה בכשעה בלילה במשך כשישה שבועות שיפרה את בריאות השינה ואת הסדירות, אבל לא את הרגישות לאינסולין ולא את איזון הסוכר, ולכן לא מבטיחים שיותר שינה תוריד סוכר. בגלל הקשרים האלה, הנחיות ADA ל-2026 ממליצות לבדוק את בריאות השינה, כולל הפרעות שינה, אצל אנשים עם טרום סוכרת.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על מטא-אנליזה של ניסויים מבוקרים, על מחקרי עוקבה גדולים ועל הנחיית ADA; המגבלה: הניסויים היו קצרים ובמעבדה, מחקרי העוקבה תצפיתיים, וניסוי הארכת השינה היה קטן.",
+   "applies_to_he": "ניסוי הארכת השינה נעשה על אנשים עם עודף משקל, ומחקר הסדירות על בני 62 בממוצע בבריטניה, כך שלגבר רזה ומתאמן בן 47 עם טרום סוכרת ההתאמה חלקית.",
+   "not_mean_he": "זה לא אומר שהארכת השינה תוריד את הסוכר או את ה-HbA1c; שינה טובה היא מטרה בריאותית בפני עצמה, לא טיפול בטרום סוכרת.",
+   "hooks_he": [
+    "בניסוי מ-2026, אנשים שהאריכו את השינה בכשעה בלילה ישנו טוב וסדיר יותר, אבל הרגישות שלהם לאינסולין לא השתנתה.",
+    "בנתוני UK Biobank, שונות של יותר משעה במשך השינה בין לילות נקשרה לסיכון גבוה ב-34% לסוכרת סוג 2, וב-11% אחרי התאמה לאורח חיים ולמשקל.",
+    "במחקרי חתך, אצל אנשים עם טרום סוכרת הסיכוי לדום נשימה בשינה היה גבוה פי 2.78 מאשר אצל אנשים עם סוכר תקין."
+   ],
+   "rule_ids": [
+    "R-DX-1",
+    "R-SCHED"
+   ],
+   "sources": [
+    {
+     "id": "ada_2026_s5",
+     "title": "5. Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes-2026.",
+     "authors_short": "American Diabetes Association Professional Practice Committee",
+     "venue": "Diabetes Care",
+     "year": 2026,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41358898/",
+     "pmid": "41358898",
+     "doi": "10.2337/dc26-S005",
+     "key_finding_en": "Recommendation 5.56 (grade B): screen for sleep health in people with prediabetes or diabetes and in those at risk, including screening for sleep disorders.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "sondrup_2022",
+     "title": "Effects of sleep manipulation on markers of insulin sensitivity: A systematic review and meta-analysis of randomized controlled trials.",
+     "authors_short": "Sondrup N et al.",
+     "venue": "Sleep Med Rev",
+     "year": 2022,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35189549/",
+     "pmid": "35189549",
+     "doi": "10.1016/j.smrv.2022.101594",
+     "key_finding_en": "In RCTs, sleep restriction, circadian misalignment and slow-wave sleep suppression reduced insulin sensitivity, whereas REM disturbance and sleep fragmentation had no effect.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "beals_2026",
+     "title": "Sleep Extension Improves Sleep Health but Not Insulin Sensitivity in People With Overweight or Obesity Who Maintain Habitual Short Sleep Schedules.",
+     "authors_short": "Beals JW et al.",
+     "venue": "Diabetes Care",
+     "year": 2026,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41564347/",
+     "pmid": "41564347",
+     "doi": "10.2337/dc25-2083",
+     "key_finding_en": "Extending sleep by about 1 h/night for about 6 weeks in 29 adults with overweight or obesity and short sleep improved sleep health but not insulin sensitivity or glycemic control.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "mostafa_2022",
+     "title": "Sleep behaviours and associated habits and the progression of pre-diabetes to type 2 diabetes mellitus in adults: A systematic review and meta-analysis.",
+     "authors_short": "Mostafa SA et al.",
+     "venue": "Diab Vasc Dis Res",
+     "year": 2022,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35616501/",
+     "pmid": "35616501",
+     "doi": "10.1177/14791641221088824",
+     "key_finding_en": "Short sleep duration was associated with progression from prediabetes to type 2 diabetes (HR 1.59, 95% CI 1.29-1.97; 3 studies).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "kianersi_2024",
+     "title": "Association Between Accelerometer-Measured Irregular Sleep Duration and Type 2 Diabetes Risk: A Prospective Cohort Study in the UK Biobank.",
+     "authors_short": "Kianersi S et al.",
+     "venue": "Diabetes Care",
+     "year": 2024,
+     "design": "cohort",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39017683/",
+     "pmid": "39017683",
+     "doi": "10.2337/dc24-0213",
+     "key_finding_en": "A 7-night sleep duration SD above 60 min versus 60 min or less was associated with 34% higher diabetes risk, attenuated to 11% after adjustment for lifestyle, comorbidities and adiposity.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "miao_2026",
+     "title": "The association between prediabetes and obstructive sleep apnea syndrome: a meta-analysis.",
+     "authors_short": "Miao L et al.",
+     "venue": "Front Endocrinol (Lausanne)",
+     "year": 2026,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42597420/",
+     "pmid": "42597420",
+     "doi": "10.3389/fendo.2026.1798827",
+     "key_finding_en": "In 8 cross-sectional studies (18,040 participants), prediabetes was associated with higher prevalence of obstructive sleep apnea than normoglycemia (OR 2.78, 95% CI 1.99-3.87).",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "2019 IEEE EMBS Workshop - Esra Tasali on Sleep and metabolic health",
+     "channel": "IEEE EMBS",
+     "url": "https://www.youtube.com/watch?v=Q-wlgpvbTC8",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "ד״ר אסרה טסאלי, רופאת שינה וחוקרת מאוניברסיטת שיקגו, מסבירה איך קיצור שינה ודום נשימה פוגעים ברגישות לאינסולין, על סמך ניסויי מעבדה."
+    },
+    {
+     "title": "שינה וסוכרת, פרופ' גיורא פילר מתוך המדריך לניהול הסוכרת של ספרת הסוכרת בגליל והאגודה הישראלית לסוכרת",
+     "channel": "אגודה ישראלית לסוכרת",
+     "url": "https://www.youtube.com/watch?v=sVIjcoj6UK0",
+     "lang": "he",
+     "tier": "A",
+     "note_he": "פרופ' גיורא פילר, מומחה להפרעות שינה, מסביר בקצרה בערוץ האגודה הישראלית לסוכרת איך שינה קצרה, נדודי שינה, דום נשימה ושיבוש השעון הביולוגי פוגעים באיזון הסוכר.",
+     "caveat_he": "מציג דום נשימה כבעיה בעיקר של גברים עם עודף משקל, פישוט שלא מתאים לגברים רזים, ומצדיק כדורי שינה כשאין חלופה, בעוד ש-CBT-I הוא קו הטיפול הראשון."
+    },
+    {
+     "title": "The Impact of Sleep on Blood Glucose Regulation",
+     "channel": "Stanford Health Care",
+     "url": "https://www.youtube.com/watch?v=0RHaB5CMtFk",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "קרל צ'ינג, אח ומדריך סוכרת מוסמך ב-Stanford Health Care, על הקשר בין שינה קצרה, HbA1c ותנגודת לאינסולין; מיועד בעיקר לאנשים עם סוכרת."
+    }
+   ],
+   "tags": [
+    "prediabetes",
+    "glucose",
+    "insulin_sensitivity",
+    "sleep_regularity",
+    "osa",
+    "guideline"
+   ]
+  },
+  {
+   "id": "sleep_heart_health",
+   "title_he": "למה שינה נחשבת חלק מבריאות הלב, ולמה לא מצפים שהיא תוריד את הכולסטרול?",
+   "summary_he": "איגוד הלב האמריקאי הוסיף ב-2022 את השינה כאחד משמונת המדדים של בריאות לב וכלי דם (Life's Essential 8), עם יעד של 7 עד 9 שעות ביממה למבוגרים, והנחיית השומנים בדם של ACC/AHA מ-2026 כוללת הרגלי שינה בריאים כחלק מאורח החיים. במחקר עוקבה גדול, סדירות השינה ניבאה תמותה טוב יותר ממשך השינה, אבל זה קשר תצפיתי ולא הוכחה. לעומת זאת, במחקרי עוקבה משך השינה לא נקשר להתפתחות של שומנים לא תקינים בדם, וקיצור שינה מתון בניסוי לא העלה שומנים מזיקים, ולכן לא מצפים שיותר שינה תוריד LDL או טריגליצרידים. דום נשימה בשינה נפוץ אצל גברים בגיל העמידה וקשור למחלות לב, ולכן נחירות רמות או הפסקות נשימה בשינה הן סיבה לשיחה עם רופא.ה.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על הצהרות והנחיות של איגודי הלב ועל מחקרי עוקבה ומטא-אנליזות; המגבלה: הקשר בין שינה ללב מבוסס בעיקר על מחקרים תצפיתיים, ומספר המחקרים על שומנים בדם קטן.",
+   "applies_to_he": "ההנחיות חלות על כל המבוגרים, ומחקר הסדירות כלל בני 63 בממוצע בבריטניה, כך שהכיוון רלוונטי לגבר בן 47 אבל המספרים לא בהכרח מתאימים לו.",
+   "not_mean_he": "זה לא אומר ששינה טובה יותר תוריד את הכולסטרול או תחליף טיפול תרופתי; היא חלק מאורח חיים בריא ללב.",
+   "hooks_he": [
+    "במחקר על כ-61 אלף משתתפים עם מדי תאוצה, סדירות השינה ניבאה תמותה טוב יותר ממשך השינה.",
+    "בניסוי שבו ישנו שעה וחצי פחות בלילה במשך 6 שבועות, השומנים המזיקים בדם לא עלו.",
+    "כ-34% מהגברים בגיל העמידה עומדים בקריטריונים לדום נשימה בשינה."
+   ],
+   "rule_ids": [
+    "R-DX-1",
+    "R-SCHED"
+   ],
+   "sources": [
+    {
+     "id": "lloyd_jones_2022",
+     "title": "Life's Essential 8: Updating and Enhancing the American Heart Association's Construct of Cardiovascular Health: A Presidential Advisory From the American Heart Association.",
+     "authors_short": "Lloyd-Jones DM et al.",
+     "venue": "Circulation",
+     "year": 2022,
+     "design": "position-statement",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35766027/",
+     "pmid": "35766027",
+     "doi": "10.1161/CIR.0000000000001078",
+     "key_finding_en": "Life's Essential 8 adds sleep health as a new metric of cardiovascular health alongside diet, physical activity, nicotine, BMI, lipids, glucose and blood pressure.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "aha_newsroom_2022",
+     "title": "American Heart Association adds sleep to cardiovascular health checklist | American Heart Association",
+     "authors_short": "American Heart Association",
+     "venue": "AHA Newsroom",
+     "year": 2022,
+     "design": "other",
+     "url": "https://newsroom.heart.org/news/american-heart-association-adds-sleep-to-cardiovascular-health-checklist",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "The new sleep metric's ideal level is 7-9 hours daily for adults.",
+     "peer_reviewed": false
+    },
+    {
+     "id": "acc_aha_2026_press",
+     "title": "ACC/AHA Issue Updated Guideline for Managing Lipids, Cholesterol - American College of Cardiology",
+     "authors_short": "American College of Cardiology",
+     "venue": "ACC press release",
+     "year": 2026,
+     "design": "other",
+     "url": "https://www.acc.org/about-acc/press-releases/2026/03/13/18/01/accaha-issue-updated-guideline-for-managing-lipids-cholesterol",
+     "pmid": "",
+     "doi": "",
+     "key_finding_en": "The 2026 dyslipidemia guideline emphasizes healthy lifestyle changes, including prioritizing healthy sleep habits, alongside weight, physical activity and tobacco avoidance.",
+     "peer_reviewed": false
+    },
+    {
+     "id": "windred_2024",
+     "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study.",
+     "authors_short": "Windred DP et al.",
+     "venue": "Sleep",
+     "year": 2024,
+     "design": "cohort",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37738616/",
+     "pmid": "37738616",
+     "doi": "10.1093/sleep/zsad253",
+     "key_finding_en": "In 60,977 UK Biobank participants with accelerometry, higher sleep regularity was associated with 20%-48% lower all-cause mortality risk and was a stronger predictor of mortality than sleep duration.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "kruisbrink_2017",
+     "title": "Association of sleep duration and quality with blood lipids: a systematic review and meta-analysis of prospective studies.",
+     "authors_short": "Kruisbrink M et al.",
+     "venue": "BMJ Open",
+     "year": 2017,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29247105/",
+     "pmid": "29247105",
+     "doi": "10.1136/bmjopen-2017-018585",
+     "key_finding_en": "In prospective studies, neither short (RR 1.01) nor long sleep (RR 0.98) was associated with incident dyslipidaemia, though heterogeneity and few studies limit conclusions.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "barragan_2023",
+     "title": "Paradoxical Effects of Prolonged Insufficient Sleep on Lipid Profile: A Pooled Analysis of 2 Randomized Trials.",
+     "authors_short": "Barragán R et al.",
+     "venue": "J Am Heart Assoc",
+     "year": 2023,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37815115/",
+     "pmid": "37815115",
+     "doi": "10.1161/JAHA.123.032078",
+     "key_finding_en": "In 78 healthy adults, 6 weeks of sleeping 1.5 h/night less (randomized crossover) did not increase atherogenic lipids.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "yeghiazarians_2021",
+     "title": "Obstructive Sleep Apnea and Cardiovascular Disease: A Scientific Statement From the American Heart Association.",
+     "authors_short": "Yeghiazarians Y et al.",
+     "venue": "Circulation",
+     "year": 2021,
+     "design": "position-statement",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34148375/",
+     "pmid": "34148375",
+     "doi": "10.1161/CIR.0000000000000988",
+     "key_finding_en": "Approximately 34% of middle-aged men and 17% of middle-aged women meet diagnostic criteria for obstructive sleep apnea, which is common and underdiagnosed.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Sleep and Heart Health",
+     "channel": "The Heart Doctor",
+     "url": "https://www.youtube.com/watch?v=CkH6zt4s0l8",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "ד״ר דונלד לויד-ג'ונס, קרדיולוג ונשיא עבר של איגוד הלב האמריקאי, מסביר למה השינה נכנסה ל-Life's Essential 8, כולל לחץ דם, רגישות לאינסולין וסדירות."
+    },
+    {
+     "title": "AHA Life's Essential 8: sleep recommendations for cardiovascular health",
+     "channel": "VJNeurology",
+     "url": "https://www.youtube.com/watch?v=NnTbcGfYm0U",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "מייקל גרנדנר מסכם בפחות משתי דקות את עמדת איגוד הלב האמריקאי על שינה כעמוד תווך של בריאות הלב (7 עד 9 שעות)."
+    },
+    {
+     "title": "Sleep and the Heart 101 - an introduction for patients with cardiovascular disease",
+     "channel": "University of Ottawa Heart Institute",
+     "url": "https://www.youtube.com/watch?v=JfWRo9N1-a0",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "סרטון של University of Ottawa Heart Institute למטופלי לב על נדודי שינה ועל כלים בסגנון CBT-I, כמו בקרת גירויים והגבלת זמן במיטה."
+    }
+   ],
+   "tags": [
+    "heart",
+    "cardiovascular",
+    "lipids",
+    "sleep_regularity",
+    "osa",
+    "guideline"
+   ]
+  },
+  {
+   "id": "cbt_i_basics",
+   "title_he": "למה הטיפול הראשון בנדודי שינה כרוניים הוא CBT-I, ולא כדור או עוד מעקב?",
+   "summary_he": "טיפול קוגניטיבי התנהגותי לנדודי שינה (CBT-I) הוא הטיפול הראשון שממליצות עליו ההנחיות של AASM ושל ACP בארצות הברית וההנחיה האירופית, ולפי ההנחיה האירופית אפשר לקבל אותו גם בפורמט דיגיטלי. הטיפול משלב כמה רכיבים, ביניהם בקרת גירויים, הגבלת הזמן במיטה והרפיה, ואילו היגיינת שינה לבדה לא מומלצת כטיפול בנדודי שינה כרוניים. גם הדרך שבה מציגים נתוני שינה משנה: בניסוי, משוב מודרך על נתוני שעון הפחית את חומרת נדודי השינה, ואילו משוב שלילי מזויף גרם לאנשים לדווח על יותר עייפות. לכן כשקשיי השינה נמשכים ופוגעים בתפקוד ביום, הצעד הנכון הוא לפנות לרופא.ה ולשאול על CBT-I, ולא להוסיף עוד מדדים ומעקב.",
+   "strength": "strong",
+   "strength_note_he": "נשען על הנחיות קליניות של AASM, ACP והאיגוד האירופי לחקר השינה, שמבוססות על סקירות שיטתיות של ניסויים; המגבלה: ההנחיות עוסקות בנדודי שינה כרוניים ולא בלילה או בשבוע קשים.",
+   "applies_to_he": "ההנחיות חלות על כל המבוגרים, וניסוי המשוב מהשעון כלל משתתפים בגיל ממוצע 47.5, כך שההתאמה טובה, אם כי רוב המשתתפים בו היו נשים.",
+   "not_mean_he": "זה לא אומר שכל לילה רע הוא נדודי שינה, או שהאפליקציה יכולה לאבחן נדודי שינה; אבחנה וטיפול נעשים עם איש או אשת מקצוע.",
+   "hooks_he": [
+    "לפי ההנחיה האמריקאית, היגיינת שינה לבדה לא מומלצת כטיפול בנדודי שינה כרוניים.",
+    "בניסוי מבוקר, משוב מודרך על נתוני שעון שינה הפחית את חומרת נדודי השינה יותר מהדרכה על היגיינת שינה.",
+    "כשאנשים עם נדודי שינה קיבלו משוב שלילי מזויף על השינה שלהם, הם דיווחו בערב על פחות ערנות ויותר עייפות."
+   ],
+   "rule_ids": [
+    "R-DX-1"
+   ],
+   "sources": [
+    {
+     "id": "edinger_2021",
+     "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline.",
+     "authors_short": "Edinger JD et al.",
+     "venue": "J Clin Sleep Med",
+     "year": 2021,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33164742/",
+     "pmid": "33164742",
+     "doi": "10.5664/jcsm.8986",
+     "key_finding_en": "Multicomponent CBT-I is recommended for chronic insomnia (strong); brief therapies, stimulus control, sleep restriction and relaxation are conditional recommendations; sleep hygiene should not be used as a single-component therapy (conditional).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "qaseem_2016",
+     "title": "Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians.",
+     "authors_short": "Qaseem A et al.",
+     "venue": "Ann Intern Med",
+     "year": 2016,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27136449/",
+     "pmid": "27136449",
+     "doi": "10.7326/M15-2175",
+     "key_finding_en": "ACP recommends that all adults receive CBT-I as the initial treatment for chronic insomnia disorder (strong recommendation, moderate-quality evidence).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "riemann_2023",
+     "title": "The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023.",
+     "authors_short": "Riemann D et al.",
+     "venue": "J Sleep Res",
+     "year": 2023,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38016484/",
+     "pmid": "38016484",
+     "doi": "10.1111/jsr.14035",
+     "key_finding_en": "CBT-I is recommended as first-line treatment for chronic insomnia at any age, delivered in person or digitally; hypnotics only short term.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "spina_2023",
+     "title": "Does providing feedback and guidance on sleep perceptions using sleep wearables improve insomnia? Findings from \"Novel Insomnia Treatment Experiment\": a randomized controlled trial.",
+     "authors_short": "Spina MA et al.",
+     "venue": "Sleep",
+     "year": 2023,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37294865/",
+     "pmid": "37294865",
+     "doi": "10.1093/sleep/zsad167",
+     "key_finding_en": "In adults with insomnia symptoms, 5 weeks of wearable feedback with guidance on interpreting sensor versus perceived sleep lowered insomnia severity (d=0.51) compared with sleep education and hygiene.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "gavriloff_2018",
+     "title": "Sham sleep feedback delivered via actigraphy biases daytime symptom reports in people with insomnia: Implications for insomnia disorder and wearable devices.",
+     "authors_short": "Gavriloff D et al.",
+     "venue": "J Sleep Res",
+     "year": 2018,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29989248/",
+     "pmid": "29989248",
+     "doi": "10.1111/jsr.12726",
+     "key_finding_en": "In people with insomnia, negative sham sleep feedback reduced evening alertness (d=0.79) and increased sleepiness and fatigue (d=0.55) compared with positive feedback.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "CBT-I: Cognitive Behavioral Therapy for Insomnia",
+     "channel": "Cleveland Clinic",
+     "url": "https://www.youtube.com/watch?v=1aQPRybcq08",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "סקירה קצרה של Cleveland Clinic על CBT-I, כולל בקרת גירויים והגבלת הזמן במיטה, עם פרקים מסומנים."
+    },
+    {
+     "title": "Stimulus control and sleep restriction therapy: reprogramming the brain to treat insomnia",
+     "channel": "VJNeurology",
+     "url": "https://www.youtube.com/watch?v=YESUi8EM-k4",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "חוקר השינה מייקל גרנדנר (University of Arizona) מסביר בפחות מ-5 דקות למה בקרת גירויים והגבלת שינה הן הליבה של CBT-I; מיועד לאנשי מקצוע ולא כמדריך לביצוע עצמי."
+    },
+    {
+     "title": "ד\"ר עמית שי גרין - סובלים מנדודי שינה? כמה שינויים התנהגותיים קטנים יכולים לעזור",
+     "channel": "אסותא מרכזים רפואיים",
+     "url": "https://www.youtube.com/watch?v=W0dWjFR7uAQ",
+     "lang": "he",
+     "tier": "B",
+     "note_he": "ד״ר עמית שי גרין, פסיכולוג ומומחה שינה באסותא, על שינויים התנהגותיים בנדודי שינה ועל מיתוסים לגבי כדורי שינה; התוכן אומת רק מהכותרת והתיאור.",
+     "caveat_he": "ערוץ של רשת בתי חולים פרטית שעשויה לקדם את מרפאות השינה שלה."
+    }
+   ],
+   "tags": [
+    "insomnia",
+    "cbt_i",
+    "guideline",
+    "behavior",
+    "wearable_feedback"
+   ]
+  },
+  {
+   "id": "sleep_apnea_signs_men",
+   "title_he": "למה גם גבר רזה בן 47 צריך להכיר את הסימנים של דום נשימה בשינה?",
+   "summary_he": "דום נשימה בשינה נפוץ אצל גברים: לפי הערכה אמריקאית, לכ-10% מהגברים בני 30 עד 49 יש דום נשימה בינוני עד חמור, ובמחקר HypnoLaus בשוויץ, עם שיטת ניקוד מודרנית ובגיל מבוגר יותר, הנתון הגיע ל-49.7% מהגברים. השמנה היא גורם סיכון חזק, אבל גם בקבוצה של ישנים בריאים שנבחרו בקפידה ל-8% היה דום נשימה בדרגה בינונית ומעלה, וטרום סוכרת נקשרה לשיעור גבוה יותר של דום נשימה. הסימנים שמצדיקים בירור הם ישנוניות במהלך היום יחד עם לפחות שניים מאלה: נחירות רמות וקבועות, הפסקות נשימה או התנשפות שמישהו ראה, או לחץ דם גבוה; שאלונים ושעונים לא יכולים לאבחן או לשלול דום נשימה, והאבחנה נעשית רק בבדיקת שינה. לכן כשהסימנים האלה מופיעים פונים לרופא.ה ושואלים על בדיקת שינה ביתית או במעבדה, ונמנום בזמן נהיגה הוא סיבה לא לנהוג ולפנות בהקדם.",
+   "strength": "strong",
+   "strength_note_he": "נשען על מחקרי אוכלוסייה עם בדיקות שינה ועל הנחיית האבחון של AASM; המגבלה: השכיחות תלויה מאוד בשיטת הניקוד, ואין נתונים ספציפיים לגברים רזים בני 45 עד 50.",
+   "applies_to_he": "הנתונים כוללים גברים בני 30 עד 49 ובני 50 עד 70, קרוב לגיל 47, אבל רוב המשתתפים לא היו רזים, ולכן אצל גבר רזה הסיכון כנראה נמוך יותר, אך לא אפסי.",
+   "not_mean_he": "זה לא אומר שנחירה לבדה היא דום נשימה, או שהשעון יכול לגלות או לשלול אותו; רק בדיקת שינה מאבחנת.",
+   "hooks_he": [
+    "במחקר HypnoLaus בשוויץ, עם שיטת ניקוד מודרנית, ל-49.7% מהגברים היה דום נשימה בינוני עד חמור.",
+    "גם בקרב 100 ישנים בריאים שנבחרו בקפידה, ל-8% נמצא דום נשימה בדרגה בינונית ומעלה.",
+    "ההנחיה האמריקאית ממליצה לא לאבחן דום נשימה על סמך שאלון או אלגוריתם בלבד, בלי בדיקת שינה."
+   ],
+   "rule_ids": [
+    "R-DX-1",
+    "R-URG-1"
+   ],
+   "sources": [
+    {
+     "id": "peppard_2013",
+     "title": "Increased prevalence of sleep-disordered breathing in adults.",
+     "authors_short": "Peppard PE et al.",
+     "venue": "Am J Epidemiol",
+     "year": 2013,
+     "design": "cohort",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23589584/",
+     "pmid": "23589584",
+     "doi": "10.1093/aje/kws342",
+     "key_finding_en": "Estimated prevalence of moderate to severe sleep-disordered breathing (AHI 15 or more) is 10% among men aged 30-49 and 17% among men aged 50-70; obesity is a strong causal factor.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "heinzer_2015",
+     "title": "Prevalence of sleep-disordered breathing in the general population: the HypnoLaus study.",
+     "authors_short": "Heinzer R et al.",
+     "venue": "Lancet Respir Med",
+     "year": 2015,
+     "design": "cross-sectional",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25682233/",
+     "pmid": "25682233",
+     "doi": "10.1016/S2213-2600(15)00043-0",
+     "key_finding_en": "With modern scoring, moderate-to-severe sleep-disordered breathing was found in 49.7% of men and 23.4% of women; the top AHI quartile was independently associated with hypertension, diabetes and metabolic syndrome.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "mitterling_2015",
+     "title": "Sleep and Respiration in 100 Healthy Caucasian Sleepers--A Polysomnographic Study According to American Academy of Sleep Medicine Standards.",
+     "authors_short": "Mitterling T et al.",
+     "venue": "Sleep",
+     "year": 2015,
+     "design": "cross-sectional",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25515109/",
+     "pmid": "25515109",
+     "doi": "10.5665/sleep.4730",
+     "key_finding_en": "Among 100 carefully screened healthy sleepers aged 19-77, 8% had an apnea-hypopnea index above 15/h.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "kapur_2017",
+     "title": "Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea: An American Academy of Sleep Medicine Clinical Practice Guideline.",
+     "authors_short": "Kapur VK et al.",
+     "venue": "J Clin Sleep Med",
+     "year": 2017,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28162150/",
+     "pmid": "28162150",
+     "doi": "10.5664/jcsm.6506",
+     "key_finding_en": "Clinical tools, questionnaires and prediction algorithms should not be used to diagnose OSA without polysomnography or home sleep apnea testing (strong); testing is indicated when signs and symptoms suggest increased risk of moderate to severe OSA.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "khosla_2018",
+     "title": "Consumer Sleep Technology: An American Academy of Sleep Medicine Position Statement.",
+     "authors_short": "Khosla S et al.",
+     "venue": "J Clin Sleep Med",
+     "year": 2018,
+     "design": "position-statement",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29734997/",
+     "pmid": "29734997",
+     "doi": "10.5664/jcsm.7128",
+     "key_finding_en": "Without FDA clearance, consumer sleep technologies cannot be used for the diagnosis or treatment of sleep disorders, though they may enhance patient-clinician interaction.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "miao_2026",
+     "title": "The association between prediabetes and obstructive sleep apnea syndrome: a meta-analysis.",
+     "authors_short": "Miao L et al.",
+     "venue": "Front Endocrinol (Lausanne)",
+     "year": 2026,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42597420/",
+     "pmid": "42597420",
+     "doi": "10.3389/fendo.2026.1798827",
+     "key_finding_en": "In 8 cross-sectional studies, prediabetes was associated with higher prevalence of obstructive sleep apnea than normoglycemia (OR 2.78).",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Sleep Apnea 101: Symptoms, Risks & Solutions | Aparna Bhat, MD",
+     "channel": "Cleveland Clinic",
+     "url": "https://www.youtube.com/watch?v=zHhlDHpE_m0",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "ד״ר אפרנה בהט, מומחית לרפואת שינה ב-Cleveland Clinic, על תסמינים, גורמי סיכון (כולל מבנה הלסת והפנים) ואפשרויות לבדיקת שינה.",
+     "caveat_he": "כלל האצבע על היקף צוואר גדול עלול להרגיע בטעות גבר רזה; כדאי לשים לב לחלק על מבנה הפנים והלסת."
+    },
+    {
+     "title": "מה שחשוב לדעת על דום נשימה בשינה- ד\"ר אייל רוזנצוויג",
+     "channel": "מדיקו",
+     "url": "https://www.youtube.com/watch?v=DhEcbONz9do",
+     "lang": "he",
+     "tier": "B",
+     "note_he": "ד״ר אייל רוזנצוויג, ראש מרפאת הפרעות נשימה בשינה ונחירות באיכילוב, על סימנים, על כך שגם מבנה עצמות הפנים משפיע ולא רק משקל, ועל אפשרויות טיפול."
+    },
+    {
+     "title": "5 Sleep Apnea Myths That Doctors Still Believe",
+     "channel": "Doctor Steven Park",
+     "url": "https://www.youtube.com/watch?v=YM-s689BrKs",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "ד״ר סטיבן פארק, כירורג אף אוזן גרון ורופא שינה, מפריך את המיתוס שרק גברים כבדים עם צוואר עבה סובלים מדום נשימה.",
+     "caveat_he": "ערוץ עם אינטרס מסחרי חזק (קורסים, ליווי בתשלום וספרים), והוא מקדם תיאוריה אישית; להשתמש כהקשר ולא כהנחיה לאבחון."
+    }
+   ],
+   "tags": [
+    "osa",
+    "sleep_apnea",
+    "men",
+    "snoring",
+    "screening",
+    "referral"
+   ]
+  },
+  {
+   "id": "nocturia_prostate_sleep",
+   "title_he": "למה קימות לשירותים בלילה הן יותר מעניין של שתייה בערב?",
+   "summary_he": "קימות בלילה כדי להטיל שתן נקשרו לסיכוי גבוה פי 3 בערך לאיכות שינה ירודה, ובמחקרים תצפיתיים גם לתמותה גבוהה יותר, כנראה כסמן למצבים רפואיים אחרים ולא כגורם ישיר. דום נשימה בשינה נקשר לסיכון גבוה ב-41% לקימות לילה (אצל גברים כ-49%), ובמטא-אנליזה טיפול ב-CPAP הפחית את מספר הקימות ואת נפח השתן בלילה. אם הקימות הופכות לדפוס קבוע שמפריע לשינה, כדאי לבדוק עם רופא.ה את הגורמים האפשריים, כמו שתייה, אלכוהול וקפאין בערב, דום נשימה, הערמונית ואיזון הסוכר, בלי לנחש לבד מה הגורם.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על מטא-אנליזות של מחקרים תצפיתיים ועל מטא-אנליזה קטנה של טיפול ב-CPAP; המגבלה: רוב הקשרים תצפיתיים, ולא נאספו כאן נתונים מאומתים על תרומת הערמונית.",
+   "applies_to_he": "המחקרים כללו גברים ונשים בגילים שונים, ונתוני שכיחות ספציפיים לגילי 40 עד 49 לא חולצו, כך שההתאמה לגבר בן 47 כללית.",
+   "not_mean_he": "זה לא אומר שקימה אחת בלילה היא בעיה, כי היא שכיחה כבר בגיל צעיר; מה שחשוב הוא דפוס קבוע שמפריע לשינה.",
+   "hooks_he": [
+    "במטא-אנליזה, קימות לילה לשירותים נקשרו לסיכוי גבוה פי 3 לאיכות שינה ירודה.",
+    "כבר אצל גברים בני 20 עד 40, בין 11% ל-35% מדווחים על קימה אחת לפחות בלילה לשירותים.",
+    "אצל אנשים עם דום נשימה, טיפול ב-CPAP הפחית גם את מספר הקימות לשירותים וגם את כמות השתן בלילה."
+   ],
+   "rule_ids": [
+    "R-DX-1"
+   ],
+   "sources": [
+    {
+     "id": "lavadia_2026",
+     "title": "Nocturia, Sleep Quality, and Mortality: A Systematic Review and Meta-Analysis.",
+     "authors_short": "Lavadia AC et al.",
+     "venue": "World J Mens Health",
+     "year": 2026,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40263960/",
+     "pmid": "40263960",
+     "doi": "10.5534/wjmh.240237",
+     "key_finding_en": "Nocturia was associated with mortality (pooled RR 1.78, 95% CI 1.50-2.10) and poor sleep quality (pooled OR 3.05, 95% CI 1.89-4.93).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "zhou_2020",
+     "title": "Association between obstructive sleep apnea syndrome and nocturia: a meta-analysis.",
+     "authors_short": "Zhou J et al.",
+     "venue": "Sleep Breath",
+     "year": 2020,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31907825/",
+     "pmid": "31907825",
+     "doi": "10.1007/s11325-019-01981-6",
+     "key_finding_en": "OSA was associated with increased risk of nocturia (RR 1.41, 95% CI 1.26-1.59), with a significant association in men (RR 1.487).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "wang_2015",
+     "title": "The Efficacy of Continuous Positive Airway Pressure Therapy on Nocturia in Patients With Obstructive Sleep Apnea: A Systematic Review and Meta-Analysis.",
+     "authors_short": "Wang T et al.",
+     "venue": "Int Neurourol J",
+     "year": 2015,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26620900/",
+     "pmid": "26620900",
+     "doi": "10.5213/inj.2015.19.3.178",
+     "key_finding_en": "In patients with OSA and nocturia, CPAP significantly decreased the frequency of nocturia and the associated urine volume.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "bosch_2010",
+     "title": "The prevalence and causes of nocturia.",
+     "authors_short": "Bosch JL, Weiss JP",
+     "venue": "J Urol",
+     "year": 2010,
+     "design": "systematic-review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20620395/",
+     "pmid": "20620395",
+     "doi": "10.1016/j.juro.2010.04.011",
+     "key_finding_en": "In younger men (20 to 40 years), 11% to 35.2% reported 1 or more nightly voids and 2% to 16.6% reported 2 or more.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Sleep Unplugged #167 - Frequent Nighttime Urination: All Through The Night",
+     "channel": "Sleep Unplugged with Dr. Chris Winter",
+     "url": "https://www.youtube.com/watch?v=0TO0HrWj5oU",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "ד״ר כריס וינטר, נוירולוג ומומחה שינה, מסביר שלעיתים קמים קודם ורק אז מרגישים צורך, ושקימות לילה יכולות להיות סימן לדום נשימה.",
+     "caveat_he": "בסוף הפרק מקודמים ספרים שלו, ונושא הערמונית מקבל בו מעט מקום."
+    },
+    {
+     "title": "ערמונית מוגדלת והפרעות במתן שתן: טיפול תרופתי או ניתוח?",
+     "channel": "ynet",
+     "url": "https://www.youtube.com/watch?v=KcjewrJxCUY",
+     "lang": "he",
+     "tier": "A",
+     "note_he": "פרופ' ז'ק בניאל, מנהל מחלקת אורולוגיה ברבין, מסביר על הגדלת ערמונית, כולל קימות בלילה, ועל אפשרויות הטיפול."
+    },
+    {
+     "title": "Is your nocturnal urinary frequency normal? | Peter Attia & Ted Schaeffer",
+     "channel": "Peter Attia MD",
+     "url": "https://www.youtube.com/watch?v=WTuPdFbGQ1w",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "האורולוג טד שייפר מסביר צעדים ראשונים (תזמון שתייה, קפאין ואלכוהול), יומן השתנה ודום נשימה כגורם לקימות לילה.",
+     "caveat_he": "למנחה פיטר עטיה יש מיזמים מסחריים, והמספרים שנאמרים על מה נחשב תקין הם אנקדוטליים."
+    }
+   ],
+   "tags": [
+    "nocturia",
+    "prostate",
+    "osa",
+    "men",
+    "sleep_fragmentation"
+   ]
+  },
+  {
+   "id": "ferritin_and_restless_legs",
+   "title_he": "למה בודקים ברזל (פריטין) כשיש תחושת אי שקט ברגליים בערב?",
+   "summary_he": "תסמונת הרגליים חסרות המנוחה (RLS) מתבטאת בדחף להזיז את הרגליים בערב ובמנוחה, שמשתפר בתנועה, והיא קשורה למאגרי ברזל נמוכים. לפי הנחיית AASM מ-2025, כשיש RLS משמעותית בודקים פריטין ורוויית טרנספרין, רצוי בבוקר ובלי תוספי ברזל או מזון עשיר בברזל ביממה שלפני, והסף שבו שוקלים טיפול בברזל הוא פריטין של 75 ng/mL ומטה או רוויה מתחת ל-20%, ספים שונים מאלה שמקובלים לאוכלוסייה הכללית. ההנחיה ממליצה להתחיל בטיפול בגורמים שמחמירים את התסמונת, כמו אלכוהול, קפאין, חלק מהתרופות (למשל אנטיהיסטמינים) ודום נשימה לא מטופל. הפירוש של הערכים והטיפול נקבעים עם רופא.ה: לא נוטלים ברזל על דעת עצמנו, וערך שמסומן כנמוך בדוח המעבדה הוא סיבה לשיחה עם רופא.ה.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על הנחיית AASM מ-2025 שנבנתה בשיטת GRADE; המגבלה: סף הפריטין הוא הסכמת מומחים שלא נבדקה אמפירית, והוא רלוונטי רק כשיש תסמיני RLS.",
+   "applies_to_he": "ההנחיה חלה על מבוגרים עם RLS משמעותית, ומחקר האוכלוסייה על תנועות רגליים בשינה כלל גברים ונשים בגיל ממוצע 58, כך שלגבר בן 47 בלי תסמינים הערכים האלה פחות רלוונטיים.",
+   "not_mean_he": "זה לא אומר שכדאי ליטול ברזל כדי לישון טוב יותר, או שכל תנועת רגליים בשינה היא RLS; את זה בודקים עם רופא.ה.",
+   "hooks_he": [
+    "בהנחיית AASM, סף הפריטין לשקילת טיפול בברזל ב-RLS הוא 75 ng/mL, והמחברים מדגישים שהוא שונה מהסף שמקובל לאוכלוסייה הכללית.",
+    "במחקר אוכלוסייה בשוויץ, ל-28.6% היו תנועות רגליים תכופות בשינה, ורמות הפריטין היו דומות אצל מי שהיו להם ומי שלא.",
+    "פריטין עולה גם בזמן דלקת וזיהום, ולכן את התוצאה שלו מפרשים בהקשר ולא לבד."
+   ],
+   "rule_ids": [
+    "R-LAB-1",
+    "R-DX-1",
+    "R-MED-3"
+   ],
+   "sources": [
+    {
+     "id": "winkelman_2025",
+     "title": "Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline.",
+     "authors_short": "Winkelman JW et al.",
+     "venue": "J Clin Sleep Med",
+     "year": 2025,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/",
+     "pmid": "39324694",
+     "doi": "10.5664/jcsm.11390",
+     "key_finding_en": "In clinically significant RLS, test ferritin and transferrin saturation in the morning without iron-containing supplements or foods for 24 hours; consensus suggests iron if ferritin is 75 ng/mL or less or saturation below 20%; first address exacerbating factors such as alcohol, caffeine, antihistaminergic medications and untreated OSA.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "haba_rubio_2016",
+     "title": "Prevalence and determinants of periodic limb movements in the general population.",
+     "authors_short": "Haba-Rubio J et al.",
+     "venue": "Ann Neurol",
+     "year": 2016,
+     "design": "cross-sectional",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26703954/",
+     "pmid": "26703954",
+     "doi": "10.1002/ana.24593",
+     "key_finding_en": "Periodic limb movements above 15/h were found in 28.6% of the general population (31.3% of men); mean hemoglobin and ferritin levels were similar in those with and without them.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "garcia_casal_2021",
+     "title": "Serum or plasma ferritin concentration as an index of iron deficiency and overload.",
+     "authors_short": "Garcia-Casal MN et al.",
+     "venue": "Cochrane Database Syst Rev",
+     "year": 2021,
+     "design": "systematic-review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34028001/",
+     "pmid": "34028001",
+     "doi": "10.1002/14651858.CD011817.pub2",
+     "key_finding_en": "Ferritin is an acute-phase protein whose levels rise in inflammation and infection; proposed diagnostic thresholds varied widely between studies.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [],
+   "tags": [
+    "rls",
+    "restless_legs",
+    "ferritin",
+    "iron",
+    "labs",
+    "guideline"
+   ]
+  },
+  {
+   "id": "post_meal_walk",
+   "title_he": "למה הליכה קלה אחרי ארוחה עוזרת לסוכר, ולמה היא לא מפריעה לשינה?",
+   "summary_he": "במטא-אנליזה של ניסויים קצרים, פעילות גופנית (בעיקר הליכה) אחרי הארוחה הקטינה את עליית הסוכר שאחרי האוכל יותר מאותה פעילות לפני הארוחה או מישיבה, וההשפעה הייתה גדולה יותר ככל שהפעילות התחילה מוקדם יותר אחרי האוכל. גם הפסקות קצרות של הליכה קלה בזמן ישיבה ממושכת הקטינו את עליית הסוכר והאינסולין, יותר מהפסקות של עמידה. מבחינת שינה, בסקירה של 23 מחקרים פעילות גופנית בערב לא פגעה בשינה, והחשש הוא בעיקר ממאמץ עצים שמסתיים עד שעה לפני השינה, כך שהליכה רגועה אחרי ארוחת הערב לא אמורה להפריע. אלה ניסויים קצרים שמדדו סוכר ולא שינה, בעיקר באנשים עם עודף משקל או סבילות לקויה לסוכר, ולכן גודל ההשפעה אצל גבר רזה לא ידוע.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על שתי מטא-אנליזות של ניסויים מבוקרים קצרי טווח ועל מטא-אנליזה של פעילות בערב; המגבלה: נמדד רק הסוכר בשעות שאחרי הארוחה, לא השפעה ארוכת טווח, ולא נמדדה שינה אחרי הליכה.",
+   "applies_to_he": "הניסויים כללו אנשים בריאים, אנשים עם סבילות לקויה לסוכר ואנשים עם עודף משקל, קרוב למצב של טרום סוכרת אבל לא לגבר רזה ומתאמן בן 47.",
+   "not_mean_he": "זה לא אומר שהליכה אחרי ארוחה מחליפה טיפול או מאזנת לבדה טרום סוכרת; זה הרגל פשוט שמקטין את עליית הסוכר אחרי האוכל.",
+   "hooks_he": [
+    "פעילות גופנית אחרי ארוחה הקטינה את עליית הסוכר יותר מאותה פעילות לפני הארוחה, שלא הייתה טובה מישיבה.",
+    "ככל שהתחילו ללכת מוקדם יותר אחרי האוכל, כך ההשפעה על הסוכר הייתה גדולה יותר.",
+    "בסקירה של 23 מחקרים, פעילות גופנית בערב לא פגעה בשינה, ואפילו הוסיפה מעט שינה עמוקה."
+   ],
+   "rule_ids": [
+    "R-EX-GLU",
+    "R-EX-OK"
+   ],
+   "sources": [
+    {
+     "id": "engeroff_2023",
+     "title": "After Dinner Rest a While, After Supper Walk a Mile? A Systematic Review with Meta-analysis on the Acute Postprandial Glycemic Response to Exercise Before and After Meal Ingestion in Healthy Subjects and Patients with Impaired Glucose Tolerance.",
+     "authors_short": "Engeroff T et al.",
+     "venue": "Sports Med",
+     "year": 2023,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36715875/",
+     "pmid": "36715875",
+     "doi": "10.1007/s40279-022-01808-7",
+     "key_finding_en": "Post-meal exercise reduced postprandial glucose excursions more than pre-meal exercise (SMD 0.47) and an inactive control (SMD 0.55), with larger benefit the sooner it started after the meal; pre-meal exercise did not beat control.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "buffey_2022",
+     "title": "The Acute Effects of Interrupting Prolonged Sitting Time in Adults with Standing and Light-Intensity Walking on Biomarkers of Cardiometabolic Health in Adults: A Systematic Review and Meta-analysis.",
+     "authors_short": "Buffey AJ et al.",
+     "venue": "Sports Med",
+     "year": 2022,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35147898/",
+     "pmid": "35147898",
+     "doi": "10.1007/s40279-022-01649-4",
+     "key_finding_en": "Interrupting prolonged sitting with light-intensity walking attenuated postprandial glucose (d=-0.72) and insulin (d=-0.83) versus continuous sitting, more than standing breaks did.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "stutz_2019",
+     "title": "Effects of Evening Exercise on Sleep in Healthy Participants: A Systematic Review and Meta-Analysis.",
+     "authors_short": "Stutz J et al.",
+     "venue": "Sports Med",
+     "year": 2019,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30374942/",
+     "pmid": "30374942",
+     "doi": "10.1007/s40279-018-1015-0",
+     "key_finding_en": "Across 23 studies, evening exercise did not impair sleep and slightly increased slow-wave sleep; sleep onset, total sleep time and efficiency might be impaired only after vigorous exercise ending within 1 h of bedtime.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Walk or Squat After Eating? What Actually Lowers Blood Sugar",
+     "channel": "Sean Hashmi, MD",
+     "url": "https://www.youtube.com/watch?v=QdxlFMJGwYw",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "ד״ר שון השמי, נפרולוג ומומחה לרפואת השמנה, עובר על המחקרים (כולל Engeroff 2023) ומסביר למה הליכה קצרה מיד אחרי האוכל עדיפה על הליכה לפניו.",
+     "caveat_he": "ערוץ עם מנויים וניוזלטר; רוב המחקרים שמוצגים נעשו באנשים עם סוכרת סוג 2 או במבוגרים בסיכון."
+    }
+   ],
+   "tags": [
+    "walking",
+    "glucose",
+    "prediabetes",
+    "exercise_timing",
+    "evening"
+   ]
+  },
+  {
+   "id": "time_restricted_eating_sleep",
+   "title_he": "למה חלון אכילה מצומצם הוא לא כלי לשיפור השינה, ומה כן חשוב בו?",
+   "summary_he": "במטא-אנליזה של 51 מחקרים, צמצום חלון האכילה פגע מעט בשינה בעיקר בגלל מחקרי צום הרמדאן, ובמחקרים שלא עסקו ברמדאן זמן השינה אף עלה ומדד איכות השינה לא השתנה. גם בסקירה של 11 מחקרים וגם במטא-אנליזה של 18 ניסויים מבוקרים באנשים עם עודף משקל, רוב המחקרים לא מצאו השפעה על השינה, למרות ירידה במשקל. מה שכן נראה חשוב הוא התזמון: בניסוי אקראי, הארכת צום הלילה בשלוש שעות, עם ארוחה אחרונה לפחות שלוש שעות לפני השינה, שיפרה את ירידת לחץ הדם בלילה ואת תגובת הסוכר, ובניסוי בגברים עם טרום סוכרת, אכילה בחלון מוקדם שהסתיים לפני 15:00 שיפרה את הרגישות לאינסולין גם בלי ירידה במשקל. רוב המחקרים נעשו על אנשים עם עודף משקל, ולכן אצל גבר רזה ומתאמן לא ידוע אם חלון צפוף מועיל, וכל שינוי כזה כדאי לתאם עם הרופא.ה ולשמור על ארוחת ערב שמסתיימת כשלוש שעות לפני השינה.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על מטא-אנליזות, סקירות שיטתיות וניסויים אקראיים; המגבלה: מדידות השינה במחקרים לא אחידות ורובן סובייקטיביות, ורוב המשתתפים היו עם עודף משקל.",
+   "applies_to_he": "רוב המשתתפים היו עם עודף משקל, וניסוי החלון המוקדם נעשה בגברים עם טרום סוכרת, כך שההתאמה לגבר רזה בן 47 חלקית.",
+   "not_mean_he": "זה לא אומר שחלון אכילה מזיק לשינה או שצריך לצום; פשוט אין סיבה לצפות שהוא ישפר את השינה.",
+   "hooks_he": [
+    "במחקרים שלא עסקו ברמדאן, חלון אכילה מצומצם דווקא נקשר לזמן שינה ארוך יותר.",
+    "הארכת צום הלילה בשלוש שעות, בהתאם לשעת השינה, שיפרה את ירידת לחץ הדם בלילה בניסוי אקראי.",
+    "בגברים עם טרום סוכרת, אכילה בחלון של 6 שעות שהסתיים לפני 15:00 שיפרה את הרגישות לאינסולין גם בלי ירידה במשקל."
+   ],
+   "rule_ids": [
+    "R-MEAL-GAP"
+   ],
+   "sources": [
+    {
+     "id": "lima_2025",
+     "title": "Effects of time restricted feeding on sleep: A systematic review and meta-analysis.",
+     "authors_short": "Lima GS et al.",
+     "venue": "Chronobiol Int",
+     "year": 2025,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41208478/",
+     "pmid": "41208478",
+     "doi": "10.1080/07420528.2025.2577859",
+     "key_finding_en": "Across 51 articles, time-restricted feeding overall reduced self-reported sleep time and worsened PSQI, driven by Ramadan fasting; non-Ramadan studies showed increased total sleep time and no PSQI difference.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "de_sousa_2025",
+     "title": "Effect of Time-Restricted Eating on Sleep Quality and Body Composition: A Systematic Review.",
+     "authors_short": "de Sousa BA et al.",
+     "venue": "Nutr Rev",
+     "year": 2025,
+     "design": "systematic-review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40257510/",
+     "pmid": "40257510",
+     "doi": "10.1093/nutrit/nuaf039",
+     "key_finding_en": "In 11 studies, time-restricted eating produced weight and fat loss, but most studies found no effect on sleep parameters and none observed objective changes in sleep duration.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "yong_2025",
+     "title": "The effects of intermittent fasting on sleep quality and cardiometabolic health outcomes in adults with overweight/obesity status: a systematic review and meta-analysis of randomized controlled trials.",
+     "authors_short": "Yong YN et al.",
+     "venue": "Sleep Med Rev",
+     "year": 2025,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41202521/",
+     "pmid": "41202521",
+     "doi": "10.1016/j.smrv.2025.102193",
+     "key_finding_en": "In 18 RCTs in adults with overweight or obesity, intermittent fasting had no overall effect on sleep compared with ad libitum eating.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "grimaldi_2026",
+     "title": "Sleep-Aligned Extended Overnight Fasting Improves Nighttime and Daytime Cardiometabolic Function.",
+     "authors_short": "Grimaldi D et al.",
+     "venue": "Arterioscler Thromb Vasc Biol",
+     "year": 2026,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41674465/",
+     "pmid": "41674465",
+     "doi": "10.1161/ATVBAHA.125.323355",
+     "key_finding_en": "In 39 adults aged 36-75 with overweight or obesity, extending the overnight fast by 3 h (last meal at least 3 h before sleep) improved nighttime diastolic blood pressure dipping, nighttime autonomic function and glucose regulation versus control.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "sutton_2018",
+     "title": "Early Time-Restricted Feeding Improves Insulin Sensitivity, Blood Pressure, and Oxidative Stress Even without Weight Loss in Men with Prediabetes.",
+     "authors_short": "Sutton EF et al.",
+     "venue": "Cell Metab",
+     "year": 2018,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29754952/",
+     "pmid": "29754952",
+     "doi": "10.1016/j.cmet.2018.04.010",
+     "key_finding_en": "In men with prediabetes, a 6-hour early feeding window with dinner before 3 pm improved insulin sensitivity, beta-cell responsiveness and blood pressure without weight loss.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "How optimizing circadian rhythms can increase healthy years | Satchin Panda | TEDxBoston",
+     "channel": "TEDx Talks",
+     "url": "https://www.youtube.com/watch?v=fciGNBN0nKM",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "סצ'ין פנדה ממכון סאלק, מחוקרי חלון האכילה המובילים, מציג כללים לשעון הביולוגי: שעות שינה קבועות, חלון אכילה קבוע ולא לאכול שעתיים עד שלוש לפני השינה.",
+     "caveat_he": "ניסוח נלהב, ו-TED סימן הרצאה חדשה יותר שלו כמכילה טענות שדורשות מחקר נוסף; הראיות לכך שחלון אכילה משפר שינה מוגבלות."
+    },
+    {
+     "title": "השעון הביולוגי שלנו - איך חיים, אוכלים ומתאמנים לפי השעון הביולוגי, ועוד על המנגנון הגאוני הזה",
+     "channel": "TAUVOD",
+     "url": "https://www.youtube.com/watch?v=xwtaZYe1WcM",
+     "lang": "he",
+     "tier": "A",
+     "note_he": "ד״ר יערית אדמוביץ'-תמם, חוקרת השעון הביולוגי במכון ויצמן, בפודקאסט של אוניברסיטת תל אביב: אוכל הוא אות לשעון של האיברים, והיתרונות של חלון אכילה נראים בעיקר כשהוא מוקדם ביום (בערך דקות 31 עד 34)."
+    },
+    {
+     "title": "Best Diet & Time to Eat for Increasing Deep Sleep | Dr. Marie-Pierre St-Onge & Dr. Andrew Huberman",
+     "channel": "Huberman Lab Clips",
+     "url": "https://www.youtube.com/watch?v=LcVh5MRlqP4",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "פרופ' מארי-פייר סנט-אונג' מאוניברסיטת קולומביה על תזונה ושינה עמוקה, ועל כך שהיא מפסיקה לאכול כשלוש שעות לפני השינה (מדקה 10:45).",
+     "caveat_he": "ערוץ עם חסויות ומנויים, ורוב הקטע עוסק במה אוכלים ולא בחלון האכילה."
+    }
+   ],
+   "tags": [
+    "time_restricted_eating",
+    "fasting",
+    "meal_timing",
+    "prediabetes",
+    "glucose"
+   ]
+  },
+  {
+   "id": "lifting_and_sleep_quality",
+   "title_he": "למה אימוני כוח טובים לשינה, ומתי עדיף לסיים אותם?",
+   "summary_he": "סקירת-על מצאה ראיות חזקות לכך שפעילות גופנית, גם אימון בודד וגם פעילות סדירה, משפרת את השינה, וסקירה של 13 ניסויים מבוקרים מצאה שאימוני כוח קבועים משפרים את כל היבטי השינה, ובמיוחד את איכותה. בניסוי קטן בצעירים, אימון כוח בכל שעה ביום, גם ב-19:00, לווה בפחות יקיצות בלילה לעומת יום בלי אימון. בנתונים תצפיתיים מצמידים של כ-14,700 אנשים פעילים, אימון עצים שהסתיים פחות מארבע שעות לפני השינה נקשר להירדמות מאוחרת יותר, דופק לילה גבוה יותר ו-HRV נמוך יותר, ואימון שהסתיים ארבע שעות ומעלה לפני השינה לא נקשר לשינוי. רוב הניסויים גייסו אנשים לא פעילים, ולכן אצל מי שכבר מתאמנים 4 פעמים בשבוע לא ידוע כמה עוד אימונים יוסיפו לשינה; המטרה היא להמשיך, ולכוון אימונים קשים לסיום מוקדם יותר כשאפשר.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על סקירת-על, סקירה שיטתית של ניסויים מבוקרים ומחקר צמידים גדול; המגבלה: רוב הניסויים באנשים לא פעילים, ונתוני התזמון תצפיתיים ומבוססים על מדד מאמץ לבבי שעלול להמעיט במאמץ של אימון כוח.",
+   "applies_to_he": "הניסויים כללו בעיקר אנשים לא פעילים, ומחקר הצמידים כלל אנשים פעילים בגיל ממוצע 38, רובם גברים, כך שההתאמה לגבר מתאמן בן 47 סבירה אבל לא מלאה.",
+   "not_mean_he": "זה לא אומר שאסור להתאמן בערב; פעילות בערב לא נמצאה מזיקה באופן כללי, והשאלה היא בעיקר עצימות וקרבה לשעת השינה.",
+   "hooks_he": [
+    "בניסוי קטן, אימון כוח ב-7:00, ב-13:00 או ב-19:00 לווה בפחות יקיצות בלילה לעומת יום בלי אימון.",
+    "אימון במאמץ מקסימלי שהסתיים שעתיים לפני השינה נקשר להירדמות מאוחרת בכ-36 דקות לעומת אימון קל.",
+    "לפי סקירת-על, יש ראיות חזקות שגם אימון בודד וגם פעילות קבועה משפרים את השינה."
+   ],
+   "rule_ids": [
+    "R-EX-LATE",
+    "R-EX-OK"
+   ],
+   "sources": [
+    {
+     "id": "kline_2021",
+     "title": "Physical activity and sleep: An updated umbrella review of the 2018 Physical Activity Guidelines Advisory Committee report.",
+     "authors_short": "Kline CE et al.",
+     "venue": "Sleep Med Rev",
+     "year": 2021,
+     "design": "systematic-review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33934046/",
+     "pmid": "33934046",
+     "doi": "10.1016/j.smrv.2021.101489",
+     "key_finding_en": "Umbrella review: strong evidence that both acute bouts and regular physical activity improve sleep outcomes; moderate evidence for adults with insomnia symptoms and for longer bouts.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "kovacevic_2018",
+     "title": "The effect of resistance exercise on sleep: A systematic review of randomized controlled trials.",
+     "authors_short": "Kovacevic A et al.",
+     "venue": "Sleep Med Rev",
+     "year": 2018,
+     "design": "systematic-review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28919335/",
+     "pmid": "28919335",
+     "doi": "10.1016/j.smrv.2017.07.002",
+     "key_finding_en": "Across 13 RCTs, chronic resistance exercise improved all aspects of sleep, with the greatest benefit for sleep quality; benefits were attenuated when combined with aerobic exercise.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "alley_2015",
+     "title": "Effects of resistance exercise timing on sleep architecture and nocturnal blood pressure.",
+     "authors_short": "Alley JR et al.",
+     "venue": "J Strength Cond Res",
+     "year": 2015,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25426516/",
+     "pmid": "25426516",
+     "doi": "10.1519/JSC.0000000000000750",
+     "key_finding_en": "In college-aged subjects, 30 minutes of resistance exercise at 07:00, 13:00 or 19:00 all led to fewer awakenings than a no-exercise day; timing did not affect sleep stages or nocturnal blood pressure.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "leota_2025",
+     "title": "Dose-response relationship between evening exercise and sleep.",
+     "authors_short": "Leota J et al.",
+     "venue": "Nat Commun",
+     "year": 2025,
+     "design": "cohort",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40234380/",
+     "pmid": "40234380",
+     "doi": "10.1038/s41467-025-58271-x",
+     "key_finding_en": "In 14,689 active wearable users (4 million nights), later and harder exercise was associated with later sleep onset, shorter sleep, higher nocturnal heart rate and lower HRV; bouts ending at least 4 h before sleep onset were not associated with sleep changes.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Sleep Unplugged #80 - Weight Training and Sleep: Keep on Lifting",
+     "channel": "Sleep Unplugged with Dr. Chris Winter",
+     "url": "https://www.youtube.com/watch?v=wAVYri_mWmM",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "ד״ר כריס וינטר סוקר ניסויים על אימוני משקולות ושינה, כולל ניסוי שבו אימוני כוח שיפרו את איכות השינה ומצב הרוח (בערך דקות 15 עד 24).",
+     "caveat_he": "מציע שפעילות גופנית יכולה להחליף CPAP בדום נשימה קל, טענה שאין להכליל, ומקדם בפרק את ספריו."
+    },
+    {
+     "title": "Exercise, Sleep, and Mental Health: Evidence and Implications for Practice | ADAA Sleep SIG",
+     "channel": "ADAA_Anxiety",
+     "url": "https://www.youtube.com/watch?v=ccs4PvcdZ-M",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "ד״ר קריסטין שוהאני, חברה בקבוצת השינה של ADAA, סוקרת מטא-אנליזות על פעילות גופנית ושינה, כולל עצימות ותזמון (בערך דקות 21 עד 24); מיועד לאנשי מקצוע."
+    },
+    {
+     "title": "השעון הביולוגי שלנו - איך חיים, אוכלים ומתאמנים לפי השעון הביולוגי, ועוד על המנגנון הגאוני הזה",
+     "channel": "TAUVOD",
+     "url": "https://www.youtube.com/watch?v=xwtaZYe1WcM",
+     "lang": "he",
+     "tier": "A",
+     "note_he": "ד״ר יערית אדמוביץ'-תמם, חוקרת השעון הביולוגי במכון ויצמן, בפודקאסט של אוניברסיטת תל אביב, על תזמון אימונים לפי השעון הביולוגי ועל אימון בשעות הערב (בערך דקות 35 עד 41).",
+     "caveat_he": "לא עוסק באימוני כוח, וכלל האצבע על תזמון אימונים נשען בעיקר על מחקרים בעכברים."
+    }
+   ],
+   "tags": [
+    "resistance_training",
+    "exercise",
+    "exercise_timing",
+    "sleep_quality"
+   ]
+  },
+  {
+   "id": "naps_rules",
+   "title_he": "למה נמנום קצר יכול לעזור, ונמנום ארוך הוא סימן שכדאי לבדוק?",
+   "summary_he": "במטא-אנליזה של ניסויים, נמנום קצר ביום שיפר ביצועים קוגניטיביים, ובמיוחד ערנות. לעומת זאת, בסקירה של 44 מחקרי עוקבה עם כ-1.9 מיליון משתתפים, נמנום של 30 דקות ומעלה נקשר לסיכון גבוה יותר לתמותה, למחלות לב ולמחלות מטבוליות, ונמנום של פחות מ-30 דקות לא נקשר לסיכון. גם נמנום של שעה ומעלה נקשר לסיכון גבוה יותר לסוכרת סוג 2 ולמחלות לב, אבל אלה קשרים תצפיתיים, וייתכן שחלקם משקפים שינה לילית לא טובה או מחלה שגורמת לנמנם, ולא נזק מהנמנום עצמו. לכן אם מנמנמים, עדיף נמנום קצר של עד חצי שעה, ונמנומים ארוכים וקבועים הם סיבה לבדוק מה קורה בשינת הלילה, כולל אפשרות של דום נשימה.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על מטא-אנליזות של מחקרי עוקבה ועל מטא-אנליזה של ניסויי נמנום; המגבלה: הקשר בין נמנום ארוך למחלות תצפיתי ויכול לנבוע מסיבתיות הפוכה.",
+   "applies_to_he": "מחקרי העוקבה כללו אנשים בני 20 עד 86 (גיל ממוצע 56), כך שהם כוללים את קבוצת הגיל של גבר בן 47.",
+   "not_mean_he": "זה לא אומר שנמנום ארוך גורם למחלות, וגם לא שצריך להתחיל לנמנם; השעה האחרונה המתאימה לנמנום לא נקבעה במחקרים שנאספו כאן.",
+   "hooks_he": [
+    "בסקירה של 44 מחקרים עם כ-1.9 מיליון איש, נמנום של פחות מ-30 דקות לא נקשר לסיכון בריאותי.",
+    "בניתוח של מחקרים על נמנום וסוכרת, לא נמצאה השפעה עד כ-40 דקות ביום, ומעבר לזה הסיכון עלה בחדות.",
+    "נמנום קצר שיפר ערנות וביצועים קוגניטיביים במטא-אנליזה של ניסויים."
+   ],
+   "rule_ids": [
+    "R-NAP",
+    "R-DX-1"
+   ],
+   "sources": [
+    {
+     "id": "dutheil_2021",
+     "title": "Effects of a Short Daytime Nap on the Cognitive Performance: A Systematic Review and Meta-Analysis.",
+     "authors_short": "Dutheil F et al.",
+     "venue": "Int J Environ Res Public Health",
+     "year": 2021,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34639511/",
+     "pmid": "34639511",
+     "doi": "10.3390/ijerph181910212",
+     "key_finding_en": "A short daytime nap improved cognitive performance (effect size 0.18), especially alertness (0.29).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "yang_2024",
+     "title": "To nap or not? Evidence from a meta-analysis of cohort studies of habitual daytime napping and health outcomes.",
+     "authors_short": "Yang YB et al.",
+     "venue": "Sleep Med Rev",
+     "year": 2024,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39153335/",
+     "pmid": "39153335",
+     "doi": "10.1016/j.smrv.2024.101989",
+     "key_finding_en": "In 44 cohort studies (1,864,274 people aged 20-86), naps of 30 min or longer were associated with higher all-cause mortality, cardiovascular and metabolic disease risk, whereas naps under 30 min carried no significant risk.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "yamada_2016",
+     "title": "J-curve relation between daytime nap duration and type 2 diabetes or metabolic syndrome: A dose-response meta-analysis.",
+     "authors_short": "Yamada T et al.",
+     "venue": "Sci Rep",
+     "year": 2016,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27909305/",
+     "pmid": "27909305",
+     "doi": "10.1038/srep38075",
+     "key_finding_en": "A long nap (60 min/day or more) was associated with type 2 diabetes (OR 1.46); the dose-response was J-shaped, with no effect up to about 40 min/day and a sharp rise beyond.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "yamada_2015",
+     "title": "Daytime Napping and the Risk of Cardiovascular Disease and All-Cause Mortality: A Prospective Study and Dose-Response Meta-Analysis.",
+     "authors_short": "Yamada T et al.",
+     "venue": "Sleep",
+     "year": 2015,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26158892/",
+     "pmid": "26158892",
+     "doi": "10.5665/sleep.5246",
+     "key_finding_en": "Long daytime naps (60 min/day or more) were associated with higher cardiovascular disease risk (RR 1.82) and all-cause mortality (RR 1.27), while naps under 60 min/day were not.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Are naps actually good for us? | Sleeping with Science",
+     "channel": "TED",
+     "url": "https://www.youtube.com/watch?v=uEHu8LIZUKI",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "חוקר השינה מתיו ווקר מסביר בשתי דקות שנמנום ארוך או מאוחר מקטין את לחץ השינה בלילה, ולכן מי שמתקשים להירדם בלילה עדיף שיוותרו עליו.",
+     "caveat_he": "הדובר ספג ביקורת על הגזמות בטענות אחרות שלו, אבל העצה בקטע הזה מקובלת."
+    },
+    {
+     "title": "Sleep, Health, and Fitness (Episode 114)",
+     "channel": "Stronger By Science",
+     "url": "https://www.youtube.com/watch?v=Eh5fPcZDVX0",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "אריק טרקסלר מ-Stronger By Science על נמנום ועל נמנום עם קפאין אחרי לילה קצר, עם מקורות מ-PubMed; מספיק לצפות בפרקים שמתחילים ב-40:14 וב-41:54.",
+     "caveat_he": "פודקאסט עם חסויות מסחריות (אפליקציית תזונה וקוד הנחה לתוספים), ממוקד בספורטאים."
+    },
+    {
+     "title": "ד״ר עמית גרין, פסיכולוג ומומחה בטיפול בהפרעת שינה באסותא מרכזים רפואיים",
+     "channel": "אסותא מרכזים רפואיים",
+     "url": "https://www.youtube.com/watch?v=hdnWKSJ9Toc",
+     "lang": "he",
+     "tier": "B",
+     "note_he": "ד״ר עמית גרין, פסיכולוג ומומחה לטיפול בהפרעות שינה, מגיב על נמנום צהריים בכתבת טלוויזיה; התוכן אומת רק מהכותרת והתיאור.",
+     "caveat_he": "ערוץ של רשת בתי חולים פרטית, בפורמט של כתבת טלוויזיה קלילה."
+    }
+   ],
+   "tags": [
+    "naps",
+    "alertness",
+    "diabetes_risk",
+    "cardiovascular"
+   ]
+  },
+  {
+   "id": "chronotype_and_midlife",
+   "title_he": "למה שעון השינה הטבעי משתנה עם הגיל, ולמה לא חייבים להפוך לאנשי בוקר?",
+   "summary_he": "הכרונוטיפ, הנטייה הטבעית לישון ולקום מוקדם או מאוחר, תלוי בגנטיקה, בגיל, במין ובסביבה, כמו חשיפה לאור, ובנתוני צמידים מכל העולם שעות ההירדמות והיקיצה מוקדמות יותר ככל שמתבגרים. במחקר UK Biobank, אנשים עם כרונוטיפ ערבי מובהק היו בסיכון גבוה ב-16% למחלות לב וכלי דם (קשר תצפיתי), אבל 75% מהקשר הוסבר על ידי גורמי Life's Essential 8, כמו תזונה, פעילות, שינה, שומנים וסוכר. במחקר על אנשים עם טרום סוכרת, כרונוטיפ מאוחר יותר נקשר ל-HbA1c גבוה במעט (0.019 נקודות אחוז לכל שעה), קשר קטן ותצפיתי. לכן הדגש הוא על סדירות ועל הרגלי הבריאות ולא על הקדמת השינה בכוח; זמן בחוץ באור יום נקשר לכרונוטיפ מוקדם יותר, ואימוני בוקר הקדימו את שעת השינה בניסוי קטן.",
+   "strength": "moderate",
+   "strength_note_he": "נשען על מחקרי עוקבה גדולים ועל נתוני צמידים ממיליוני לילות; המגבלה: הממצאים תצפיתיים ברובם, והניסויים על אימוני בוקר קטנים ונעשו באנשים לא פעילים.",
+   "applies_to_he": "המשתתפים במחקר הלב היו בני 39 עד 74 ונתוני הצמידים כיסו גילאי 19 עד 67, כך שגבר בן 47 נמצא בתוך הטווח.",
+   "not_mean_he": "זה לא אומר שאנשי ערב נידונים למחלות לב או חייבים להשכים; רוב הקשר עובר דרך הרגלים שאפשר לשפר.",
+   "hooks_he": [
+    "במחקר על כ-323 אלף איש, 75% מהקשר בין כרונוטיפ ערבי למחלות לב הוסבר על ידי הרגלי בריאות.",
+    "בנתוני צמידים של כ-70 אלף איש מ-47 מדינות, שעות ההירדמות והיקיצה הוקדמו ככל שהגיל עלה.",
+    "כל שעה נוספת ביום בחוץ נקשרה לכרונוטיפ מוקדם יותר ולקימה קלה יותר בבוקר."
+   ],
+   "rule_ids": [
+    "R-SCHED",
+    "R-LIGHT"
+   ],
+   "sources": [
+    {
+     "id": "kianersi_2026",
+     "title": "Chronotype, Life's Essential 8, and Risk of Cardiovascular Disease: A Prospective Cohort Study in UK Biobank.",
+     "authors_short": "Kianersi S et al.",
+     "venue": "J Am Heart Assoc",
+     "year": 2026,
+     "design": "cohort",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41603783/",
+     "pmid": "41603783",
+     "doi": "10.1161/JAHA.125.044189",
+     "key_finding_en": "In 322,777 UK Biobank adults aged 39-74, a definite evening chronotype was associated with 79% higher prevalence of poor LE8 and higher CVD risk (HR 1.16) versus intermediate; LE8 explained 75% of the association.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "jonasdottir_2021",
+     "title": "Gender differences in nighttime sleep patterns and variability across the adult lifespan: a global-scale wearables study.",
+     "authors_short": "Jonasdottir SS et al.",
+     "venue": "Sleep",
+     "year": 2021,
+     "design": "cross-sectional",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32886772/",
+     "pmid": "32886772",
+     "doi": "10.1093/sleep/zsaa169",
+     "key_finding_en": "Across 11.14 million nights from 69,650 adults aged 19-67 in 47 countries, sleep duration decreased and sleep onset and offset advanced to become earlier with age.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "anothaisintawee_2017",
+     "title": "Later chronotype is associated with higher hemoglobin A1c in prediabetes patients.",
+     "authors_short": "Anothaisintawee T et al.",
+     "venue": "Chronobiol Int",
+     "year": 2017,
+     "design": "cross-sectional",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28128995/",
+     "pmid": "28128995",
+     "doi": "10.1080/07420528.2017.1279624",
+     "key_finding_en": "In adults with prediabetes, later chronotype was independently associated with higher HbA1c (B=0.019 per hour of later mid-sleep), while social jetlag was not.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "burns_2021",
+     "title": "Time spent in outdoor light is associated with mood, sleep, and circadian rhythm-related outcomes: A cross-sectional and longitudinal study in over 400,000 UK Biobank participants.",
+     "authors_short": "Burns AC et al.",
+     "venue": "J Affect Disord",
+     "year": 2021,
+     "design": "cohort",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34488088/",
+     "pmid": "34488088",
+     "doi": "10.1016/j.jad.2021.08.056",
+     "key_finding_en": "Each additional hour of daily outdoor light was associated with greater ease of getting up (OR 1.46-1.49), fewer insomnia symptoms (OR 0.94-0.97) and earlier chronotype (OR 0.75-0.77).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "saidi_2021",
+     "title": "Effect of morning versus evening exercise training on sleep, physical activity, fitness, fatigue and quality of life in overweight and obese adults.",
+     "authors_short": "Saidi O et al.",
+     "venue": "Chronobiol Int",
+     "year": 2021,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34128447/",
+     "pmid": "34128447",
+     "doi": "10.1080/07420528.2021.1935988",
+     "key_finding_en": "In 36 overweight or obese adults, 12 weeks of morning training advanced bedtime and mid-sleep while early-evening training delayed them; both improved subjective sleep quality.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Can you change your sleep schedule?",
+     "channel": "TED-Ed",
+     "url": "https://www.youtube.com/watch?v=Amkg1cdDCpM",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "אנימציה של TED-Ed בייעוץ ד״ר ג'יימי צייטצר: רוב האנשים באמצע בין ציפור בוקר לינשוף, התזמון משתנה עם הגיל, ומה שבשליטתנו הוא עקביות ואור בוקר."
+    },
+    {
+     "title": "Sleep and Aging - Yale Medicine Explains",
+     "channel": "Yale Medicine",
+     "url": "https://www.youtube.com/watch?v=1RE08qza9es",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "ד״ר בריאן מיינר מ-Yale מסבירה שצורך השינה נשאר 7 עד 9 שעות, ושעם הגיל נוטים לישון ולקום מוקדם יותר."
+    },
+    {
+     "title": "השעון הביולוגי שלנו - איך חיים, אוכלים ומתאמנים לפי השעון הביולוגי, ועוד על המנגנון הגאוני הזה",
+     "channel": "TAUVOD",
+     "url": "https://www.youtube.com/watch?v=xwtaZYe1WcM",
+     "lang": "he",
+     "tier": "A",
+     "note_he": "ד״ר יערית אדמוביץ'-תמם, חוקרת השעון הביולוגי במכון ויצמן, בפודקאסט של אוניברסיטת תל אביב, על כרונוטיפ שמשתנה לאורך החיים, על ג'טלג חברתי ועל הבדלים בין גברים לנשים (בערך דקות 22 עד 26)."
+    }
+   ],
+   "tags": [
+    "chronotype",
+    "circadian",
+    "midlife",
+    "light",
+    "cardiovascular"
+   ]
+  },
+  {
+   "id": "stress_breathing_wind_down",
+   "title_he": "למה נשימות והרפיה לפני השינה הן כלי נחמד, אבל לא פתרון מוכח?",
+   "summary_he": "בסקירה של 18 ניסויים, מיינדפולנס שיפר את איכות השינה לעומת קבוצות ביקורת כלליות, אבל לא היה טוב יותר מטיפולים פעילים מבוססים לשינה. בניסוי פיילוט, 30 דקות של נשימה איטית לפני השינה העלו את ה-HRV באופן מיידי, אבל לא היו להן השפעות חזקות על איכות השינה, וגם הראיות על יוגה נידרה הן בוודאות נמוכה מאוד. לעומת זאת, מקלחת או אמבטיה חמה (40 עד 42.5 מעלות) של 10 דקות לפחות, שעה עד שעתיים לפני השינה, קיצרה את זמן ההירדמות במטא-אנליזה, אם כי מספר המחקרים קטן. לכן אפשר להשתמש בטכניקות הרגעה כשיש מתח לפני השינה, בלי לצפות לשיפור גדול, וכשקשיי השינה נמשכים, הטיפול המבוסס הוא CBT-I, שבו הרפיה היא רק רכיב אחד.",
+   "strength": "limited",
+   "strength_note_he": "נשען על מטא-אנליזות קטנות ועל ניסוי פיילוט; המגבלה: מעט משתתפים, קבוצות ביקורת שונות, ובחלק מהתחומים ודאות נמוכה מאוד.",
+   "applies_to_he": "המחקרים כללו מבוגרים בגילים שונים, חלקם עם בעיות שינה, ולא נמצאו מחקרים ייעודיים לגברים בני 45 עד 50.",
+   "not_mean_he": "זה לא אומר שנשימות או מיינדפולנס לא שווים דבר; הם יכולים להרגיע, אבל אין להם הוכחה חזקה כשיפור של השינה עצמה.",
+   "hooks_he": [
+    "30 דקות של נשימה איטית לפני השינה העלו את ה-HRV מיד, אבל לא שיפרו באופן ברור את השינה בבדיקת מעבדה.",
+    "מקלחת חמה של 10 דקות בלבד, שעה עד שעתיים לפני השינה, קיצרה את זמן ההירדמות.",
+    "מיינדפולנס שיפר שינה לעומת ביקורת כללית, אבל לא לעומת טיפולי שינה פעילים."
+   ],
+   "rule_ids": [],
+   "sources": [
+    {
+     "id": "rusch_2019",
+     "title": "The effect of mindfulness meditation on sleep quality: a systematic review and meta-analysis of randomized controlled trials.",
+     "authors_short": "Rusch HL et al.",
+     "venue": "Ann N Y Acad Sci",
+     "year": 2019,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30575050/",
+     "pmid": "30575050",
+     "doi": "10.1111/nyas.13996",
+     "key_finding_en": "Across 18 RCTs, mindfulness meditation improved sleep quality versus nonspecific active controls (ES 0.33 post-intervention) but not versus specific active controls such as evidence-based sleep treatments (ES 0.03).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "kuula_2020",
+     "title": "The Effects of Presleep Slow Breathing and Music Listening on Polysomnographic Sleep Measures - a pilot trial.",
+     "authors_short": "Kuula L et al.",
+     "venue": "Sci Rep",
+     "year": 2020,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32366866/",
+     "pmid": "32366866",
+     "doi": "10.1038/s41598-020-64218-7",
+     "key_finding_en": "In 20 adults, 30 minutes of presleep slow breathing or music increased immediate heart rate variability, but neither condition had robust effects on polysomnographic sleep quality.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "singh_2026",
+     "title": "Effect of yoga Nidra (yogic sleep) in sleep disturbances and insomnia: systematic review and metanalysis.",
+     "authors_short": "Singh S et al.",
+     "venue": "Sleep Breath",
+     "year": 2026,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42043659/",
+     "pmid": "42043659",
+     "doi": "10.1007/s11325-026-03685-0",
+     "key_finding_en": "Across five studies, randomized trials of yoga nidra showed non-significant effects on PSQI and ISI, and the certainty of evidence was very low.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "haghayegh_2019",
+     "title": "Before-bedtime passive body heating by warm shower or bath to improve sleep: A systematic review and meta-analysis.",
+     "authors_short": "Haghayegh S et al.",
+     "venue": "Sleep Med Rev",
+     "year": 2019,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31102877/",
+     "pmid": "31102877",
+     "doi": "10.1016/j.smrv.2019.04.008",
+     "key_finding_en": "A warm shower or bath at 40-42.5 °C scheduled 1-2 h before bedtime, for as little as 10 min, significantly shortened sleep onset latency; evidence was limited.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "edinger_2021",
+     "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline.",
+     "authors_short": "Edinger JD et al.",
+     "venue": "J Clin Sleep Med",
+     "year": 2021,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33164742/",
+     "pmid": "33164742",
+     "doi": "10.5664/jcsm.8986",
+     "key_finding_en": "Multicomponent CBT-I is strongly recommended for chronic insomnia; relaxation therapy as a single component receives only a conditional recommendation.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "How cyclic breathing can relieve stress | 90 Seconds w/ Lisa Kim",
+     "channel": "Stanford Medicine",
+     "url": "https://www.youtube.com/watch?v=lBJ2z4PxVt0",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "פרופ' דיוויד שפיגל מ-Stanford Medicine מסביר נשימה מחזורית עם נשיפות ארוכות, שהפחיתה חרדה כבר בחמש דקות ביום במחקר; נמדדו לחץ ומצב רוח ולא שינה."
+    },
+    {
+     "title": "Cardiac rehab: Sleep and your heart",
+     "channel": "Bristol NHS Foundation Trust",
+     "url": "https://www.youtube.com/watch?v=OSRh4U9H6Wg",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "אח בשיקום לב ב-NHS מציע שגרת הרגעה לשעה שלפני השינה, כמו קריאה, מוזיקה ומקלחת, בלי מסכים.",
+     "caveat_he": "עצות בסיסיות של היגיינת שינה, שלבדן אינן טיפול בנדודי שינה."
+    },
+    {
+     "title": "פרק #3: המשך טיפים לטיוב איכות השינה -בניית היגיינת שינה",
+     "channel": "אוניברסיטת חיפה - University of Haifa",
+     "url": "https://www.youtube.com/watch?v=SrMz4lEelrk",
+     "lang": "he",
+     "tier": "A",
+     "note_he": "ד״ר קרן אור-חן מאוניברסיטת חיפה על הרגלי ערב, כמו טלוויזיה, קריאה ומוזיקה, ועל השפעת קפאין ואלכוהול; התוכן אומת רק מהכותרת והתיאור."
+    }
+   ],
+   "tags": [
+    "wind_down",
+    "breathing",
+    "mindfulness",
+    "relaxation",
+    "warm_shower",
+    "stress"
+   ]
+  },
+  {
+   "id": "sleep_muscle_recovery",
+   "title_he": "למה שינה חשובה להתאוששות השרירים, ומה באמת ידוע על זה?",
+   "summary_he": "הראיות שנאספו כאן על שינה והתאוששות שרירים הן עקיפות, ולא כוללות ניסוי שמראה ישירות שיותר שינה מגדילה שריר או כוח. שבוע של שינה של 5 שעות בלילה הוריד את רמות הטסטוסטרון אצל גברים צעירים ובריאים, ובמטא-אנליזה של ניסויים חוסר שינה הוריד את ה-HRV, מדד שמשמש גם למעקב אחר התאוששות. משקה חלבון (קזאין) לפני השינה הגביר את בניית חלבון השריר במהלך הלילה אצל גברים צעירים ומבוגרים, אבל הוסיף מסת שריר וכוח רק אצל צעירים, ובניסוי שינה קטן קזאין לא שיפר את השינה. בתקופות של עומס אימונים גבוה מדי יעילות השינה ירדה בכ-2%, ולכן ירידה מתמשכת בשינה בתקופת עומס היא סיבה לבדוק את ההתאוששות.",
+   "strength": "limited",
+   "strength_note_he": "נשען על ראיות עקיפות: מחקר קצר על טסטוסטרון, מטא-אנליזות על חוסר שינה ועל עומס אימונים וסקירה על חלבון לפני שינה; המגבלה: אין כאן ניסוי שמראה ישירות שיותר שינה משפרת התאוששות או מסת שריר.",
+   "applies_to_he": "רוב המחקרים נעשו על גברים צעירים או על ספורטאי סבולת, ובמחקר החלבון התועלת לשריר לא נמצאה אצל מבוגרים, כך שגבר בן 47 נמצא בין הקבוצות.",
+   "not_mean_he": "זה לא אומר שכל לילה קצר פוגע בשריר, או שחלבון לפני השינה משפר את השינה.",
+   "hooks_he": [
+    "שבוע של שינה של 5 שעות בלילה הוריד את הטסטוסטרון אצל גברים צעירים ובריאים.",
+    "חלבון קזאין לפני השינה הגביר את בניית השריר בלילה, אבל הוסיף מסה וכוח רק אצל גברים צעירים ולא אצל מבוגרים.",
+    "בניסוי קטן במתאמני כוח, חלבון מי גבינה לפני השינה קיצר את ההירדמות לעומת משקה ביקורת, וקזאין לא."
+   ],
+   "rule_ids": [
+    "R-REC"
+   ],
+   "sources": [
+    {
+     "id": "leproult_2011",
+     "title": "Effect of 1 week of sleep restriction on testosterone levels in young healthy men.",
+     "authors_short": "Leproult R, Van Cauter E",
+     "venue": "JAMA",
+     "year": 2011,
+     "design": "other",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21632481/",
+     "pmid": "21632481",
+     "doi": "10.1001/jama.2011.710",
+     "key_finding_en": "One week of sleep restricted to 5 hours per night lowered daytime testosterone levels in young healthy men (research letter).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "zhang_2025",
+     "title": "Effects of sleep deprivation on heart rate variability: a systematic review and meta-analysis.",
+     "authors_short": "Zhang S et al.",
+     "venue": "Front Neurol",
+     "year": 2025,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40895095/",
+     "pmid": "40895095",
+     "doi": "10.3389/fneur.2025.1556784",
+     "key_finding_en": "Across 11 randomized studies (549 participants), sleep deprivation significantly decreased RMSSD and increased LF and LF/HF.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "reis_2021",
+     "title": "Effects of pre-sleep protein consumption on muscle-related outcomes - A systematic review.",
+     "authors_short": "Reis CEG et al.",
+     "venue": "J Sci Med Sport",
+     "year": 2021,
+     "design": "systematic-review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32811763/",
+     "pmid": "32811763",
+     "doi": "10.1016/j.jsams.2020.07.016",
+     "key_finding_en": "Pre-sleep casein increased overnight muscle protein synthesis in young and elderly men and increased muscle mass and strength over 10-12 weeks of resistance training in young but not elderly men.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "aussieker_2026",
+     "title": "Presleep Whey but Not Casein Protein Ingestion Improves Sleep Quality After Resistance Exercise When Compared With an Isocaloric Control in Resistance Trained Individuals.",
+     "authors_short": "Aussieker T et al.",
+     "venue": "Int J Sport Nutr Exerc Metab",
+     "year": 2026,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42413910/",
+     "pmid": "42413910",
+     "doi": "10.1123/ijsnem.2025-0205",
+     "key_finding_en": "In resistance-trained individuals, presleep whey shortened sleep onset latency (9.0 vs 19.0 min for control), while casein did not differ from control.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "murphy_2024",
+     "title": "Does overreaching from endurance-based training impair sleep: A systematic review and meta-analysis.",
+     "authors_short": "Murphy C et al.",
+     "venue": "PLoS One",
+     "year": 2024,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38809828/",
+     "pmid": "38809828",
+     "doi": "10.1371/journal.pone.0303748",
+     "key_finding_en": "Endurance-training overreaching reduced objective sleep efficiency by 2.0% (95% CI -3.2 to -0.8), while subjective sleep quality did not change significantly.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Physiology Shorts: Sleep restriction on myofibrillar protein synthesis",
+     "channel": "The Physiological Society",
+     "url": "https://www.youtube.com/watch?v=kzMk-Er5-qs",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "ניק סנר, החוקר הראשי, מסביר בשתי דקות את המחקר שלו: חמישה לילות של 4 שעות שינה הורידו את בניית חלבון השריר אצל גברים צעירים, ואימוני אינטרוולים מנעו את הירידה."
+    },
+    {
+     "title": "Sleep, Health, and Fitness (Episode 114)",
+     "channel": "Stronger By Science",
+     "url": "https://www.youtube.com/watch?v=Eh5fPcZDVX0",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "פרקים על השפעת שינה קצרה על איכות האימון, התיאבון והרכב הגוף, עם מקורות מ-PubMed (מדקה 17:29 ועד 31:03).",
+     "caveat_he": "פודקאסט עם חסויות מסחריות (אפליקציית תזונה וקוד הנחה לתוספים), ממוקד בספורטאים."
+    },
+    {
+     "title": "Sleep Unplugged #80 - Weight Training and Sleep: Keep on Lifting",
+     "channel": "Sleep Unplugged with Dr. Chris Winter",
+     "url": "https://www.youtube.com/watch?v=wAVYri_mWmM",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "ד״ר כריס וינטר, נוירולוג ומומחה שינה, סוקר מחקרים על שינה ואימוני כוח, כולל ירידה בכוח המרבי אחרי לילות של מחסור קיצוני בשינה.",
+     "caveat_he": "מציע שפעילות גופנית יכולה להחליף CPAP בדום נשימה קל, טענה שאין להכליל, ומקדם בפרק את ספריו."
+    }
+   ],
+   "tags": [
+    "muscle",
+    "recovery",
+    "protein",
+    "testosterone",
+    "training_load",
+    "hrv"
+   ]
+  },
+  {
+   "id": "tiny_changes_experiments",
+   "title_he": "למה משנים דבר אחד קטן בכל פעם ושופטים לפי שבוע, ולא לפי לילה?",
+   "summary_he": "שעוני שינה על פרק כף היד טועים בממוצע בכ-17 דקות בזמן השינה לעומת בדיקת מעבדה, ובלילה בודד הטעות בשלבי השינה יכולה להגיע לכשעה לכל כיוון, ולכן לילה אחד לא מספר הרבה. במחקר על יותר מ-107 אלף לילות, נדרשו לפחות 3 לילות לאומדן טוב של זמן השינה השבועי ו-5 לילות לאומדן טוב מאוד, כך שמסקנות כדאי להסיק מממוצע של שבוע. כשבודקים שינוי אחד בלבד בכל פעם קל יותר לראות אם הוא זה שעזר, ולפני שקובעים שלילה היה רע כדאי לבדוק הסברים מוכרים כמו אלכוהול, אימון מאוחר, קפאין או ארוחה מאוחרת. גם הדרך שבה מציגים נתונים חשובה: משוב שלילי על השינה גרם לאנשים עם נדודי שינה לדווח על יותר עייפות, וחוקרים מזהירים שהשוואה לנורמות עלולה לעורר דאגה מיותרת.",
+   "strength": "method",
+   "strength_note_he": "זו דרך עבודה שנשענת על מחקרי תיקוף של שעונים, על מחקר מהימנות של מספר הלילות הנדרש ועל ניסוי במשוב; המגבלה: לא נבדק ישירות שגישה של שינוי אחד בכל פעם משפרת את השינה.",
+   "applies_to_he": "מחקר תיקוף השעונים כלל מבוגרים בגיל ממוצע של כ-46, רובם גברים, ומחקר מספר הלילות כלל עובדים בני 21 עד 40, כך שהעקרונות רלוונטיים גם לגבר בן 47.",
+   "not_mean_he": "זה לא אומר שלילה רע לא חשוב או שהנתונים חסרי ערך; הם שימושיים כמגמה לאורך שבועות.",
+   "hooks_he": [
+    "בלילה בודד, שעון שינה יכול לטעות בכשעה לכל כיוון בזמן השינה העמוקה.",
+    "כדי לקבל ממוצע שבועי אמין של זמן השינה משעון, מספיקים 3 עד 5 לילות מדודים.",
+    "חוקרים שבנו טבלאות נורמה לשינה הזהירו שמשוב על סטייה מהנורמה עלול לעורר דאגה מיותרת."
+   ],
+   "rule_ids": [
+    "R-EXPLAIN"
+   ],
+   "sources": [
+    {
+     "id": "lee_yj_2025",
+     "title": "Performance of consumer wrist-worn sleep tracking devices compared to polysomnography: a meta-analysis.",
+     "authors_short": "Lee YJ et al.",
+     "venue": "J Clin Sleep Med",
+     "year": 2025,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39484805/",
+     "pmid": "39484805",
+     "doi": "10.5664/jcsm.11460",
+     "key_finding_en": "Across 24 studies (798 participants), wrist-worn devices differed from polysomnography in total sleep time (pooled mean difference -16.9 min), sleep efficiency, sleep onset latency and wake after sleep onset.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "schyvens_2025",
+     "title": "A performance validation of six commercial wrist-worn wearable sleep-tracking devices for sleep stage scoring compared to polysomnography.",
+     "authors_short": "Schyvens AM et al.",
+     "venue": "Sleep Adv",
+     "year": 2025,
+     "design": "other",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40303381/",
+     "pmid": "40303381",
+     "doi": "10.1093/sleepadvances/zpaf021",
+     "key_finding_en": "In 62 adults (52 men, mean age 46), Fitbit devices reached 4-stage kappa of about 0.41-0.42, with individual-night limits of agreement for deep sleep of roughly minus 66 to plus 62 minutes.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "lau_2022",
+     "title": "Minimum number of nights for reliable estimation of habitual sleep using a consumer sleep tracker.",
+     "authors_short": "Lau T et al.",
+     "venue": "Sleep Adv",
+     "year": 2022,
+     "design": "other",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37193398/",
+     "pmid": "37193398",
+     "doi": "10.1093/sleepadvances/zpac026",
+     "key_finding_en": "In 107,144 nights from 1,041 working adults aged 21-40, at least 3 and 5 nights were required for good and very good weekly mean total sleep time estimates.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "gavriloff_2018",
+     "title": "Sham sleep feedback delivered via actigraphy biases daytime symptom reports in people with insomnia: Implications for insomnia disorder and wearable devices.",
+     "authors_short": "Gavriloff D et al.",
+     "venue": "J Sleep Res",
+     "year": 2018,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29989248/",
+     "pmid": "29989248",
+     "doi": "10.1111/jsr.12726",
+     "key_finding_en": "In people with insomnia, negative sham sleep feedback reduced evening alertness (d=0.79) and increased sleepiness and fatigue (d=0.55) compared with positive feedback.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "hertenstein_2018",
+     "title": "Reference Data for Polysomnography-Measured and Subjective Sleep in Healthy Adults.",
+     "authors_short": "Hertenstein E et al.",
+     "venue": "J Clin Sleep Med",
+     "year": 2018,
+     "design": "cross-sectional",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29609718/",
+     "pmid": "29609718",
+     "doi": "10.5664/jcsm.7036",
+     "key_finding_en": "Sleep parameters in 206 healthy adults showed high variability; the authors caution that feedback about deviations from the norm may give rise to ill-founded concerns and worry.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "Forget big change, start with a tiny habit: BJ Fogg at TEDxFremont",
+     "channel": "TEDx Talks",
+     "url": "https://www.youtube.com/watch?v=AdKUJxjn-R8",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "BJ Fogg, חוקר התנהגות מסטנפורד, מסביר למה מתחילים בהרגל זעיר ונעזרים בעוגן משגרת היום כדי שהשינוי יחזיק.",
+     "caveat_he": "מוכר ספר וקורס על השיטה, יש מעט ראיות מבוקרות לגישה, וההרצאה לא עוסקת בשינה."
+    },
+    {
+     "title": "Why sleep hygiene alone won't treat your insomnia | Jade Wu, PhD | TEDxJacksonville",
+     "channel": "TEDx Talks",
+     "url": "https://www.youtube.com/watch?v=HmXmfTIF6Jw",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "ד״ר ג'ייד וו, פסיכולוגית שינה, מסבירה למה ניסיון לאפטם את השינה במעקב צמוד עלול להזיק, ולמה היגיינת שינה לבדה לא מטפלת בנדודי שינה.",
+     "caveat_he": "מחברת ספר על שינה, ו-TED מציין שההרצאה אינה עצה רפואית."
+    }
+   ],
+   "tags": [
+    "method",
+    "wearable_accuracy",
+    "habits",
+    "one_change",
+    "orthosomnia"
+   ]
+  },
+  {
+   "id": "n_of_1_experiments",
+   "title_he": "למה ניסוי אישי מסודר (N-of-1) עדיף על תחושת בטן כדי לדעת מה באמת עוזר?",
+   "summary_he": "ניסוי N-of-1 הוא ניסוי מבוקר באדם אחד: מחליפים לסירוגין ובסדר אקראי בין תקופות עם שינוי ובלעדיו, קובעים מראש מה מודדים ומשווים, וכך אפשר להסיק מה עובד אצל אדם מסוים ולא רק בממוצע של קבוצה. לשיטה יש הנחיית דיווח בינלאומית (CENT), והיא כבר שימשה לשאלות רפואיות אמיתיות: בניסויי n-of-1 עם סטטין וכדור דמה, רוב תסמיני השרירים הופיעו גם על כדור הדמה. בשינה אפשר לקבל ממוצע שבועי אמין משעון כבר מ-3 עד 5 לילות, ולכן בלוקים של שבוע לכל מצב, כמה פעמים לסירוגין, מתאימים לבדיקת שינוי אחד, כמו שעת הקפה האחרונה או שעת סיום האימון. חשוב לבדוק רק שינוי אחד בכל פעם ולקבוע מראש מה נחשב הצלחה, ולא להשתמש בשיטה לשינויים בתרופות, שאותם מתכננים רק עם הרופא.ה.",
+   "strength": "method",
+   "strength_note_he": "זו שיטת מחקר מוכרת עם הנחיית דיווח (CENT) וסקירה עדכנית; המגבלה: התוצאה תקפה לאדם שנבדק ולתקופה שנבדקה, והיא רגישה לרעש במדידות השעון.",
+   "applies_to_he": "השיטה נועדה בדיוק לאדם אחד, ולכן מתאימה לגבר בן 47 שמודד את עצמו, בתנאי שהמדידות והרישום עקביים.",
+   "not_mean_he": "זה לא אומר שכל שינוי אפשר לבדוק לבד; שינויים בתרופות או בתוספים נבדקים רק עם רופא.ה או רוקח.ת.",
+   "hooks_he": [
+    "בניסויי n-of-1 בסטטינים, אנשים שהפסיקו את התרופה בגלל תסמינים חוו כמעט אותם תסמינים גם בתקופות של כדור דמה.",
+    "כבר מ-3 לילות מדודים אפשר לקבל אומדן טוב של זמן השינה הממוצע בשבוע.",
+    "לניסויי N-of-1 יש הנחיית דיווח בינלאומית משלהם, CENT, שפורסמה ב-BMJ ב-2015."
+   ],
+   "rule_ids": [
+    "R-MED-1",
+    "R-EXPLAIN"
+   ],
+   "sources": [
+    {
+     "id": "konigorski_2026",
+     "title": "Digital N-of-1 trials and their application in experimental physiology.",
+     "authors_short": "Konigorski S et al.",
+     "venue": "Exp Physiol",
+     "year": 2026,
+     "design": "review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42318774/",
+     "pmid": "42318774",
+     "doi": "10.1113/EP092753",
+     "key_finding_en": "N-of-1 trials allow valid statistical inference about intervention effects in individual participants, whereas group-average effects do not necessarily apply to individuals; the review describes key design features and digital tools.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "vohra_2015",
+     "title": "CONSORT extension for reporting N-of-1 trials (CENT) 2015 Statement.",
+     "authors_short": "Vohra S et al.",
+     "venue": "BMJ",
+     "year": 2015,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25976398/",
+     "pmid": "25976398",
+     "doi": "10.1136/bmj.h1738",
+     "key_finding_en": "The CENT 2015 statement extends CONSORT with reporting guidance specific to N-of-1 trials.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "lau_2022",
+     "title": "Minimum number of nights for reliable estimation of habitual sleep using a consumer sleep tracker.",
+     "authors_short": "Lau T et al.",
+     "venue": "Sleep Adv",
+     "year": 2022,
+     "design": "other",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37193398/",
+     "pmid": "37193398",
+     "doi": "10.1093/sleepadvances/zpac026",
+     "key_finding_en": "In 107,144 nights from 1,041 working adults, at least 3 and 5 nights were required for good and very good weekly mean total sleep time estimates.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "wood_2020",
+     "title": "N-of-1 Trial of a Statin, Placebo, or No Treatment to Assess Side Effects.",
+     "authors_short": "Wood FA et al.",
+     "venue": "N Engl J Med",
+     "year": 2020,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33196154/",
+     "pmid": "33196154",
+     "doi": "10.1056/NEJMc2031173",
+     "key_finding_en": "In n-of-1 trials among people who had stopped statins because of side effects, symptom scores were 16.3 on atorvastatin, 15.4 on placebo and 8.0 with no tablet (nocebo ratio 0.90).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "herrett_2021",
+     "title": "Statin treatment and muscle symptoms: series of randomised, placebo controlled n-of-1 trials.",
+     "authors_short": "Herrett E et al.",
+     "venue": "BMJ",
+     "year": 2021,
+     "design": "rct",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33627334/",
+     "pmid": "33627334",
+     "doi": "10.1136/bmj.n135",
+     "key_finding_en": "In a series of randomised placebo-controlled n-of-1 trials in 200 UK patients, muscle symptom scores did not differ between statin and placebo periods.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [
+    {
+     "title": "SleepCoacher: A Personalized Automated Self-Experimentation System for Sleep Recommendations",
+     "channel": "ACM SIGCHI",
+     "url": "https://www.youtube.com/watch?v=4LQ_CL7tARU",
+     "lang": "en",
+     "tier": "A",
+     "note_he": "חוקרים מאוניברסיטת בראון מציגים מערכת לניסויים אישיים בשינה בשיטת ABAB, שבה מחליפים לסירוגין בין תקופת בסיס לתקופת שינוי; ההסבר על השיטה נמצא בשליש הראשון."
+    },
+    {
+     "title": "What Is an N of 1 Study? The MOST Personalized Health Research Explained!",
+     "channel": "The Public Health Millennial",
+     "url": "https://www.youtube.com/watch?v=t4uEC5NbAjE",
+     "lang": "en",
+     "tier": "B",
+     "note_he": "אריק דאזה, מדען נתוני בריאות שעוסק בשיטות N-of-1, מסביר למה ממוצע של קבוצה יכול להסתיר השפעות הפוכות אצל אנשים שונים.",
+     "caveat_he": "האורח מקדם ניוזלטר וייעוץ והמנחה משתמש בקישורי שותפים; לא מוסבר תכנון מעשי של הניסוי."
+    }
+   ],
+   "tags": [
+    "n_of_1",
+    "method",
+    "self_experiment",
+    "personalization"
+   ]
+  },
+  {
+   "id": "labs_annual_recheck_prediabetes",
+   "title_he": "למה חוזרים על בדיקות הסוכר לפחות פעם בשנה כשיש טרום סוכרת?",
+   "summary_he": "לפי הנחיות ADA ל-2026, אצל אנשים עם טרום סוכרת (HbA1c של 5.7% עד 6.4%, סוכר בצום של 100 עד 125 mg/dL, או 140 עד 199 mg/dL שעתיים אחרי העמסת סוכר) כדאי לבדוק אם התפתחה סוכרת לפחות פעם בשנה, ותדירות הבדיקה מותאמת לסיכון האישי. ערכים של 6.5%, 126 או 200 ומעלה נמצאים בטווח של סוכרת ודורשים בדיקת אישור אצל רופא.ה. ההנחיות ממליצות גם לשקול בדיקות לטרום סוכרת ולסוכרת אצל אנשים שנוטלים סטטינים, והתרופה מעלה את ה-HbA1c בממוצע רק ב-0.06 עד 0.08 נקודות אחוז. מה שחשוב הוא המגמה לאורך זמן לפי טווח הייחוס שהמעבדה עצמה מדפיסה, ולא ערך בודד: בדיקות אינסולין, למשל, שונות מאוד בין שיטות מעבדה, ולכן לא מסיקים תנגודת לאינסולין מבדיקה אחת. את התזמון המדויק קובעים עם הרופא.ה.",
+   "strength": "limited",
+   "strength_note_he": "נשען על המלצה בהנחיות ADA ל-2026, בדרגת ראיות E (הסכמת מומחים), ועל מחקרי מעבדה ושיטות מדידה; המגבלה: תדירות הבדיקה נקבעת לפי הסיכון האישי.",
+   "applies_to_he": "ההגדרות וההמלצות חלות ישירות על מבוגרים עם טרום סוכרת שנוטלים סטטין, כלומר על הפרופיל הזה.",
+   "not_mean_he": "זה לא אומר שערך אחד מחוץ לטווח הוא אבחנה של סוכרת; אבחנה ובדיקות אישור נעשות אצל הרופא.ה.",
+   "hooks_he": [
+    "לפי ADA, אצל אנשים עם טרום סוכרת מומלץ לבדוק אם התפתחה סוכרת לפחות פעם בשנה, ותדירות הבדיקה מותאמת לסיכון האישי.",
+    "ב-7 מתוך 10 שיטות מעבדה לבדיקת אינסולין, הסטייה משיטת הייחוס עלתה על 15.5% בחלק ניכר מהדגימות.",
+    "הנחיות ADA ממליצות לשקול בדיקת טרום סוכרת וסוכרת אצל מי שנוטלים סטטינים.",
+    "בניטור סוכר רציף, עלייה של הסוכר לפני ארוחת הבוקר (תופעת השחר) נמצאה אצל 30.1% מבעלי ויסות סוכר לקוי, לעומת 8.9% מבעלי סוכר תקין."
+   ],
+   "rule_ids": [
+    "R-LAB-1",
+    "R-DX-1",
+    "R-MED-1"
+   ],
+   "sources": [
+    {
+     "id": "ada_2026_s2",
+     "title": "2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes-2026.",
+     "authors_short": "American Diabetes Association Professional Practice Committee",
+     "venue": "Diabetes Care",
+     "year": 2026,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41358893/",
+     "pmid": "41358893",
+     "doi": "10.2337/dc26-S002",
+     "key_finding_en": "Prediabetes is A1C 5.7-6.4%, FPG 100-125 mg/dL or 2-h PG 140-199 mg/dL; the diabetes range is A1C 6.5% or higher, FPG 126 or higher, or 2-h PG 200 or higher; Rec 2.16a: consider screening for prediabetes or diabetes in people taking statins.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "ada_2026_s3",
+     "title": "3. Prevention or Delay of Diabetes and Associated Comorbidities: Standards of Care in Diabetes-2026.",
+     "authors_short": "American Diabetes Association Professional Practice Committee",
+     "venue": "Diabetes Care",
+     "year": 2026,
+     "design": "guideline",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41358891/",
+     "pmid": "41358891",
+     "doi": "10.2337/dc26-S003",
+     "key_finding_en": "Recommendation 3.1 (grade E): in people with prediabetes, monitor for the development of diabetes at least annually, and modify the frequency of testing based on individual risk assessment.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "ctt_2024",
+     "title": "Effects of statin therapy on diagnoses of new-onset diabetes and worsening glycaemia in large-scale randomised blinded statin trials: an individual participant data meta-analysis.",
+     "authors_short": "Cholesterol Treatment Trialists' (CTT) Collaboration",
+     "venue": "Lancet Diabetes Endocrinol",
+     "year": 2024,
+     "design": "meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38554713/",
+     "pmid": "38554713",
+     "doi": "10.1016/S2213-8587(24)00040-8",
+     "key_finding_en": "In participants without diabetes, statins raised mean HbA1c by 0.06% (low/moderate intensity) and 0.08% (high intensity).",
+     "peer_reviewed": true
+    },
+    {
+     "id": "miller_2009",
+     "title": "Toward standardization of insulin immunoassays.",
+     "authors_short": "Miller WG et al.",
+     "venue": "Clin Chem",
+     "year": 2009,
+     "design": "other",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19325009/",
+     "pmid": "19325009",
+     "doi": "10.1373/clinchem.2008.118380",
+     "key_finding_en": "The bias versus the reference method (IDMS) exceeded 15.5% for 7 of 10 insulin immunoassay methods in 36%-100% of individual samples.",
+     "peer_reviewed": true
+    },
+    {
+     "id": "li_2020",
+     "title": "The dawn phenomenon across the glycemic continuum: Implications for defining dysglycemia.",
+     "authors_short": "Li C et al.",
+     "venue": "Diabetes Res Clin Pract",
+     "year": 2020,
+     "design": "cross-sectional",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32650035/",
+     "pmid": "32650035",
+     "doi": "10.1016/j.diabres.2020.108308",
+     "key_finding_en": "Using continuous glucose monitoring, the dawn phenomenon occurred in 8.9% with normal glucose tolerance, 30.1% with impaired glucose regulation and 52.4% with newly diagnosed type 2 diabetes.",
+     "peer_reviewed": true
+    }
+   ],
+   "videos": [],
+   "tags": [
+    "labs",
+    "hba1c",
+    "prediabetes",
+    "statin",
+    "glucose",
+    "monitoring"
+   ]
+  }
+ ]
+}

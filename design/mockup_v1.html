@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>מאמן שינה - הדמיה v1</title>
+<style>
+:root{
+  --page:#080c18; --bg:#0e1424; --surface:#161d33; --surface2:#1e2747; --text:#e9ecf6; --muted:#9aa4c2; --line:#2a3357;
+  --accent:#8ea2ff; --accent-ink:#0c1226; --good:#5fd3a5; --warn:#f5b560; --bad:#ff8b8b;
+  --deep:#6f7cff; --light:#3c4a86; --rem:#b58cff; --awake:#ff9f7a;
+}
+@media (prefers-color-scheme: light){
+  :root{ --page:#dfe4f2; --bg:#f4f6fc; --surface:#ffffff; --surface2:#eaeefb; --text:#151b33; --muted:#5b6485; --line:#d7ddf0;
+    --accent:#3f57d9; --accent-ink:#ffffff; --good:#12805c; --warn:#a8630a; --bad:#c23b3b;
+    --deep:#4b5ad8; --light:#9aa6e6; --rem:#8f5ee0; --awake:#e07a52; }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--page);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Hebrew","Noto Sans Hebrew","Segoe UI",Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+.stage{min-height:100%;display:flex;flex-direction:column;align-items:center;gap:12px;padding:14px 12px 20px}
+.banner{max-width:400px;width:100%;font-size:12.5px;color:var(--muted);text-align:center;line-height:1.55}
+.banner b{color:var(--warn);font-weight:600}
+.phone{position:relative;width:min(100%,400px);height:min(calc(100vh - 110px),800px);min-height:560px;background:var(--bg);border:1px solid var(--line);border-radius:30px;overflow:hidden;display:flex;flex-direction:column}
+.top{padding:18px 20px 10px;flex:none}
+.top h1{font-size:22px;font-weight:700;letter-spacing:-.2px}
+.top .sub{font-size:13px;color:var(--muted);margin-top:1px}
+.pill{display:inline-flex;align-items:center;gap:6px;margin-top:8px;font-size:12px;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--good)}
+main{flex:1;overflow-y:auto;padding:4px 16px 18px}
+.tab{display:none}.tab.active{display:block}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:14px 15px;margin-top:12px}
+.card h2{font-size:14px;font-weight:600;color:var(--muted);display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
+.card h2 small{font-weight:400;font-size:12px}
+.big{font-size:32px;font-weight:700;letter-spacing:-.5px}
+.big small{font-size:14px;font-weight:500;color:var(--muted);margin-inline-start:4px}
+.stages{display:flex;height:12px;border-radius:7px;overflow:hidden;margin:12px 0 7px;gap:2px}
+.stages i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted)}
+.legend span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:3px;background:var(--c);margin-inline-end:5px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.tile{background:var(--surface2);border-radius:12px;padding:9px 11px}
+.tile b{display:block;font-size:19px;font-weight:650}
+.tile span{font-size:11.5px;color:var(--muted)}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+.ins{display:flex;gap:10px;align-items:flex-start;padding:11px 0;border-top:1px solid var(--line)}
+.ins:first-of-type{border-top:0}
+.ins .body{flex:1}
+.tag{display:inline-block;font-size:11px;font-weight:600;border-radius:6px;padding:1px 7px;margin-bottom:4px;color:var(--c);background:color-mix(in srgb,var(--c) 15%,transparent)}
+.ins p{font-size:14.5px;line-height:1.5}
+.why{flex:none;align-self:center;font:inherit;font-size:12.5px;font-weight:600;color:var(--accent);background:transparent;border:1px solid color-mix(in srgb,var(--accent) 55%,transparent);border-radius:999px;padding:5px 11px;cursor:pointer;white-space:nowrap}
+.why:active{background:color-mix(in srgb,var(--accent) 18%,transparent)}
+.why.solo{align-self:flex-start;margin-top:10px}
+.focus h3{font-size:17px;font-weight:650;margin:2px 0 4px}
+.dots{display:flex;gap:5px;margin:10px 0 0}
+.dots i{width:100%;height:5px;border-radius:3px;background:var(--line)}
+.dots i.on{background:var(--accent)}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;font:inherit;font-size:16px;font-weight:650;border:0;border-radius:14px;padding:13px;background:var(--accent);color:var(--accent-ink);cursor:pointer}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
+.chip{font-size:13px;background:var(--surface2);border:1px solid var(--line);border-radius:999px;padding:5px 12px}
+.row{padding:11px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0}
+.row .t{font-size:12px;color:var(--muted)}
+.row .n{font-size:15px;font-weight:600;margin:1px 0 5px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tg{font-size:11.5px;color:var(--muted);background:var(--surface2);border-radius:6px;padding:1px 7px}
+.tg.w{color:var(--warn);background:color-mix(in srgb,var(--warn) 14%,transparent)}
+.lab{display:flex;justify-content:space-between;align-items:baseline;padding:9px 0;border-top:1px solid var(--line);font-size:14.5px}
+.lab:first-of-type{border-top:0}
+.lab b{font-weight:650;direction:ltr;unicode-bidi:isolate}.lab.hi b{color:var(--warn)}
+.tile em{display:block;font-style:normal;font-size:11.5px;color:var(--muted);margin-top:1px}
+.tile span{display:block}
+.lab small{display:block;font-size:11.5px;color:var(--muted);font-weight:400}
+.chat{display:flex;flex-direction:column;gap:9px;margin-top:12px}
+.msg{max-width:88%;border-radius:16px;padding:10px 13px;font-size:14.5px;line-height:1.55}
+.me{align-self:flex-start;background:var(--accent);color:var(--accent-ink);border-end-start-radius:4px}
+.bot{align-self:flex-end;background:var(--surface);border:1px solid var(--line);border-end-end-radius:4px}
+.tool{font-size:11.5px;color:var(--muted);margin-top:6px}
+.input{display:flex;gap:8px;margin-top:12px}
+.input div{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:10px 15px;font-size:14px;color:var(--muted)}
+.tabs{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);background:var(--surface);padding:6px 4px 12px}
+.tabs button{font:inherit;font-size:11px;color:var(--muted);background:none;border:0;display:flex;flex-direction:column;align-items:center;gap:3px;padding:5px 0;cursor:pointer}
+.tabs button.active{color:var(--accent);font-weight:650}
+.tabs svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.backdrop{position:absolute;inset:0;background:rgba(3,6,16,.55);opacity:0;pointer-events:none;transition:opacity .2s}
+.backdrop.on{opacity:1;pointer-events:auto}
+.sheet{position:absolute;inset-inline:0;bottom:0;max-height:88%;overflow-y:auto;background:var(--bg);border-top:1px solid var(--line);border-radius:24px 24px 0 0;padding:10px 18px 24px;transform:translateY(102%);transition:transform .26s cubic-bezier(.2,.8,.2,1)}
+.sheet.on{transform:none}
+.grab{width:40px;height:4px;border-radius:2px;background:var(--line);margin:0 auto 12px}
+.sheet h3{font-size:19px;font-weight:700;line-height:1.3;margin-bottom:6px}
+.sheet h4{font-size:12.5px;font-weight:650;color:var(--muted);margin:16px 0 6px;letter-spacing:.2px}
+.sheet p{font-size:14.5px;line-height:1.6}
+.str{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:650;color:var(--good)}
+.str::before{content:"";width:9px;height:9px;border-radius:50%;background:currentColor}
+.str.mid{color:var(--warn)}
+.src{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:10px 12px;margin-bottom:7px}
+.src b{display:block;font-size:14px;font-weight:600;line-height:1.4}
+.src span{font-size:12px;color:var(--muted)}
+.src.ph{border-style:dashed;background:transparent;color:var(--muted);font-size:13px}
+.vid{display:flex;gap:11px;align-items:center}
+.play{flex:none;width:52px;height:38px;border-radius:9px;background:var(--surface2);display:grid;place-items:center;color:var(--accent)}
+.play svg{width:18px;height:18px;fill:currentColor}
+.lang{font-size:10.5px;font-weight:700;border:1px solid var(--line);border-radius:5px;padding:0 5px;margin-inline-start:6px;color:var(--muted)}
+.foot{font-size:11.5px;color:var(--muted);margin-top:16px;line-height:1.55}
+.close{display:block;width:100%;margin-top:16px;font:inherit;font-size:14.5px;font-weight:600;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:11px;cursor:pointer}
+@media (max-width:430px){.stage{padding:0}.banner{padding:10px 14px 4px}.phone{width:100%;border-radius:0;border-inline:0;height:calc(100vh - 92px)}}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="banner"><b>הדמיה לדוגמה, לא האפליקציה עצמה.</b> המספרים והטקסטים להמחשה בלבד, למעט ערכי בדיקת הדם ומאמר אחד מאומת. אפשר ללחוץ על הלשוניות ועל "למה ככה?".</div>
+
+  <div class="phone" id="phone">
+    <header class="top">
+      <h1 id="ttl">בוקר טוב</h1>
+      <div class="sub" id="sub">יום שלישי, 29 בספטמבר</div>
+      <div class="pill" id="pill"><span class="dot"></span><bdi>Fitbit Air</bdi><span>·</span><span>סונכרן לפני 12 דקות</span></div>
+    </header>
+
+    <main>
+      <!-- היום -->
+      <section class="tab active" id="tab-today">
+        <div class="card">
+          <h2>הלילה האחרון <small>23:18 עד 06:30</small></h2>
+          <div class="big">7:12<small>שעות שינה</small></div>
+          <div class="stages" aria-hidden="true">
+            <i style="width:17%;background:var(--deep)"></i><i style="width:21%;background:var(--rem)"></i><i style="width:52%;background:var(--light)"></i><i style="width:10%;background:var(--awake)"></i>
+          </div>
+          <div class="legend"><span style="--c:var(--deep)">עמוקה 17%</span><span style="--c:var(--rem)">REM 21%</span><span style="--c:var(--light)">קלה 52%</span><span style="--c:var(--awake)">ערות 10%</span></div>
+          <div class="tiles">
+            <div class="tile"><b>91%</b><span>יעילות שינה</span><em>הרגיל שלך 89%</em></div>
+            <div class="tile"><b>38 מ״ש</b><span>HRV</span><em>הרגיל שלך 41</em></div>
+            <div class="tile"><b>54</b><span>דופק במנוחה</span><em>הרגיל שלך 52</em></div>
+            <div class="tile"><b>14.2</b><span>נשימות בדקה</span><em>הרגיל שלך 14.0</em></div>
+          </div>
+          <p class="note">לעומת 14 הלילות האחרונים: שינה ארוכה יותר, HRV נמוך במעט.</p>
+        </div>
+
+        <div class="card">
+          <h2>מבט אחורה: אתמול <small>מה קשור לשינה הזו</small></h2>
+          <div class="ins">
+            <div class="body"><span class="tag" style="--c:var(--warn)">כדאי לשנות</span><p>🍷 כוס יין ב-21:30. בלילות עם אלכוהול ה-HRV שלך נמוך בממוצע ב-9 מ״ש (4 מתוך 5 פעמים).</p></div>
+            <button class="why" data-why="alcohol">למה ככה?</button>
+          </div>
+          <div class="ins">
+            <div class="body"><span class="tag" style="--c:var(--warn)">כדאי לשנות</span><p>☕ קפה אחרון ב-16:10, שבע שעות לפני ההירדמות.</p></div>
+            <button class="why" data-why="caffeine">למה ככה?</button>
+          </div>
+          <div class="ins">
+            <div class="body"><span class="tag" style="--c:var(--good)">עובד טוב</span><p>🚶 הליכה של 15 דקות אחרי ארוחת הערב. שווה להמשיך.</p></div>
+            <button class="why" data-why="walk">למה ככה?</button>
+          </div>
+        </div>
+
+        <div class="card focus">
+          <h2>מבט קדימה: הלילה <small>שינוי אחד בכל פעם</small></h2>
+          <span class="tag" style="--c:var(--accent)">המיקוד של השבוע</span>
+          <h3>ארוחת ערב שמסתיימת עד 20:30</h3>
+          <p class="note" style="margin-top:0">בשבועיים האחרונים 6 ארוחות ערב הסתיימו אחרי 21:30. ננסה 10 לילות ונבדוק אם משהו משתנה.</p>
+          <div class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <p class="note">לילה 3 מתוך 10</p>
+          <button class="why solo" data-why="dinner">למה ככה?</button>
+        </div>
+      </section>
+
+      <!-- אוכל -->
+      <section class="tab" id="tab-food">
+        <div class="card">
+          <button class="btn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>צילום ארוחה</button>
+          <div class="chips"><span class="chip">☕ קפה</span><span class="chip">🍷 אלכוהול</span><span class="chip">🫖 תה</span><span class="chip">🍪 נשנוש</span><span class="chip">או תיאור בכתב</span></div>
+        </div>
+        <div class="card">
+          <h2>היום <small>4 רישומים</small></h2>
+          <div class="row"><div class="t">08:10 · ארוחת בוקר</div><div class="n">שקשוקה ולחם מלא</div><div class="tags"><span class="tg">480 קק״ל</span><span class="tg">חלבון 28 גר׳</span><span class="tg">סיבים 7 גר׳</span></div></div>
+          <div class="row"><div class="t">13:20 · צהריים</div><div class="n">עוף, אורז וסלט</div><div class="tags"><span class="tg">720 קק״ל</span><span class="tg">חלבון 46 גר׳</span></div></div>
+          <div class="row"><div class="t">16:10 · קפה</div><div class="n">קפה הפוך</div><div class="tags"><span class="tg w">קפאין כ-80 מ״ג</span></div></div>
+          <div class="row"><div class="t">20:45 · ארוחת ערב</div><div class="n">פסטה ברוטב שמנת</div><div class="tags"><span class="tg">850 קק״ל</span><span class="tg">פחמימות 96 גר׳</span><span class="tg w">מאוחרת: 2:35 שעות לפני שינה</span><span class="tg w">עומס גליקמי גבוה</span></div></div>
+        </div>
+      </section>
+
+      <!-- אימונים -->
+      <section class="tab" id="tab-train">
+        <div class="card"><button class="btn">אימון חדש</button>
+          <p class="note">שעת האימון ועוצמתו נכנסות לניתוח השינה.</p></div>
+        <div class="card">
+          <h2>אחרונים</h2>
+          <div class="row"><div class="t">אתמול · 18:30</div><div class="n">משקולות · 55 דק׳</div><div class="tags"><span class="tg">מאמץ 7 מתוך 10</span></div></div>
+          <div class="row"><div class="t">לפני יומיים · 07:00</div><div class="n">ריצה קלה · 40 דק׳</div><div class="tags"><span class="tg">מאמץ 5 מתוך 10</span></div></div>
+          <div class="row"><div class="t">לפני 3 ימים · 20:45</div><div class="n">משקולות · 60 דק׳</div><div class="tags"><span class="tg">מאמץ 8 מתוך 10</span><span class="tg w">הסתיים אחרי 21:45</span></div></div>
+        </div>
+      </section>
+
+      <!-- בדיקות -->
+      <section class="tab" id="tab-labs">
+        <div class="card">
+          <h2>בדיקת הדם האחרונה <small>30.11.2025 · מכבי</small></h2>
+          <p class="note" style="margin-top:0">בעוד כחודשיים תימלא שנה. שווה לתאם בדיקה חוזרת עם הרופא.ה.</p>
+          <button class="why solo" data-why="recheck">למה ככה?</button>
+        </div>
+        <div class="card">
+          <h2>ערכים עיקריים <small>לפי טווחי המעבדה</small></h2>
+          <div class="lab hi"><span>HbA1c<small>טווח המעבדה: עד 5.6</small></span><b>6.1%</b></div>
+          <div class="lab hi"><span>גלוקוז<small>טווח המעבדה: 70 עד 100</small></span><b>102 mg/dL</b></div>
+          <div class="lab"><span>LDL<small>היעד האישי נקבע עם הרופא.ה</small></span><b>85 mg/dL</b></div>
+          <div class="lab"><span>HDL<small>מעל 40</small></span><b>42 mg/dL</b></div>
+          <div class="lab"><span>טריגליצרידים<small>עד 150</small></span><b>110 mg/dL</b></div>
+          <div class="lab"><span>ALT<small>עד 37</small></span><b>13 U/L</b></div>
+        </div>
+        <div class="card">
+          <h2>לא נבדק בפאנל הזה</h2>
+          <div class="chips" style="margin-top:0"><span class="chip">פריטין</span><span class="chip">TSH</span><span class="chip">ויטמין D</span><span class="chip">B12</span><span class="chip">ApoB</span><span class="chip">CK</span></div>
+          <p class="note">חלק מהם קשורים לשינה ולהתאוששות. אפשר לשאול את הרופא.ה אם שווה לבדוק.</p>
+          <button class="why solo" data-why="ferritin">למה ככה?</button>
+        </div>
+      </section>
+
+      <!-- צ'אט -->
+      <section class="tab" id="tab-chat">
+        <div class="chat">
+          <div class="msg me">למה ה-HRV שלי ירד אתמול?</div>
+          <div class="msg bot">לפי הנתונים, ביום שלפני היה יין ב-21:30 וארוחה מאוחרת. שני הגורמים האלה הופיעו גם לפני ירידות קודמות אצלך. אפשר לבדוק את זה בשלושת הלילות הקרובים בלי לשנות שום דבר אחר.
+            <div class="tool">שלפתי: 14 לילות · 9 ארוחות · 4 אימונים</div>
+            <button class="why solo" style="margin-top:8px" data-why="alcohol">למה ככה?</button>
+          </div>
+        </div>
+        <div class="input"><div>שאלה על השינה, התזונה או הבדיקות</div></div>
+        <p class="note" style="text-align:center">הצ'אט מופעל על ידי Gemini</p>
+      </section>
+    </main>
+
+    <nav class="tabs" id="tabs">
+      <button class="active" data-tab="today"><svg viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>היום</button>
+      <button data-tab="food"><svg viewBox="0 0 24 24"><path d="M7 3v8M4 3v5a3 3 0 0 0 6 0V3M7 11v10M17 3c-2 2-3 5-3 8h3v10"/></svg>אוכל</button>
+      <button data-tab="train"><svg viewBox="0 0 24 24"><path d="M6 7v10M3 9v6M18 7v10M21 9v6M6 12h12"/></svg>אימונים</button>
+      <button data-tab="labs"><svg viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg>בדיקות</button>
+      <button data-tab="chat"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg>צ'אט</button>
+    </nav>
+
+    <div class="backdrop" id="backdrop"></div>
+    <aside class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="למה ככה?"></aside>
+  </div>
+</div>
+
+<script>
+const WHY = {
+  caffeine: {
+    title: 'למה קפה אחר הצהריים משפיע על השינה?',
+    short: 'לקפאין זמן מחצית חיים של כמה שעות, ולכן קפה אחר הצהריים עדיין פעיל בגוף בשעת השינה. במחקר מבוקר נמצא שקפאין שנצרך שש שעות לפני השינה עדיין פגע בה. הרגישות שונה מאדם לאדם, ולכן הסף המדויק שלך הוא ניסוי אישי.',
+    strength: ['חזק', 'ניסויים מבוקרים וסקירות שיטתיות (הניסוח הסופי ייגזר מהמחקר המאומת)'],
+    data: ['קפה אחרון 16:10', 'הירדמות 23:20', 'פער של 7:10 שעות'],
+    papers: [{ t: 'Caffeine Effects on Sleep Taken 0, 3, or 6 Hours before Going to Bed', m: 'Journal of Clinical Sleep Medicine · 2013 · ניסוי מבוקר', u: 'https://doi.org/10.5664/jcsm.3170' }],
+    videos: []
+  },
+  alcohol: {
+    title: 'למה אלכוהול בערב פוגע ב-HRV ובשינה?',
+    short: 'אלכוהול נוטה לקצר את שלב ה-REM בתחילת הלילה, להגביר התעוררויות בחציו השני ולהעלות את הדופק בשינה. גם כמות קטנה נראית במדדי ההתאוששות. הטקסט הזה הוא דוגמה, הנוסח הסופי ייגזר מהמחקר.',
+    strength: ['חזק', 'מחקרי מעבדה ומחקרי מכשירים לבישים גדולים'],
+    data: ['יין ב-21:30', 'HRV 38 מול הרגיל 41', '4 מתוך 5 לילות דומים'],
+    papers: [], videos: []
+  },
+  walk: {
+    title: 'למה הליכה קצרה אחרי ארוחה?',
+    short: 'הליכה קלה אחרי ארוחה מורידה את שיא הסוכר בדם, במיוחד אחרי ארוחה עשירה בפחמימה. זה רלוונטי לטרום סוכרת, ולכן ההרגל הזה שווה להמשיך.',
+    strength: ['בינוני עד חזק', 'ניסויים קצרי טווח וסקירה שיטתית'],
+    data: ['הליכה של 15 דקות ב-21:05', 'ארוחה שהסתיימה ב-20:45'],
+    papers: [], videos: []
+  },
+  dinner: {
+    title: 'למה ארוחת ערב מוקדמת יותר?',
+    short: 'ארוחה גדולה קרוב לשינה קשורה בחלק מהמחקרים לשינה מקוטעת יותר ולעלייה בדופק בלילה. הסף המדויק שונה בין אנשים, ולכן זה ניסוי אישי של 10 לילות ולא כלל קבוע.',
+    strength: ['בינוני', 'ראיות מעורבות, בעיקר מחקרי תצפית וניסויים קטנים'],
+    data: ['6 ארוחות ערב אחרי 21:30 בשבועיים האחרונים', 'הירדמות ממוצעת 23:20'],
+    papers: [], videos: []
+  },
+  recheck: {
+    title: 'למה לתאם בדיקה חוזרת?',
+    short: 'בטרום סוכרת מקובל לעקוב אחרי HbA1c ואחרי הכולסטרול לפחות פעם בשנה. ההחלטה מתי ואילו בדיקות היא של הרופא.ה, וזו שאלה שכדאי לשאול ולא אבחנה.',
+    strength: ['חזק', 'הנחיות מקצועיות (יאומת מול הנחיות ADA העדכניות)'],
+    data: ['הבדיקה האחרונה: 30.11.2025', 'HbA1c 6.1%'],
+    papers: [], videos: []
+  },
+  ferritin: {
+    title: 'למה שווה לשאול על פריטין ועל בדיקות נוספות?',
+    short: 'פריטין נמוך קשור ל"תסמונת רגליים חסרות מנוחה", שמקטעת שינה. יש בדוח סימנים קלים בתאי הדם האדומים (MCH ו-MCHC נמוכים במעט), ופריטין לא נבדק בפאנל. זו שאלה לרופא.ה ולא אבחנה.',
+    strength: ['בינוני', 'הנחיות מקצועיות וסקירות (יאומת)'],
+    data: ['MCH 26.8 (טווח 27 עד 35)', 'MCHC 31.3 (טווח 32 עד 36)', 'פריטין: לא נבדק'],
+    papers: [], videos: []
+  }
+};
+
+const $ = (s, r = document) => r.querySelector(s);
+const sheet = $('#sheet'), backdrop = $('#backdrop');
+
+function chipList(a){ return '<div class="chips" style="margin-top:0">' + a.map(x => '<span class="chip">' + x + '</span>').join('') + '</div>'; }
+
+function openWhy(key){
+  const w = WHY[key]; if(!w) return;
+  const papers = w.papers.length
+    ? w.papers.map(p => '<a class="src" href="' + p.u + '" target="_blank" rel="noopener"><b>' + p.t + '</b><span>' + p.m + '</span></a>').join('')
+    : '<div class="src ph">כאן יופיעו מאמרים מאומתים: שם, כתב עת, שנה וסוג המחקר, עם קישור</div>';
+  const videos = w.videos.length
+    ? w.videos.map(v => '<a class="src vid" href="' + v.u + '" target="_blank" rel="noopener"><span class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span><span><b>' + v.t + '<span class="lang">' + v.l + '</span></b><span>' + v.c + '</span></span></a>').join('')
+    : '<div class="src ph">כאן יופיעו סרטוני הסבר מאומתים: ערוץ, כותרת ושפה</div>';
+  sheet.innerHTML =
+    '<div class="grab"></div><h3>' + w.title + '</h3>' +
+    '<h4>ההסבר בקצרה</h4><p>' + w.short + '</p>' +
+    '<h4>עד כמה הראיות חזקות</h4><div class="str' + (w.strength[0].indexOf('חזק') === 0 ? '' : ' mid') + '">' + w.strength[0] + '</div><p class="foot" style="margin-top:4px">' + w.strength[1] + '</p>' +
+    '<h4>מה בנתונים שלך הוביל לזה</h4>' + chipList(w.data) +
+    '<h4>מחקרים</h4>' + papers +
+    '<h4>סרטוני הסבר</h4>' + videos +
+    '<p class="foot">המידע כללי ואינו תחליף לייעוץ רפואי. אין לשנות תרופות בלי להתייעץ עם רופא.ה.</p>' +
+    '<button class="close" id="closeWhy">סגירה</button>';
+  sheet.scrollTop = 0;
+  sheet.classList.add('on'); backdrop.classList.add('on');
+  $('#closeWhy').addEventListener('click', closeWhy);
+}
+function closeWhy(){ sheet.classList.remove('on'); backdrop.classList.remove('on'); }
+backdrop.addEventListener('click', closeWhy);
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeWhy(); });
+document.addEventListener('click', e => { const b = e.target.closest('.why'); if(b) openWhy(b.dataset.why); });
+
+const HEAD = {
+  today: ['בוקר טוב', 'יום שלישי, 29 בספטמבר', true],
+  food:  ['יומן אוכל', 'צילום, תיאור או רישום מהיר', false],
+  train: ['יומן אימונים', 'שעה, משך ומאמץ', false],
+  labs:  ['בדיקות דם', 'מה יש במסמכים ומה חסר', false],
+  chat:  ['צ׳אט', 'שיחה על הנתונים האישיים', false]
+};
+$('#tabs').addEventListener('click', e => {
+  const b = e.target.closest('button'); if(!b) return;
+  const k = b.dataset.tab, h = HEAD[k];
+  document.querySelectorAll('.tabs button').forEach(x => x.classList.toggle('active', x === b));
+  document.querySelectorAll('.tab').forEach(x => x.classList.toggle('active', x.id === 'tab-' + k));
+  $('#ttl').textContent = h[0]; $('#sub').textContent = h[1]; $('#pill').style.display = h[2] ? '' : 'none';
+  $('main').scrollTop = 0;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Pages variant (run from this folder). `wrangler pages dev` does not accept `-c <other-file>` (TESTED error on 4.77.0),
+# so the Pages config must be the wrangler.toml of its own project folder.
+name = "sleep-coach-pages-test"
+pages_build_output_dir = "../public"
+compatibility_date = "2026-03-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sleep-coach-test"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "../migrations"
+
+[vars]
+GEMINI_BASE = "http://127.0.0.1:8799/v1beta"
