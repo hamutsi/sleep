@@ -83,7 +83,7 @@ function focusState(H, date) {
 
 const hebTone = (x) => (x <= 30 ? 'good' : x <= 60 ? 'warn' : 'bad');
 
-export function composeDay({ date, nights = [], logs = {}, profile = {}, history = [], library = [] }) {
+export function composeDay({ date, nights = [], logs = {}, profile = {}, history = [], library = [], glucoseCtx = 'בטרום סוכרת' }) {
   const H = history.filter((c) => c.date < date).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   const known = new Set(library.map((t) => t.id));
   const topicsOf = (ids) => (ids || []).filter((id) => known.has(id));
@@ -103,8 +103,10 @@ export function composeDay({ date, nights = [], logs = {}, profile = {}, history
   const recentSets = H.filter((c) => daysBetween(c.date, date) <= 14).map((c) => words(`${c.title} ${c.body}`));
   const fresh = (t) => { const w = words(`${t.title} ${t.body}`); return recentSets.every((r) => jaccard(w, r) < SIM_MAX); };
 
+  // הטקסטים בכרטיסים שלנו מנוסחים לטרום סוכרת. בפריסה אחרת מחליפים את הביטוי לפי הפרופיל. כרטיס מחקר מצטט את הספרייה כמו שהיא
+  const loc = (c, s) => (c.lane === 'research' ? s : String(s).replace(/בטרום סוכרת/g, glucoseCtx));
   const mk = (c, t, extra = {}) => ({
-    id: `${date}:${c.lane}`, date, lane: c.lane, key: c.key, topics: topicsOf(c.topics), variant: t.variant ?? 0, title: t.title, body: t.body,
+    id: `${date}:${c.lane}`, date, lane: c.lane, key: c.key, topics: topicsOf(c.topics), variant: t.variant ?? 0, title: loc(c, t.title), body: loc(c, t.body),
     params: c.params || {}, sev: c.sev ?? 0, emoji: LANES[c.lane].emoji, label: LANES[c.lane].label, ...extra,
   });
 

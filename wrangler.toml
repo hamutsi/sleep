@@ -23,9 +23,26 @@ migrations_dir = "migrations"
 
 [vars]                                  # לא סודי
 APP_URL = "https://sleep.adaptation.work"
+PERSONA = "friend"                      # מי המשתמש: src/persona.js
 
 [observability]
 enabled = true
 
 # סודות (מוגדרים בטרמינל, לא בקובץ): SESSION_SECRET, DATA_KEY (נוצרים אקראית ב-deploy.sh),
 # LOGIN_PEPPER, PASS_VERIFIER, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GEMINI_API_KEY (דרך set-secrets.sh)
+
+# ===== הפריסה של ליאור: אותו קוד, Worker ומסד נפרדים, דומיין משלו =====
+# פריסה: bash deploy.sh lior  (או bash deploy.sh כדי לעדכן את שתיהן). שם ה-Worker יהיה sleep-coach-lior.
+# ב-wrangler, מסדים ומשתנים לא עוברים בירושה לסביבה, ולכן מוגדרים כאן שוב. גם הסודות נפרדים: bash set-secrets.sh lior
+[env.lior]
+routes = [{ pattern = "lior.sleep.adaptation.work", custom_domain = true }]
+
+[[env.lior.d1_databases]]
+binding = "DB"
+database_name = "sleep-coach-lior"
+database_id = "REPLACE_WITH_LIOR_D1_ID"     # deploy.sh יוצר את המסד וממלא כאן
+migrations_dir = "migrations"
+
+[env.lior.vars]
+APP_URL = "https://lior.sleep.adaptation.work"
+PERSONA = "lior"

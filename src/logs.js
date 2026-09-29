@@ -5,6 +5,7 @@ import { V, BadInput } from './validate.js';
 import { localDate, addDays, localToEpoch, now, TZ } from './util.js';
 import { analyzeMeal, GeminiError } from './gemini.js';
 import { nutritionTargets } from './nutrition.js';
+import { persona } from './persona.js';
 
 const uuid = () => crypto.randomUUID();
 const ID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
@@ -211,7 +212,7 @@ export async function dayGet(url, env) {
       last_caffeine_time: withCaf.length ? withCaf[withCaf.length - 1].local_time : null,
       last_meal_time: eaten.length ? eaten[eaten.length - 1].local_time : null,
     },
-    targets: nutritionTargets(profile),
+    targets: nutritionTargets(profile, persona(env)),
   });
 }
 

@@ -8,8 +8,9 @@ import { nightsSummary, sleepStats, dayLog, getProfile } from './data.js';
 import { coachDate, freshnessGate } from './freshness.js';
 import { guardReply, redFlag } from './safety.js';
 import { nowLocal } from './logs.js';
-import { LIBRARY, CATALOG_IDS, getStack } from './insights_api.js';
+import { CATALOG_IDS, getStack, libraryFor } from './insights_api.js';
 import { nutritionTargets } from './nutrition.js';
+import { persona, PERSONAS } from './persona.js';
 
 const MAX_HISTORY = 16;
 const uuid = () => crypto.randomUUID();
@@ -43,12 +44,13 @@ export const makeExec = (env) => ({
 });
 
 /* ---------- ההנחיה למודל ---------- */
-export const COACH_RULES = `אתה מאמן שינה אישי ללקוח אחד, דרך אפליקציה. אתה מדבר עברית טבעית, קצרה וחמה, בלשון ניטרלית מגדרית (רבים, שם פעולה או "אפשר"). בלי מקף ארוך.
+// ההנחיה נבנית מהפרופיל של הפריסה (persona.js). השורות על סטטין ועל טרום סוכרת מופיעות רק למי שזה נכון לגביו
+export const coachRules = (p) => `אתה מאמן שינה אישי ללקוח אחד, דרך אפליקציה. אתה מדבר עברית טבעית, קצרה וחמה, בלשון ניטרלית מגדרית (רבים, שם פעולה או "אפשר"). בלי מקף ארוך.
 
-מי המשתמש: גבר, בן 47, רזה, מתאמן ארבע פעמים בשבוע (כוח ואירובי). כולסטרול גבוה שמטופל בסטטין, וטרום סוכרת. הפרטים המדויקים בנתונים למטה.
+מי המשתמש: ${p.who} הפרטים המדויקים בנתונים למטה.
 
 עקרונות מקצועיים (מבוססי מחקר שנבדק):
-- סדירות לפני משך. שעות הירדמות והשכמה קבועות הן המנוף החשוב ביותר בטרום סוכרת. סטיית תקן של השעות עד 30 דקות טובה, מעל 60 דקות אדומה. משך: ממוצע שבועי של 7 שעות ומעלה, ומדידת שעון של 6.5 עד 7 נחשבת קרוב ליעד.
+- סדירות לפני משך. שעות הירדמות והשכמה קבועות הן המנוף החשוב ביותר ${p.prediabetes ? 'בטרום סוכרת' : 'לשינה ולאיזון הסוכר'}. סטיית תקן של השעות עד 30 דקות טובה, מעל 60 דקות אדומה. משך: ממוצע שבועי של 7 שעות ומעלה, ומדידת שעון של 6.5 עד 7 נחשבת קרוב ליעד.
 - אין ציון יומי ואין השוואה לאוכלוסייה. מסתכלים על מגמה של שבוע ומעלה מול הרגיל של המשתמש עצמו. לילה בודד הוא רעש.
 - שלבי שינה (עמוקה, REM) לא מדויקים בלילה בודד, ולכן לא מאמנים עליהם ולא מציינים דקות של שינה עמוקה. HRV רק ביחס לטווח האישי ולממוצע של כמה ימים. דופק מנוחה ונשימות אמינים יותר.
 - לפני שקוראים ללילה גרוע, בודקים הסברים ביומן בסדר הזה: אלכוהול, אימון קשה שהסתיים פחות מ-4 שעות לפני השינה, קפאין מאוחר (הסף תלוי במינון, ברירת מחדל 9 שעות לפני השינה), ארוחה פחות מ-3 שעות לפני השינה, חום בחדר, מחלה או נסיעה.
@@ -57,10 +59,10 @@ export const COACH_RULES = `אתה מאמן שינה אישי ללקוח אחד,
 - כנות: אומרים כשאין מספיק נתונים, ומבחינים בין קשר להוכחה. לא ממציאים מספרים. אם אין נתון, אומרים שאין.
 
 כללי בטיחות (מחייבים):
-- לעולם לא מייעצים להתחיל, להפסיק, לדלג, לחצות, להחליף או להזיז שעה של תרופה כלשהי, כולל הסטטין. שאלה כזו מקבלת הפניה לרופא.ה או לרוקח.
+- לעולם לא מייעצים להתחיל, להפסיק, לדלג, לחצות, להחליף או להזיז שעה של תרופה כלשהי${p.statin ? ', כולל הסטטין' : ''}. שאלה כזו מקבלת הפניה לרופא.ה או לרוקח.
 - אין אבחנות. לא אומרים "יש לך דום נשימה", "סוכרת" או "נדודי שינה". מותר לומר "הסימנים האלה שווה לבדוק עם רופא.ה, למשל בבדיקת שינה".
-- הסטטין אינו הסבר ברירת מחדל לשינה גרועה: מחקרים כפולי סמיות לא מצאו קשר סיבתי להפרעות שינה. לא מאשימים אותו ולא מנקים אותו. אם המשתמש חושד, מציעים לתעד מתי זה התחיל ולהעלות עם הרופא.ה.
-- לא מציעים תוספים. אם המשתמש מזכיר תוסף (מלטונין, מגנזיום, אורז אדום, ניאצין ועוד), אומרים שכדאי לבדוק עם רוקח, בגלל הסטטין וטרום הסוכרת.
+${p.statin ? `- הסטטין אינו הסבר ברירת מחדל לשינה גרועה: מחקרים כפולי סמיות לא מצאו קשר סיבתי להפרעות שינה. לא מאשימים אותו ולא מנקים אותו. אם המשתמש חושד, מציעים לתעד מתי זה התחיל ולהעלות עם הרופא.ה.
+` : ''}- לא מציעים תוספים. אם המשתמש מזכיר תוסף (מלטונין, מגנזיום, אורז אדום, ניאצין ועוד), אומרים שכדאי לבדוק עם רוקח${p.statin && p.prediabetes ? ', בגלל הסטטין וטרום הסוכרת' : p.statin ? ', בגלל הסטטין' : p.prediabetes ? ', בגלל טרום הסוכרת' : ''}.
 - לא מבטיחים שיפור בכולסטרול או בסוכר בעקבות שינה טובה יותר.
 - נחירות, נשימות בשינה או ישנוניות ביום: מפנים לרופא.ה, ולעולם לא על סמך נתוני חמצן מהשעון.
 - ערכי בדיקות דם נקראים לפי הטווח שהמעבדה הדפיסה.
@@ -68,6 +70,7 @@ export const COACH_RULES = `אתה מאמן שינה אישי ללקוח אחד,
 עבודה עם הנתונים:
 - יש לך כלים שמביאים נתונים עדכניים. קוראים להם במקום לנחש, ותמיד מציינים לפי איזה נתון ומתי.
 - תזונה: ב-nutrition_today יש מה נאכל היום ויעדי התייחסות (חלבון 1.8 גר׳ לק״ג למתאמן). אפשר לומר כמה חלבון חסר, בלי לשפוט ובלי לתת דיאטה. ההערכות מתמונה גסות. שעה מוקדמת ביום היא סיבה טבעית לפער.\n- התשובות קצרות: שתיים עד ארבע שורות בדרך כלל. שאלה אחת בסוף, רק אם היא מקדמת.`;
+export const COACH_RULES = coachRules(PERSONAS.friend);   // תאימות לאחור: ההנחיה של הפריסה הראשונה
 
 async function buildContext(env, cdate, gate) {
   const [profile, nights, today, yesterday, stack] = await Promise.all([
@@ -77,7 +80,7 @@ async function buildContext(env, cdate, gate) {
   const cur = nowLocal();
   return {
     now_local: `${cur.date} ${cur.time}`, coach_date: cdate, freshness: gate || null, profile, stats: sleepStats(nights), nights: nights.slice(0, 7), log_today: today, log_yesterday: yesterday,
-    nutrition_today: (() => { const sum = (k) => Math.round(today.meals.reduce((a, m) => a + (m[k] || 0), 0)); return { eaten_so_far: { kcal: sum('kcal'), protein_g: sum('protein_g'), carbs_g: sum('carbs_g'), fat_g: sum('fat_g'), sat_fat_g: sum('sat_fat_g'), sugar_g: sum('sugar_g'), fiber_g: sum('fiber_g') }, targets: nutritionTargets(profile) }; })(),
+    nutrition_today: (() => { const sum = (k) => Math.round(today.meals.reduce((a, m) => a + (m[k] || 0), 0)); return { eaten_so_far: { kcal: sum('kcal'), protein_g: sum('protein_g'), carbs_g: sum('carbs_g'), fat_g: sum('fat_g'), sat_fat_g: sum('sat_fat_g'), sugar_g: sum('sugar_g'), fiber_g: sum('fiber_g') }, targets: nutritionTargets(profile, persona(env)) }; })(),
     insights_today: stack ? stack.cards.map((c) => ({ lane: c.label, title: c.title, text: c.body, topics: c.topics })) : [],
   };
 }
@@ -90,10 +93,10 @@ export function extractWhy(text, valid = CATALOG_IDS) {
     .replace(/[ \t]{2,}/g, ' ').replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
   return { text: clean, topics: ids.slice(0, 3) };
 }
-const topicsBlock = () => (LIBRARY.length
-  ? `\n\nנושאי מחקר שיש להם הסבר מפורט עם מקורות מאומתים בכפתור "למה ככה?" (מזהה: נושא):\n${LIBRARY.map((t) => `${t.id}: ${t.title}`).join('\n')}\nכשתשובה נשענת על אחד מהנושאים האלה, מסיימים אותה בשורה נפרדת בפורמט [[למה: מזהה1, מזהה2]], עד שלושה מזהים מהרשימה בלבד. לעולם לא כותבים קישורים, שמות של מחקרים או מספרים מהספרות: האפליקציה מציגה בעצמה את המקורות המאומתים. אם אין נושא מתאים, לא מוסיפים את השורה.\nבהקשר יש insights_today: התובנות שהאפליקציה כבר הציגה היום. לא חוזרים עליהן מילה במילה. אפשר להרחיב על אחת מהן, לענות על שאלה עליה, או לבחור נושא אחר.`
+const topicsBlock = (lib) => (lib.length
+  ? `\n\nנושאי מחקר שיש להם הסבר מפורט עם מקורות מאומתים בכפתור "למה ככה?" (מזהה: נושא):\n${lib.map((t) => `${t.id}: ${t.title}`).join('\n')}\nכשתשובה נשענת על אחד מהנושאים האלה, מסיימים אותה בשורה נפרדת בפורמט [[למה: מזהה1, מזהה2]], עד שלושה מזהים מהרשימה בלבד. לעולם לא כותבים קישורים, שמות של מחקרים או מספרים מהספרות: האפליקציה מציגה בעצמה את המקורות המאומתים. אם אין נושא מתאים, לא מוסיפים את השורה.\nבהקשר יש insights_today: התובנות שהאפליקציה כבר הציגה היום. לא חוזרים עליהן מילה במילה. אפשר להרחיב על אחת מהן, לענות על שאלה עליה, או לבחור נושא אחר.`
   : '');
-const systemFor = (ctx) => `${COACH_RULES}${topicsBlock()}\n\n===== נתונים (נכון לרגע השיחה) =====\n${JSON.stringify(ctx)}`;
+const systemFor = (env, ctx) => `${coachRules(persona(env))}${topicsBlock(libraryFor(env))}\n\n===== נתונים (נכון לרגע השיחה) =====\n${JSON.stringify(ctx)}`;
 
 /* ---------- נקודות קצה ---------- */
 const jsonBody = async (request) => { const b = await request.json().catch(() => null); return b && typeof b === 'object' && !Array.isArray(b) ? b : {}; };
@@ -147,7 +150,7 @@ export async function coachStart(request, env) {
   try {
     const ctx = await buildContext(env, cdate, gate);
     const prompt = `פתחו את היום בהודעה של שניים עד ארבעה משפטים: מה בולט בלילה האחרון ובהקשר של אתמול (רק מה שבנתונים, בלי ציון ובלי דקות של שינה עמוקה), נושא אחד שכדאי לדבר עליו היום, ושאלה קצרה. ${gate.sleepForToday ? '' : 'נתוני הלילה של היום עוד לא הגיעו מהשעון, וצריך לומר זאת בפתיחה ולא לנחש. '}החזירו גם עד שלוש תשובות קצרות שאפשר ללחוץ עליהן.`;
-    const op = await generateOpener(env, { system: systemFor(ctx), prompt, topicIds: LIBRARY.map((t) => t.id) });
+    const op = await generateOpener(env, { system: systemFor(env, ctx), prompt, topicIds: libraryFor(env).map((t) => t.id) });
     const w = extractWhy(op.text);
     const g = guardReply(w.text);
     const topics = [...new Set([...(op.topics || []), ...w.topics])].filter((id) => CATALOG_IDS.has(id)).slice(0, 3);
@@ -177,7 +180,7 @@ export async function coachMessage(request, env) {
     const hist = (await env.DB.prepare('SELECT role, text FROM chat_message WHERE thread_id = ?1 ORDER BY created_at DESC, rowid DESC LIMIT ?2').bind(th.id, MAX_HISTORY).all()).results.reverse();
     const gate = JSON.parse(th.gate_json || 'null');
     const ctx = await buildContext(env, cdate, gate);
-    const r = await coachChat(env, { system: systemFor(ctx), history: hist, tools: COACH_TOOLS, exec: makeExec(env) });
+    const r = await coachChat(env, { system: systemFor(env, ctx), history: hist, tools: COACH_TOOLS, exec: makeExec(env) });
     const w = extractWhy(r.text);
     const g = guardReply(w.text);
     const meta = { flags: g.flags, tool_steps: r.steps, as_of: ctx.now_local, topics: w.topics };

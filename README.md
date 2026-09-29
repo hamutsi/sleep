@@ -37,10 +37,23 @@ sleep-coach/
 └── setup/                 מדריך Google Cloud
 ```
 
+## שתי פריסות מאותו קוד
+
+| יעד | כתובת | Worker | מסד |
+|---|---|---|---|
+| `friend` | https://sleep.adaptation.work | `sleep-coach` | `sleep-coach` |
+| `lior` | https://lior.sleep.adaptation.work | `sleep-coach-lior` | `sleep-coach-lior` |
+
+הקוד משותף, ולכן כל שיפור מגיע לשניהם. הנתונים, הסיסמה, החיבור לגוגל והסודות נפרדים לגמרי.
+מה ששונה בין המשתמשים (גיל, אימונים, סטטין, טרום סוכרת) מוגדר ב-`src/persona.js` ונבחר לפי `PERSONA` ב-`wrangler.toml`.
+בחיבור לגוגל: אותו Client משמש את שתיהן, אבל כל כתובת צריכה Redirect URI משלה ב-Google Cloud (`<כתובת>/api/gh/callback`), וכל חשבון Gmail צריך להיות ב-Test users.
+
 ## פריסה
 
 ```bash
-bash deploy.sh
+bash deploy.sh          # שתי הפריסות
+bash deploy.sh lior     # רק אחת
+bash set-secrets.sh lior   # סודות, פעם ראשונה לכל יעד
 ```
 
 יוצר מסד D1 (בפעם הראשונה), מריץ מיגרציות, פורס ומחבר את הדומיין. בטוח להריץ שוב. יוצר אקראית את `SESSION_SECRET` ואת `DATA_KEY` ולא מחליף אותם אם כבר קיימים.

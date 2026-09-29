@@ -1,23 +1,32 @@
 #!/usr/bin/env bash
 # הזנת הסודות של "מאמן שינה" ל-Cloudflare, בטרמינל, בלי להציג אותם על המסך ובלי לשמור בשום קובץ.
-# הרצה:  bash set-secrets.sh
+# הרצה:  bash set-secrets.sh [friend|lior]
 # אפשר להריץ שוב בכל זמן. Enter ריק משאיר את הסוד הקיים כמו שהוא.
 set -euo pipefail
 cd "$(dirname "$0")"
 export CLOUDFLARE_ACCOUNT_ID=e6f7ac4467d0a272df8dcf946ccaf447
 W="npx --yes wrangler@latest"
 
-put() { printf '%s' "$2" | $W secret put "$1" >/dev/null 2>&1 && echo "  נשמר: $1" || { echo "  נכשל: $1"; exit 1; }; }
+# יעד: friend (ברירת מחדל, sleep.adaptation.work) או lior (lior.sleep.adaptation.work). לכל יעד סודות נפרדים
+T="${1:-friend}"
+case "$T" in
+  friend) ENVFLAG=""; WHO="החבר" ;;
+  lior)   ENVFLAG="--env lior"; WHO="ליאור" ;;
+  *) echo "יעד לא מוכר: $T (אפשר friend או lior)"; exit 1 ;;
+esac
+echo "מגדיר סודות עבור: $WHO ($T)"
+
+put() { printf '%s' "$2" | $W secret put "$1" $ENVFLAG >/dev/null 2>&1 && echo "  נשמר: $1" || { echo "  נכשל: $1"; exit 1; }; }
 
 echo
-echo "1) סיסמת הכניסה של החבר"
+echo "1) סיסמת הכניסה של $WHO"
 echo "   מומלץ 12 תווים ומעלה, למשל שלוש מילים לא קשורות ומספר. מקלידים אותה פעם אחת ל-180 יום. לא תוצג על המסך."
 read -r -s -p "   סיסמה (Enter כדי לדלג): " P1; echo
 if [ -n "$P1" ]; then
   read -r -s -p "   שוב, לאישור: " P2; echo
   [ "$P1" = "$P2" ] || { echo "   הסיסמאות לא זהות. מפסיק."; exit 1; }
   if [ "${#P1}" -lt 12 ]; then
-    echo "   הסיסמה קצרה מ-12 תווים. האתר פתוח לאינטרנט ובו נתונים רפואיים של החבר, וסיסמה קצרה או כזו שנגזרת משם קלה לניחוש."
+    echo "   הסיסמה קצרה מ-12 תווים. האתר פתוח לאינטרנט ובו נתונים רפואיים של $WHO, וסיסמה קצרה או כזו שנגזרת משם קלה לניחוש."
     read -r -p "   להמשיך בכל זאת? (y/N): " OKSHORT
     case "$OKSHORT" in y|Y) ;; *) echo "   מפסיק. אפשר להריץ שוב."; exit 1 ;; esac
   fi
@@ -40,7 +49,7 @@ read -r -s -p "   Client secret (לא יוצג, Enter כדי לדלג): " CSEC; 
 unset CID CSEC
 
 echo
-echo "3) מפתח Gemini של החבר (לא יוצג, Enter כדי לדלג)"
+echo "3) מפתח Gemini של $WHO (לא יוצג, Enter כדי לדלג)"
 read -r -s -p "   מפתח: " GK; echo
 if [ -n "$GK" ]; then
   # בדיקת תקינות לפני השמירה. המפתח עובר ל-curl דרך stdin, כך שהוא לא מופיע ברשימת התהליכים.

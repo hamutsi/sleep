@@ -275,5 +275,31 @@ function simulate({ seed = 11, days = 60, start = '2026-06-01', events = true, f
   ok(bad.length === 0, 'הרכבה בלי היסטוריה סביב 25.10.2026 לא קורסת ולא מחזירה יום ריק');
 }
 
+/* ---------- 10. פרופיל שני (ליאור): בלי טרום סוכרת ---------- */
+{
+  const { PERSONAS, topicAllowed } = await import('../src/persona.js');
+  const { coachRules } = await import('../src/coach.js');
+  const P = PERSONAS.lior;
+  const lib = LIB.filter(topicAllowed(P));
+  ok(!lib.some((t) => t.id === 'prediabetes_sleep_glucose' || t.id === 'labs_annual_recheck_prediabetes') && lib.length === LIB.filter((t) => !['prediabetes_sleep_glucose', 'labs_annual_recheck_prediabetes'].includes(t.id)).length,
+    'ליאור: נושאי טרום סוכרת לא נדחפים, ושאר הספרייה זמינה');
+  ok(LIB.filter(topicAllowed(PERSONAS.friend)).length === LIB.length, 'החבר: כל הספרייה זמינה כמו קודם');
+  const w = world({ seed: 21, days: 60, start: '2026-08-01' });
+  const H = []; const leaks = []; const gated = [];
+  for (let k = 0; k < 60; k++) {
+    const D = addDays('2026-08-01', k);
+    const r = composeDay({ date: D, nights: nightsUpTo(w, D), logs: w.logs, profile: PROFILE, history: H, library: lib, glucoseCtx: P.glucoseCtx });
+    for (const c of r.cards) {
+      H.push({ ...c, feedback: null });
+      if (c.lane !== 'research' && /טרום סוכרת/.test(c.title + c.body)) leaks.push(`${D} ${c.key}`);
+      if (c.topics.some((t) => t === 'prediabetes_sleep_glucose' || t === 'labs_annual_recheck_prediabetes')) gated.push(`${D} ${c.key}`);
+    }
+  }
+  ok(leaks.length === 0, 'ליאור, 60 יום: אף כרטיס שלנו לא אומר "טרום סוכרת"', leaks.join(', '));
+  ok(gated.length === 0, 'ליאור, 60 יום: אף כרטיס לא מפנה לנושא של טרום סוכרת', gated.join(', '));
+  const rules = coachRules(P);
+  ok(!/טרום סוכרת/.test(rules.replace('בלי טרום סוכרת', '')) && rules.includes('99') && rules.includes('הסטטין אינו הסבר'), 'ליאור: ההנחיה למאמן בלי טרום סוכרת, עם הסוכר הגבולי ועם כללי הסטטין');
+}
+
 console.log(`\nסיכום: ${pass} עברו, ${fail} נכשלו`);
 process.exit(fail ? 1 : 0);

@@ -7,11 +7,13 @@
 export const DEFAULT_WEIGHT_KG = 68;
 const AGE_ASSUMED = 47;
 
-export function nutritionTargets(profile = {}) {
+// who: הפרופיל של הפריסה (persona.js). בלי who מתנהגים כמו קודם: גבר בן 47, פעילות 1.55
+export function nutritionTargets(profile = {}, who = {}) {
+  const age = who.age || AGE_ASSUMED, sexK = who.sex === 'female' ? -161 : 5, act = who.activity || 1.55;
   const weightAssumed = !profile.weight_kg;
   const w = profile.weight_kg || DEFAULT_WEIGHT_KG;
   // הערכת אנרגיה (Mifflin-St Jeor לגבר, גורם פעילות 1.55 למתאמן 4 פעמים בשבוע) כשלא הוגדר יעד
-  const est = profile.height_cm ? Math.round((10 * w + 6.25 * profile.height_cm - 5 * AGE_ASSUMED + 5) * 1.55 / 10) * 10 : Math.round((w * 35) / 10) * 10;
+  const est = profile.height_cm ? Math.round((10 * w + 6.25 * profile.height_cm - 5 * age + sexK) * act / 10) * 10 : Math.round((w * 35) / 10) * 10;
   const goal = profile.goal || 'muscle_gain';
   const kcalAssumed = !profile.kcal_target;
   const kcal = profile.kcal_target || est + (goal === 'muscle_gain' ? 250 : 0);

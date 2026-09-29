@@ -7,10 +7,13 @@ import { nightsSummary, getProfile } from './data.js';
 import { coachDate, freshnessGate } from './freshness.js';
 import { composeDay } from './insights/compose.js';
 import { CATALOG } from './evidence/catalog.js';
+import { persona, topicAllowed } from './persona.js';
 
 // הספרייה המאומתת כפי שהמנוע צריך אותה. הווים והכותרות מגיעים ממנה, ולעולם לא מהמודל
 export const LIBRARY = CATALOG.map((t) => ({ id: t.id, title: t.title, strength: t.strength, tags: t.tags, hooks: t.hooks }));
 export const CATALOG_IDS = new Set(CATALOG.map((t) => t.id));
+// הספרייה שמותר לדחוף לפריסה הזו (בלי נושאים של טרום סוכרת למי שאין לו). בעיון חופשי ב"למה ככה?" הכול נשאר זמין
+export const libraryFor = (env) => LIBRARY.filter(topicAllowed(persona(env)));
 
 const safeJson = (s, d) => { try { return s ? JSON.parse(s) : d; } catch { return d; } };
 
@@ -58,7 +61,7 @@ export async function getStack(env, cdate = coachDate(), gate = null) {
   }
   if (compose) {
     const [nights, profile, logs, history] = await Promise.all([nightsSummary(env, 28), getProfile(env), loadLogs(env, addDays(cdate, -31)), loadHistory(env, cdate)]);
-    const r = composeDay({ date: cdate, nights, logs, profile, history, library: LIBRARY });
+    const r = composeDay({ date: cdate, nights, logs, profile, history, library: libraryFor(env), glucoseCtx: persona(env).glucoseCtx });
     const t = now();
     const ins = 'INSERT INTO insight_card (id, coach_date, lane, key, topics_json, variant, title, body, label, emoji, params_json, data_json, created_at) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13)';
     await env.DB.batch([
